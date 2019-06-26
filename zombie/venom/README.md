@@ -56,7 +56,7 @@ Video indiretamente relacionado, mostra a ação da enzima:
 
 Neste ponto há uma animação da ação da enzima:
 
-[![Enzima Funcionando](http://img.youtube.com/vi/yk14dOOvwMk/0.jpg)](https://youtu.be/yk14dOOvwMk?start=8)
+[![Enzima Funcionando](http://img.youtube.com/vi/yk14dOOvwMk/1.jpg)](https://youtu.be/yk14dOOvwMk?start=8)
 
 ## Vídeos adicionais que podem contribuir
 
