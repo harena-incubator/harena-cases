@@ -4,6 +4,22 @@
 
 [![Trombo](http://img.youtube.com/vi/ZCWPnmQj6LE/0.jpg)](https://youtu.be/ZCWPnmQj6LE)
 
+Uma das ações do veneno de algumas cobras é o de coagulante. A ação é promovida por proteínas presentes no veneno.
+
+## Trombo e Coagulação
+
+Esta animação explica a coagulação em mais alto nível. Serve como introdução e também tem animações excelentes de proteínas em alto nível:
+
+[![Coagulação](http://img.youtube.com/vi/DKFSH5MMPLM/0.jpg)](https://youtu.be/DKFSH5MMPLM)
+
+Há uma animação interessante que mostra o encaixe de proteínas em alto nível:
+
+[![Encaixe Proteínas](http://img.youtube.com/vi/DKFSH5MMPLM/1.jpg)](https://youtu.be/DKFSH5MMPLM?start=60)
+
+A animação mostra a construção de cadeias longas da coagulação:
+
+[![Cadeias longas](http://img.youtube.com/vi/DKFSH5MMPLM/2.jpg)](https://youtu.be/DKFSH5MMPLM?start=100)
+
 ## Trombo, ação proteolítica e inibidor
 
 [![Trombo](http://img.youtube.com/vi/uYpv8T7Qoh0/0.jpg)](https://youtu.be/uYpv8T7Qoh0)
@@ -31,6 +47,16 @@ Relação indireta com o tema. Animação mostra ação da protease para quebrar
 ## Veneno da Cobra e Neurotoxina
 
 [![Neurotoxina](http://img.youtube.com/vi/thK70dLrU5k/0.jpg)](https://youtu.be/thK70dLrU5k)
+
+## Enzima
+
+Video indiretamente relacionado, mostra a ação da enzima:
+
+[![Enzima](http://img.youtube.com/vi/yk14dOOvwMk/0.jpg)](https://youtu.be/yk14dOOvwMk)
+
+Neste ponto há uma animação da ação da enzima:
+
+[![Enzima Funcionando](http://img.youtube.com/vi/yk14dOOvwMk/0.jpg)](https://youtu.be/yk14dOOvwMk?start=50)
 
 ## Buscas Realizadas
 
