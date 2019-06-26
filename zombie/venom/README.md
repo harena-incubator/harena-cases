@@ -19,12 +19,18 @@
 ## Trombo, ação proteolítica
 
 Vídeo complementar ao anterior. Não mostra tão detalhadamente a ação da proteína, mas apresenta uma animação interessante de encaixes:
+
 [![Trombo](http://img.youtube.com/vi/_yQD0U3ZtCs/0.jpg)](https://youtu.be/_yQD0U3ZtCs)
 
 ## Protease, proteólise e bloqueio no HIV
 
-Animação mostra ação da protease para quebrar proteínas no HIV e ação de bloqueio da mesma:
+Relação indireta com o tema. Animação mostra ação da protease para quebrar proteínas no HIV e ação de bloqueio da mesma:
+
 [![Protease](http://img.youtube.com/vi/dDo_s6a3wcM/0.jpg)](https://youtu.be/dDo_s6a3wcM)
+
+## Veneno da Cobra e Neurotoxina
+
+[![Neurotoxina](http://img.youtube.com/vi/thK70dLrU5k/0.jpg)](https://youtu.be/thK70dLrU5k)
 
 ## Buscas Realizadas
 
