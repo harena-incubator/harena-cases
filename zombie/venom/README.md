@@ -15,6 +15,12 @@ https://www.youtube.com/results?search_query=proteolytic+action
 
 [![Ação Inibidor](http://img.youtube.com/vi/uYpv8T7Qoh0/2.jpg)](https://youtu.be/uYpv8T7Qoh0?start=93)
 
+## Protease, proteólise e bloqueio no HIV
+
+Animação mostra ação da protease para quebrar proteínas no HIV e ação de bloqueio da mesma:
+[![Protease](http://img.youtube.com/vi/dDo_s6a3wcM/0.jpg)](https://youtu.be/dDo_s6a3wcM)
+
+
 Buscando pela `ação proteolítica` (`proteolytic action`) e `toxinas` (`toxins`):
 https://www.youtube.com/results?search_query=proteolytic+action+toxins
 
