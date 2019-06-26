@@ -56,7 +56,21 @@ Video indiretamente relacionado, mostra a ação da enzima:
 
 Neste ponto há uma animação da ação da enzima:
 
-[![Enzima Funcionando](http://img.youtube.com/vi/yk14dOOvwMk/0.jpg)](https://youtu.be/yk14dOOvwMk?start=50)
+[![Enzima Funcionando](http://img.youtube.com/vi/yk14dOOvwMk/0.jpg)](https://youtu.be/yk14dOOvwMk?start=8)
+
+## Vídeos adicionais que podem contribuir
+
+## Formação da Fibrina
+
+Animação estilo stop-motion que mostra formação da fibrina.
+
+[![Fibrina](http://img.youtube.com/vi/FituGtleKm4/0.jpg)](https://youtu.be/FituGtleKm4)
+
+## Coletânea
+
+Coletânea de vídeos relacionados com coagulação. Indiretamente relacionado.
+
+[![Coletânea](http://img.youtube.com/vi/w-jZ_L4C5iU/0.jpg)](https://youtu.be/w-jZ_L4C5iU)
 
 ## Buscas Realizadas
 
