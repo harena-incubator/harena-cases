@@ -9,9 +9,7 @@ O paciente chega ao pronto socorro mancando. Ele foi pescar larvas nojentas que 
 * Examinar Estado do Paciente -> Estado normal
 
 * Examinar Ferida -> Necrose sim
-
 * Verificar Batimentos -> Arritmia não
-
 * Diagnóstico -> Diagnóstico 1
 
 # 2 (case)
@@ -25,9 +23,7 @@ Um novo paciente se apresentou na clínica para ser atendido. Ele diz que estava
 * Examinar Estado do Paciente -> Olho Deglutição Respiração
 
 * Examinar Ferida -> Necrose não
-
 * Verificar Batimentos -> Arritmia não
-
 * Diagnóstico -> Diagnóstico 2
 
 # 3 (case)
@@ -41,9 +37,7 @@ Um novo zumbi apareceu na clínica. O paciente relata que estava atrasado para i
 * Examinar Estado do Paciente -> Estado normal
 
 * Examinar Ferida -> Necrose sim
-
 * Verificar Batimentos -> Arritmia não
-
 * Diagnóstico -> Diagnóstico 3
 
 # 4 (case)
@@ -57,9 +51,7 @@ Um novo zumbi chegou ao pronto-socorro! Ele conta que estava coletando sucata pa
 * Examinar Estado do Paciente -> Respiração
 
 * Examinar Ferida -> Necrose não
-
 * Verificar Batimentos -> Arritmia sim
-
 * Diagnóstico -> Diagnóstico 4
 
 # 5 (case)
@@ -73,9 +65,7 @@ Um novo paciente chegou à clínica! Ele relata que foi passear de barco e parou
 * Examinar Estado do Paciente -> Estado normal
 
 * Examinar Ferida -> Necrose sim
-
 * Verificar Batimentos -> Arritmia não
-
 * Diagnóstico -> Diagnóstico 5
 
 # 6 (case)
@@ -89,9 +79,7 @@ Um zumbi acabou de chegar à clinica! Ele relata que foi pescar na mata. Logo an
 * Examinar Estado do Paciente -> Olho Deglutição Respiração
 
 * Examinar Ferida -> Necrose não
-
 * Verificar Batimentos -> Arritmia não
-
 * Diagnóstico -> Diagnóstico 6
 
 # Zombie Health (case,start)
@@ -118,7 +106,7 @@ O paciente está com muita dor no local da mordida, que também está muito inch
 
 O paciente sente pouca dor, e o local da picada tem pouco inchaço.
 
-# Dor muita Edema discreto
+# Dor muita Edema discreto (note)
 
 ![Dor_Muita](https://cdn.pixabay.com/photo/2016/03/31/15/31/cry-1293366_960_720.png)
 
@@ -179,11 +167,9 @@ O paciente chega ao pronto socorro mancando. Ele {foi pescar larvas nojentas#=} 
 Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Jararaca certo
-
 * Cascavel -> Jararaca errado
 
 * Aranha Marrom -> Jararaca errado
-
 * Escorpião -> Jararaca certo
 
 # Diagnóstico 2 (case)
@@ -201,11 +187,9 @@ O paciente diz que {estava planejando assustar umas pessoas#=} e resolveu {se es
 Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Cascavel errado
-
 * Cascavel -> Cascavel certo
 
 * Aranha Marrom -> Cascavel errado
-
 * Escorpião -> Cascavel errado
 
 # Diagnóstico 3 (case)
@@ -223,11 +207,9 @@ O paciente relata que {estava atrasado para ir para escola Zumbi para aprender a
 Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Aranha Marrom errado
-
 * Cascavel -> Aranha Marrom errado
 
 * Aranha Marrom -> Aranha Marrom certo
-
 * Escorpião -> Aranha Marrom errado
 
 # Diagnóstico 4 (case)
@@ -245,11 +227,9 @@ O paciente conta que estava {coletando sucata para fazer um brinquedo novo#=}, e
 Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Escorpião errado
-
 * Cascavel -> Escorpião errado
 
 * Aranha Marrom -> Escorpião errado
-
 * Escorpião -> Escorpião certo
 
 # Diagnóstico 5 (case)
@@ -267,11 +247,9 @@ O paciente relata que {foi passear de barco#=} e {parou numa ilha que tinha um f
 Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Jararaca certo
-
 * Cascavel -> Jararaca errado
 
 * Aranha Marrom -> Jararaca errado
-
 * Escorpião -> Jararaca certo
 
 # Diagnóstico 6 (case)
@@ -289,11 +267,9 @@ O paciente relata que {foi pescar na mata#=}. Logo antes de chegar no rio, viu {
 Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Cascavel errado
-
 * Cascavel -> Cascavel certo
 
 * Aranha Marrom -> Cascavel errado
-
 * Escorpião -> Cascavel errado
 
 # Jararaca certo (right)
