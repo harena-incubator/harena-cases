@@ -116,11 +116,11 @@ O paciente sente muita dor, e o local da picada tem pouco inchaço.
 
 ![Dor_Pouca](https://cdn.pixabay.com/photo/2012/04/24/13/27/face-40058_960_720.png)
 
-O local do ferimento apresenta inchaço, e o paciente sente dor.
+O local do ferimento apresenta inchaço e o paciente sente dor.
 
 # Estado normal (note)
 
-Os exames não revelam nada de anormal no paciente.
+Não foi observado nada de anormal no paciente.
 
 # Olho Deglutição Respiração (note)
 
