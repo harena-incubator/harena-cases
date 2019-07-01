@@ -224,8 +224,7 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 Agora você já é um médico treinado e está pronto para resolver casos mais difíceis.
 
-* Iniciar Fase 2 -> 12
-
+<dcc-trigger action="knot/>/navigate" label="Iniciar Fase 2"></dcc-trigger>
 
 # 12 (case)
 
@@ -268,7 +267,7 @@ Um novo zumbi apareceu na clínica. O paciente relata que estava atrasado para i
 
 # 15 (case)
 
-![zumbi_4](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/3.png)
+![zumbi_4](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/4.png)
 
 Um novo zumbi chegou ao pronto-socorro! Ele conta que estava coletando sucata para fazer um brinquedo novo, e viu um bicho esquisito. Quando ele chegou perto do bicho, levou uma ferroada na mão que doeu tanto que ele pulou igual um macaco. Ele diz ainda que a sua galinha de estimação correu para ajudar, e o bicho esquisito saiu correndo de medo. O que você deseja examinar?
 

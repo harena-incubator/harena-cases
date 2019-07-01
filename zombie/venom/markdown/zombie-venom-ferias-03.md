@@ -1,4 +1,4 @@
-# Zombie Health 02 (case,start)
+# Zombie Health 03 (case,start)
 
 ~ =100
 
@@ -32,12 +32,12 @@ Descubra o que picou cada Zumbi. Você tem que ser rápido, porque tem que atend
 
 Undeadha se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  ; local inchado)
+* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local levemente inchado)
 * Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida grande, com bordas elevadas e tem uma área preta no meio)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
+* Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
 
-* Realizar Diagnóstico -> Diagnóstico aranha marrom
+* Realizar Diagnóstico -> Diagnóstico escorpião
 
 # 2 (case)
 
@@ -45,12 +45,12 @@ Undeadha se apresentou na clínica reclamando que algum bicho o picou ou mordeu,
 
 Pricensteinia se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida ; o local está mudando para uma coloração azul ; local muito inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida grande, com bordas elevadas e tem uma área preta no meio)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
+* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local levemente inchado)
+* Estado do Zumbi -> Mostra Sintoma(está cansado para respirar)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
+* Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
 
-* Realizar Diagnóstico -> Diagnóstico jararaca
+* Realizar Diagnóstico -> Diagnóstico escorpião
 
 # 3 (case)
 
@@ -60,7 +60,7 @@ Tor-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, 
 
 * Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida ; o local está mudando para uma coloração azul ; local muito inchado)
 * Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida grande, com bordas elevadas e tem uma área preta no meio)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
 
 * Realizar Diagnóstico -> Diagnóstico jararaca
@@ -71,12 +71,12 @@ Tor-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, 
 
 Grrmurray se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local levemente inchado)
+* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  ; local inchado)
 * Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
+* Ferida -> Mostra Sintoma(tem uma ferida grande, com bordas elevadas e tem uma área preta no meio)
+* Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
 
-* Realizar Diagnóstico -> Diagnóstico escorpião
+* Realizar Diagnóstico -> Diagnóstico aranha marrom
 
 # 5 (case)
 
@@ -84,12 +84,12 @@ Grrmurray se apresentou na clínica reclamando que algum bicho o picou ou mordeu
 
 Frankenperez se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local levemente inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com o olho caído)
+* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida ; o local está mudando para uma coloração azul ; local muito inchado)
+* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
 * Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
 
-* Realizar Diagnóstico -> Diagnóstico cascavel
+* Realizar Diagnóstico -> Diagnóstico jararaca
 
 # 6 (case)
 
@@ -97,7 +97,7 @@ Frankenperez se apresentou na clínica reclamando que algum bicho o picou ou mor
 
 Sananimated se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  )
+* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  )
 * Estado do Zumbi -> Mostra Sintoma(está com o olho caído)
 * Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
@@ -110,12 +110,12 @@ Sananimated se apresentou na clínica reclamando que algum bicho o picou ou mord
 
 Grrgriffiths se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  ; local levemente inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
+* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  )
+* Estado do Zumbi -> Mostra Sintoma(está com o olho caído; tem dificuldade de engolir; está cansado para respirar)
 * Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
+* Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
 
-* Realizar Diagnóstico -> Diagnóstico escorpião
+* Realizar Diagnóstico -> Diagnóstico cascavel
 
 # 8 (case)
 
@@ -123,8 +123,8 @@ Grrgriffiths se apresentou na clínica reclamando que algum bicho o picou ou mor
 
 Brooks-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  )
-* Estado do Zumbi -> Mostra Sintoma(está com o olho caído; está cansado para respirar)
+* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local levemente inchado)
+* Estado do Zumbi -> Mostra Sintoma(está com o olho caído; tem dificuldade de engolir; está cansado para respirar)
 * Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
 
@@ -149,12 +149,12 @@ Grrreen se apresentou na clínica reclamando que algum bicho o picou ou mordeu, 
 
 Williarot se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local inchado)
+* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  ; local levemente inchado)
 * Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida grande, com bordas elevadas e tem uma área preta no meio)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
+* Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
 
-* Realizar Diagnóstico -> Diagnóstico aranha marrom
+* Realizar Diagnóstico -> Diagnóstico escorpião
 
 
 
