@@ -1,11 +1,11 @@
-Dor,Sangramento,Membro inchado,Olho caído,Dificuldade deglutição,Insuficiência respiratória,Necrose,Arritmia cardíaca,Diagnóstico
-1,0,1,0,0,0,1,0,aranha marrom
-1,0,1,0,0,1,0,1,escorpião
-0,0,0,0,0,0,0,0,aranha marrom
-1,1,1,0,0,0,0,0,jararaca
-0,0,1,1,1,0,0,0,cascavel
-0,0,1,0,0,0,1,0,aranha marrom
-0,0,0,0,0,0,1,0,aranha marrom
-1,0,1,0,0,0,0,1,escorpião
-1,1,1,0,0,0,0,0,jararaca
-0,0,1,1,1,1,0,0,cascavel
+Nome,Dor,Sangramento,Membro inchado,Olho caído,Dificuldade deglutição,Insuficiência respiratória,Necrose,Arritmia cardíaca,Diagnóstico
+Undeadha,1,0,1,0,0,0,1,0,aranha marrom
+Pricensteinia,1,0,1,0,0,1,0,1,escorpião
+Tor-grr,0,0,0,0,0,0,0,0,aranha marrom
+Grrmurray,1,1,1,0,0,0,0,0,jararaca
+Frankenperez,0,0,1,1,1,0,0,0,cascavel
+Sananimated,0,0,1,0,0,0,1,0,aranha marrom
+Grrgriffiths,0,0,0,0,0,0,1,0,aranha marrom
+Brooks-grr,1,0,1,0,0,0,0,1,escorpião
+Grrreen,1,1,1,0,0,0,0,0,jararaca
+Williarot,0,0,1,1,1,1,0,0,cascavel
