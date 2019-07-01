@@ -1,0 +1,11 @@
+Dor,Sangramento,Membro inchado,Olho caído,Dificuldade deglutição,Insuficiência respiratória,Necrose,Arritmia cardíaca,Diagnóstico
+1,0,1,1,1,1,0,0,cascavel
+0,0,1,0,0,1,0,1,escorpião
+0,0,0,1,0,0,0,0,cascavel
+0,0,1,1,1,1,0,0,cascavel
+1,0,1,0,0,0,0,1,escorpião
+1,1,1,0,0,0,0,0,jararaca
+0,0,1,0,0,0,1,0,aranha marrom
+1,1,1,0,0,0,0,0,jararaca
+1,1,1,0,0,0,1,0,jararaca
+1,0,1,0,0,0,0,1,escorpião
