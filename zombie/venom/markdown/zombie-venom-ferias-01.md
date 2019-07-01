@@ -1,14 +1,25 @@
-# Zombie Health (case,start)
+# Zombie Health 01 (case,start)
 
 ~ =100
 
 ![Doctor](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
 
-Você é um Médico Girafa (girafas não viram zumbis).
+Você é um Médico Girafa que foi chamado para ajudar a curar zumbis que foram picados por animais peçonhentos.
 
 Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
-* Iniciar Jogo -> 1
+* Iniciar Jogo -> Fase 1
+
+# Fase 1 (case)
+
+![Zumbis](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbis1.png)
+
+<H1>Fase 1</H1>
+
+Descubra o que picou cada Zumbi. Você tem que ser rápido, porque tem que atender 10 zumbis.
+
+* Iniciar Fase 1 -> 1
+
 
 
 
@@ -21,9 +32,9 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 Undeadha se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  )
+* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  ; local levemente inchado)
 * Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(não tem nada a mais a se observar na ferida)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
@@ -34,7 +45,7 @@ Undeadha se apresentou na clínica reclamando que algum bicho o picou ou mordeu,
 
 Pricensteinia se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  )
+* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local inchado)
 * Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
 * Ferida -> Mostra Sintoma(tem uma ferida grande, com bordas elevadas e tem uma área preta no meio)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
@@ -60,9 +71,9 @@ Tor-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, 
 
 Grrmurray se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  )
+* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  ; local levemente inchado)
 * Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(não tem nada a mais a se observar na ferida)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
@@ -73,9 +84,9 @@ Grrmurray se apresentou na clínica reclamando que algum bicho o picou ou mordeu
 
 Frankenperez se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  )
-* Estado do Zumbi -> Mostra Sintoma(; está cansado para respirar)
-* Ferida -> Mostra Sintoma(não tem nada a mais a se observar na ferida)
+* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  ; local levemente inchado)
+* Estado do Zumbi -> Mostra Sintoma(está cansado para respirar)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
@@ -101,7 +112,7 @@ Grrgriffiths se apresentou na clínica reclamando que algum bicho o picou ou mor
 
 * Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  )
 * Estado do Zumbi -> Mostra Sintoma(está com o olho caído)
-* Ferida -> Mostra Sintoma(não tem nada a mais a se observar na ferida)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
 
 * Realizar Diagnóstico -> Diagnóstico cascavel
@@ -112,9 +123,9 @@ Grrgriffiths se apresentou na clínica reclamando que algum bicho o picou ou mor
 
 Brooks-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  )
+* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local levemente inchado)
 * Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(não tem nada a mais a se observar na ferida)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
@@ -127,7 +138,7 @@ Grrreen se apresentou na clínica reclamando que algum bicho o picou ou mordeu, 
 
 * Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida ; o local está mudando para uma coloração azul ; local muito inchado)
 * Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(não tem nada a mais a se observar na ferida)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
 
 * Realizar Diagnóstico -> Diagnóstico jararaca
@@ -138,12 +149,20 @@ Grrreen se apresentou na clínica reclamando que algum bicho o picou ou mordeu, 
 
 Williarot se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  )
+* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local levemente inchado)
 * Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(não tem nada a mais a se observar na ferida)
+* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
 * Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
+
+
+
+
+
+
+
+
 
 # Mostra Sintoma (note)
 
@@ -159,7 +178,7 @@ Então, qual animal peçonhento você acha que picou o paciente?
 * Cascavel -> Jararaca errado
 
 * Aranha Marrom -> Jararaca errado
-* Escorpião -> Jararaca certo
+* Escorpião -> Jararaca errado
 
 # Diagnóstico cascavel (case)
 
@@ -197,96 +216,100 @@ Então, qual animal peçonhento você acha que picou o paciente?
 * Aranha Marrom -> Escorpião errado
 * Escorpião -> Escorpião certo
 
-
-
-
-
-
-
-
 # 11 (case)
 
-![zumbi_1](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/1.png)
+![Zumbis](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen01/zumbis2.png)
 
-O paciente chega ao pronto socorro mancando. Ele foi pescar larvas nojentas que moram na lagoa perto de sua casa. Acidentalmente, o paciente pegou o rabo de um bicho, que o mordeu.
+<H1>Fase 2</H1>
 
-* Examinar Local da Picada -> Dor Sangramento Edema
+Agora você já é um médico treinado e está pronto para resolver casos mais difíceis.
 
-* Examinar Estado do Paciente -> Estado normal
+* Iniciar Fase 2 -> 12
 
-* Examinar Ferida -> Necrose sim
-* Verificar Batimentos -> Arritmia não
-* Diagnóstico -> Diagnóstico 1
 
 # 12 (case)
 
-![zumbi_2](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/1.png)
+![zumbi_1](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/1.png)
 
-Um novo paciente se apresentou na clínica para ser atendido. Ele diz que estava planejando assustar umas pessoas e resolveu se esconder dentro de um barril na sua casa. Então, acabou sentando em cima de um bicho que fazia um barulho esquisito com o rabo.
+O paciente chega ao pronto socorro mancando. Ele foi pescar larvas nojentas que moram na lagoa perto de sua casa. Acidentalmente, o paciente pegou o rabo de um bicho, que o mordeu. O que você deseja examinar?
 
-* Examinar Local da Picada -> Dor Edema discreto
+* Local da Picada -> Dor Sangramento Edema
+* Estado do Paciente -> Estado normal
+* Ferida -> Necrose sim
+* Batimentos -> Arritmia não
 
-* Examinar Estado do Paciente -> Olho Deglutição Respiração
-
-* Examinar Ferida -> Necrose não
-* Verificar Batimentos -> Arritmia não
-* Diagnóstico -> Diagnóstico 2
+* Realizar Diagnóstico -> Diagnóstico 1
 
 # 13 (case)
 
-![zumbi_3](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/1.png)
+![zumbi_2](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/2.png)
 
-Um novo zumbi apareceu na clínica. O paciente relata que estava atrasado para ir para escola Zumbi para aprender a domesticar zumboscas - moscas que foram para Zumbilândia depois de comerem comida estragada. Então, ele colocou o sapato correndo e sentiu uma dor no dedão do pé. Nesse momento, percebeu que esmagou alguma coisa, mas não deu muita importância. Ao correr, o paciente começou a sentir uma dor muito forte no pé e percebeu que estava com uma ferida no dedão.
+Um novo paciente se apresentou na clínica para ser atendido. Ele diz que estava planejando assustar umas pessoas e resolveu se esconder dentro de um barril na sua casa. Então, acabou sentando em cima de um bicho que fazia um barulho esquisito com o rabo. O que você deseja examinar?
 
-* Examinar Local da Picada -> Dor Edema
+* Local da Picada -> Dor Edema discreto
+* Estado do Paciente -> Olho Deglutição Respiração
+* Ferida -> Necrose não
+* Batimentos -> Arritmia não
 
-* Examinar Estado do Paciente -> Estado normal
-
-* Examinar Ferida -> Necrose sim
-* Verificar Batimentos -> Arritmia não
-* Diagnóstico -> Diagnóstico 3
+* Realizar Diagnóstico -> Diagnóstico 2
 
 # 14 (case)
 
-![zumbi_4](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/1.png)
+![zumbi_3](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/3.png)
 
-Um novo zumbi chegou ao pronto-socorro! Ele conta que estava coletando sucata para fazer um brinquedo novo, e viu um bicho esquisito. Quando ele chegou perto do bicho, levou uma ferroada na mão que doeu tanto que ele pulou igual um macaco. Ele diz ainda que a sua galinha de estimação correu para ajudar, e o bicho esquisito saiu correndo de medo.
+Um novo zumbi apareceu na clínica. O paciente relata que estava atrasado para ir para escola Zumbi para aprender a domesticar zumboscas - moscas que foram para Zumbilândia depois de comerem comida estragada. Então, ele colocou o sapato correndo e sentiu uma dor no dedão do pé. Nesse momento, percebeu que esmagou alguma coisa, mas não deu muita importância. Ao correr, o paciente começou a sentir uma dor muito forte no pé e percebeu que estava com uma ferida no dedão. O que você deseja examinar?
 
-* Examinar Local da Picada -> Dor muita Edema discreto
+* Local da Picada -> Dor Edema
+* Estado do Paciente -> Estado normal
+* Ferida -> Necrose sim
+* Batimentos -> Arritmia não
 
-* Examinar Estado do Paciente -> Respiração
-
-* Examinar Ferida -> Necrose não
-* Verificar Batimentos -> Arritmia sim
-* Diagnóstico -> Diagnóstico 4
+* Realizar Diagnóstico -> Diagnóstico 3
 
 # 15 (case)
 
-![zumbi_5](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/1.png)
+![zumbi_4](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/3.png)
 
-Um novo paciente chegou à clínica! Ele relata que foi passear de barco e parou numa ilha que tinha um farol muito bonito. Quando ele desceu do barco, percebeu que a ilha tinha um monte de Zumbirinhas, um tipo de gaivota da Zumbilândia. Como está sempre com fome, o paciente foi pegar um ovo para fazer uma boquinha, mas sentiu uma dor muito forte na mão.
+Um novo zumbi chegou ao pronto-socorro! Ele conta que estava coletando sucata para fazer um brinquedo novo, e viu um bicho esquisito. Quando ele chegou perto do bicho, levou uma ferroada na mão que doeu tanto que ele pulou igual um macaco. Ele diz ainda que a sua galinha de estimação correu para ajudar, e o bicho esquisito saiu correndo de medo. O que você deseja examinar?
 
-* Examinar Local da Picada -> Dor Sangramento Edema
+* Local da Picada -> Dor muita Edema discreto
+* Estado do Paciente -> Respiração
+* Ferida -> Necrose não
+* Batimentos -> Arritmia sim
 
-* Examinar Estado do Paciente -> Estado normal
-
-* Examinar Ferida -> Necrose sim
-* Verificar Batimentos -> Arritmia não
-* Diagnóstico -> Diagnóstico 5
+* Realizar Diagnóstico -> Diagnóstico 4
 
 # 16 (case)
 
-![zumbi_6](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/1.png)
+![zumbi_5](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/5.png)
 
-Um zumbi acabou de chegar à clinica! Ele relata que foi pescar na mata. Logo antes de chegar no rio, viu um bicho se que fazia um barulho engraçadinho com o rabo. Então, o paciente saiu atrás do bicho e, quando se abaixou para encostar nele, o animal pulou e lhe deu uma mordida no braço.
+Um novo paciente chegou à clínica! Ele relata que foi passear de barco e parou numa ilha que tinha um farol muito bonito. Quando ele desceu do barco, percebeu que a ilha tinha um monte de Zumbirinhas, um tipo de gaivota da Zumbilândia. Como está sempre com fome, o paciente foi pegar um ovo para fazer uma boquinha, mas sentiu uma dor muito forte na mão. O que você deseja examinar?
 
-* Examinar Local da Picada -> Dor Edema discreto
+* Local da Picada -> Dor Sangramento Edema
+* Estado do Paciente -> Estado normal
+* Ferida -> Necrose sim
+* Batimentos -> Arritmia não
 
-* Examinar Estado do Paciente -> Olho Deglutição Respiração
+* Realizar Diagnóstico -> Diagnóstico 5
 
-* Examinar Ferida -> Necrose não
-* Verificar Batimentos -> Arritmia não
-* Diagnóstico -> Diagnóstico 6
+# 17 (case)
+
+![zumbi_6](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/6.png)
+
+Um zumbi acabou de chegar à clinica! Ele relata que foi pescar na mata. Logo antes de chegar no rio, viu um bicho se que fazia um barulho engraçadinho com o rabo. Então, o paciente saiu atrás do bicho e, quando se abaixou para encostar nele, o animal pulou e lhe deu uma mordida no braço. O que você deseja examinar?
+
+* Local da Picada -> Dor Edema discreto
+* Estado do Paciente -> Olho Deglutição Respiração
+* Ferida -> Necrose não
+* Batimentos -> Arritmia não
+
+* Realizar Diagnóstico -> Diagnóstico 6
+
+# 18 (end)
+![Final](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/end.jpg)
+Parabéns você chegou ao final do jogo! Foi sugado por um buraco negro e vai começar tudo de novo em outra dimensão!
+
+Você fez o total de <dcc-expression expression="points" active></dcc-expression> pontos.
 
 # Dor Sangramento Edema (note)
 
@@ -348,9 +371,10 @@ Os batimentos estão descompassados, num ritmo atrapalhado.
 
 # Diagnóstico 1 (case)
 
-![Treatment](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
-
-Marque de verde as evidências que você acredita que indicam qual foi o animal que picou o paciente. Em azul, marque as que são neutras. Em vermelho, marque as que vão contra a sua hipótese.
+Use as cores verde (1 clique), azul (2 cliques) e vermelho (3 cliques) para indicar:
+- verde - ajudaram você a descobrir o animal;
+- azul - nem ajudaram nem atrapalharam a descoberta;
+- vermelho - lhe atrapalharam ou confundiram na descoberta do animal.
 
 {{symptoms#contribution to diagnostics: ,+,=,-
 
@@ -362,15 +386,15 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Jararaca certo
 * Cascavel -> Jararaca errado
-
 * Aranha Marrom -> Jararaca errado
 * Escorpião -> Jararaca certo
 
 # Diagnóstico 2 (case)
 
-![Treatment](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
-
-Marque de verde as evidências que você acredita que indicam qual foi o animal que picou o paciente. Em azul, marque as que são neutras. Em vermelho, marque as que vão contra a sua hipótese.
+Use as cores verde (1 clique), azul (2 cliques) e vermelho (3 cliques) para indicar:
+- verde - ajudaram você a descobrir o animal;
+- azul - nem ajudaram nem atrapalharam a descoberta;
+- vermelho - lhe atrapalharam ou confundiram na descoberta do animal.
 
 {{symptoms#contribution to diagnostics: ,+,=,-
 
@@ -382,15 +406,15 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Cascavel errado
 * Cascavel -> Cascavel certo
-
 * Aranha Marrom -> Cascavel errado
 * Escorpião -> Cascavel errado
 
 # Diagnóstico 3 (case)
 
-![Treatment](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
-
-Marque de verde as evidências que você acredita que indicam qual foi o animal que picou o paciente. Em azul, marque as que são neutras. Em vermelho, marque as que vão contra a sua hipótese.
+Use as cores verde (1 clique), azul (2 cliques) e vermelho (3 cliques) para indicar:
+- verde - ajudaram você a descobrir o animal;
+- azul - nem ajudaram nem atrapalharam a descoberta;
+- vermelho - lhe atrapalharam ou confundiram na descoberta do animal.
 
 {{symptoms#contribution to diagnostics: ,+,=,-
 
@@ -402,15 +426,15 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Aranha Marrom errado
 * Cascavel -> Aranha Marrom errado
-
 * Aranha Marrom -> Aranha Marrom certo
 * Escorpião -> Aranha Marrom errado
 
 # Diagnóstico 4 (case)
 
-![Treatment](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
-
-Marque de verde as evidências que você acredita que indicam qual foi o animal que picou o paciente. Em azul, marque as que são neutras. Em vermelho, marque as que vão contra a sua hipótese.
+Use as cores verde (1 clique), azul (2 cliques) e vermelho (3 cliques) para indicar:
+- verde - ajudaram você a descobrir o animal;
+- azul - nem ajudaram nem atrapalharam a descoberta;
+- vermelho - lhe atrapalharam ou confundiram na descoberta do animal.
 
 {{symptoms#contribution to diagnostics: ,+,=,-
 
@@ -422,15 +446,15 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Escorpião errado
 * Cascavel -> Escorpião errado
-
 * Aranha Marrom -> Escorpião errado
 * Escorpião -> Escorpião certo
 
 # Diagnóstico 5 (case)
 
-![Treatment](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
-
-Marque de verde as evidências que você acredita que indicam qual foi o animal que picou o paciente. Em azul, marque as que são neutras. Em vermelho, marque as que vão contra a sua hipótese.
+Use as cores verde (1 clique), azul (2 cliques) e vermelho (3 cliques) para indicar:
+- verde - ajudaram você a descobrir o animal;
+- azul - nem ajudaram nem atrapalharam a descoberta;
+- vermelho - lhe atrapalharam ou confundiram na descoberta do animal.
 
 {{symptoms#contribution to diagnostics: ,+,=,-
 
@@ -442,15 +466,15 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Jararaca certo
 * Cascavel -> Jararaca errado
-
 * Aranha Marrom -> Jararaca errado
 * Escorpião -> Jararaca certo
 
 # Diagnóstico 6 (case)
 
-![Treatment](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
-
-Marque de verde as evidências que você acredita que indicam qual foi o animal que picou o paciente. Em azul, marque as que são neutras. Em vermelho, marque as que vão contra a sua hipótese.
+Use as cores verde (1 clique), azul (2 cliques) e vermelho (3 cliques) para indicar:
+- verde - ajudaram você a descobrir o animal;
+- azul - nem ajudaram nem atrapalharam a descoberta;
+- vermelho - lhe atrapalharam ou confundiram na descoberta do animal.
 
 {{symptoms#contribution to diagnostics: ,+,=,-
 
@@ -462,25 +486,8 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 * Jararaca -> Cascavel errado
 * Cascavel -> Cascavel certo
-
 * Aranha Marrom -> Cascavel errado
 * Escorpião -> Cascavel errado
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Jararaca certo (right)
 
@@ -488,9 +495,9 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 ![Certo](https://cdn.pixabay.com/photo/2019/06/26/20/30/zombie-4301192_960_720.png)
 
-![Jararaca](https://www.portaldosanimais.com.br/wp-content/uploads/2016/12/jararacas-1-e1482003107257.jpg)
+![Jararaca](https://media.giphy.com/media/26DN0U3SqKDG2fTFe/giphy.gif)
 
-Parabéns! Você diagnosticou corretamente, e pôde dar ao paciente um soro contra veneno de **Jararaca**.
+Parabéns! Você diagnosticou corretamente e pôde dar ao paciente um soro contra veneno de **Jararaca**.
 
 Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
@@ -502,7 +509,7 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 ![Errado](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png)
 
-![Jararaca](https://www.portaldosanimais.com.br/wp-content/uploads/2016/12/jararacas-1-e1482003107257.jpg)
+![Jararaca](https://media.giphy.com/media/26DN0U3SqKDG2fTFe/giphy.gif)
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por uma **Jararaca**.
 
@@ -516,7 +523,7 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 ![Certo](https://cdn.pixabay.com/photo/2019/06/26/20/30/zombie-4301192_960_720.png)
 
-![Cascavel](https://cdn.pixabay.com/photo/2015/05/03/21/41/snake-751722_960_720.jpg)
+![Cascavel](https://media.giphy.com/media/dEfPULgo1DYfm/giphy.gif)
 
 Parabéns! Você diagnosticou corretamente, e pôde dar ao paciente um soro contra veneno de **Cascavel**.
 
@@ -530,7 +537,7 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 ![Errado](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png)
 
-![Cascavel](https://cdn.pixabay.com/photo/2015/05/03/21/41/snake-751722_960_720.jpg)
+![Cascavel](https://media.giphy.com/media/dEfPULgo1DYfm/giphy.gif)
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por uma **Cascavel**.
 
@@ -544,7 +551,7 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 ![Certo](https://cdn.pixabay.com/photo/2019/06/26/20/30/zombie-4301192_960_720.png)
 
-![AranhaMarrom](https://cdn.pixabay.com/photo/2016/06/10/17/10/spider-1448506_960_720.jpg)
+![AranhaMarrom](https://media.giphy.com/media/1k2UWbJCWqvXtq1xDJ/giphy.gif)
 
 Parabéns! Você diagnosticou corretamente, e pôde dar ao paciente um soro contra veneno de **Aranha Marrom**.
 
@@ -558,7 +565,7 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 ![Errado](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png)
 
-![AranhaMarrom](https://cdn.pixabay.com/photo/2016/06/10/17/10/spider-1448506_960_720.jpg)
+![AranhaMarrom](https://media.giphy.com/media/1k2UWbJCWqvXtq1xDJ/giphy.gif)
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por uma **Aranha Marrom**.
 
@@ -572,7 +579,7 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 ![Certo](https://cdn.pixabay.com/photo/2019/06/26/20/30/zombie-4301192_960_720.png)
 
-![Escorpião](https://cdn.pixabay.com/photo/2017/09/26/17/05/scorpion-2789321_960_720.jpg)
+![Escorpião](https://media.giphy.com/media/QscbCkTeoBb68/giphy.gif)
 
 Parabéns! Você diagnosticou corretamente, e pôde dar ao paciente um soro contra veneno de **Escorpião**.
 
@@ -586,7 +593,7 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 ![Errado](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png)
 
-![Escorpião](https://cdn.pixabay.com/photo/2017/09/26/17/05/scorpion-2789321_960_720.jpg)
+![Escorpião](https://media.giphy.com/media/QscbCkTeoBb68/giphy.gif)
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por um **Escorpião**.
 
