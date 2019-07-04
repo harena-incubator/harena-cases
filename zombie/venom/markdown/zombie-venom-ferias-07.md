@@ -387,7 +387,7 @@ Então, qual animal peçonhento você acha que picou o paciente?
 * Jararaca -> Jararaca certo
 * Cascavel -> Jararaca errado
 * Aranha Marrom -> Jararaca errado
-* Escorpião -> Jararaca certo
+* Escorpião -> Jararaca errado
 
 # Diagnóstico 2 (case)
 
@@ -467,7 +467,7 @@ Então, qual animal peçonhento você acha que picou o paciente?
 * Jararaca -> Jararaca certo
 * Cascavel -> Jararaca errado
 * Aranha Marrom -> Jararaca errado
-* Escorpião -> Jararaca certo
+* Escorpião -> Jararaca errado
 
 # Diagnóstico 6 (case)
 
