@@ -603,4 +603,5 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 _Case_
 ======
 
+* title: Zombie Venom 02
 * theme: zombie
