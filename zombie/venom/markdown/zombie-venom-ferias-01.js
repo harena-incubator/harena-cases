@@ -1,4 +1,7 @@
-# Zombie Health 01 (case,start)
+(function() {
+const localCase = {
+name: "Zombie Health 01",
+source: `# Zombie Health 01 (case,start)
 
 ~ =100
 
@@ -633,4 +636,8 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 <dcc-trigger action="knot/>/navigate" label="Próximo Caso"></dcc-trigger>
 
 ____ Data _____
-* theme: zombie
+* theme: zombie`
+};
+
+MessageBus.int.publish("control/case/load/ready", localCase);
+})();
