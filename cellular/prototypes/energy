@@ -17,11 +17,12 @@
   <dcc-cell-color type="n" label="on lamp bulb" color="#000000"></dcc-cell-color>
   <dcc-cell-color type="l" label="light1" color="#ffa500"></dcc-cell-color>
   <dcc-cell-color type="1" label="light1" color="#BC8F8F"></dcc-cell-color>
+  <dcc-cell-color type="2" label="light2" color="#ECEFEF"></dcc-cell-color>
 
   <rule-dcc-cell-neighbor label="follow wire" probability="100" transition="ew>we">
-  ___
-  ___
-  _*_
+  ***
+  *_*
+  ***
   </rule-dcc-cell-neighbor>
 
   <rule-dcc-cell-neighbor label="absorb energy" probability="100" transition="eb>wn">
@@ -31,19 +32,42 @@
   </rule-dcc-cell-neighbor>
 
   <rule-dcc-cell-neighbor label="create light 1" probability="100" transition="n_>bl">
-  ***
+  _*_
   *_*
-  ***
+  _*_
   </rule-dcc-cell-neighbor>
 
   <rule-dcc-cell-neighbor label="create light 1" probability="100" transition="n1>bl">
-  ***
+  _*_
   *_*
-  ***
+  _*_
   </rule-dcc-cell-neighbor>
 
+  <rule-dcc-cell-neighbor label="create light 1" probability="100" transition="n2>bl">
+  _*_
+  *_*
+  _*_
+  </rule-dcc-cell-neighbor>
+
+  <rule-dcc-cell-neighbor label="create light 1" probability="100" transition="nl>bl">
+  _*_
+  *_*
+  _*_
+  </rule-dcc-cell-neighbor>
 
   <rule-dcc-cell-neighbor label="create light 2" probability="100" transition="l_>l1">
+  _*_
+  *_*
+  _*_
+  </rule-dcc-cell-neighbor>
+
+  <rule-dcc-cell-neighbor label="create light 2" probability="100" transition="l2>l1">
+  _*_
+  *_*
+  _*_
+  </rule-dcc-cell-neighbor>
+
+  <rule-dcc-cell-neighbor label="create light 3" probability="100" transition="1_>12">
   ***
   *_*
   ***
