@@ -1,0 +1,68 @@
+  <dcc-space-cellular id="cellular-space" rows="30" cell-width="10" cell-height="10" infinite>
+  ________________________________________
+  ____________________s___________________
+  ____________________w___________________
+  ____________________w___________________
+  ____________________w___________________
+  ____________________w___________________
+  ____________________w___________________
+  ____________________w___________________
+  ____________________w___________________
+  ____________________b___________________
+  </dcc-space-cellular>
+  <dcc-cell-color type="w" label="wire" color="#00ff00"></dcc-cell-color>
+  <dcc-cell-color type="s" label="energy source" color="#808000"></dcc-cell-color>
+  <dcc-cell-color type="e" label="eletron" color="#ffff00"></dcc-cell-color>
+  <dcc-cell-color type="b" label="off lamp bulb" color="#ff0000"></dcc-cell-color>
+  <dcc-cell-color type="n" label="on lamp bulb" color="#000000"></dcc-cell-color>
+  <dcc-cell-color type="l" label="light1" color="#ffa500"></dcc-cell-color>
+  <dcc-cell-color type="1" label="light1" color="#BC8F8F"></dcc-cell-color>
+
+  <rule-dcc-cell-neighbor label="follow wire" probability="100" transition="ew>we">
+  ___
+  ___
+  _*_
+  </rule-dcc-cell-neighbor>
+
+  <rule-dcc-cell-neighbor label="absorb energy" probability="100" transition="eb>wn">
+  ___
+  ___
+  _*_
+  </rule-dcc-cell-neighbor>
+
+  <rule-dcc-cell-neighbor label="create light 1" probability="100" transition="n_>bl">
+  ***
+  *_*
+  ***
+  </rule-dcc-cell-neighbor>
+
+  <rule-dcc-cell-neighbor label="create light 1" probability="100" transition="n1>bl">
+  ***
+  *_*
+  ***
+  </rule-dcc-cell-neighbor>
+
+
+  <rule-dcc-cell-neighbor label="create light 2" probability="100" transition="l_>l1">
+  ***
+  *_*
+  ***
+  </rule-dcc-cell-neighbor>
+
+  <rule-dcc-cell-neighbor label="create energy" probability="50" transition="sw>se">
+  ___
+  ___
+  _*_
+  </rule-dcc-cell-neighbor>
+
+
+  <dcc-trigger label="Next" action="state/next"></dcc-trigger>
+  <dcc-trigger label="Play" action="timer/start"></dcc-trigger>
+  <dcc-trigger label="Stop" action="timer/stop"></dcc-trigger>
+
+  <dcc-timer cycles="10000" interval="100" publish="state/next">
+     <subscribe-dcc message="timer/start" role="start"></subscribe-dcc>
+     <subscribe-dcc message="timer/stop" role="stop"></subscribe-dcc>
+  </dcc-timer>
+
+  <subscribe-dcc target="cellular-space" message="state/next" role="next"></subscribe-dcc>
