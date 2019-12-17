@@ -1,0 +1,78 @@
+  <dcc-space-cellular id="cellular-space" rows="30" cell-width="10" cell-height="10" >
+  ________________________________________
+  _________________www____________________
+  _________________www____________________
+  _________________www____________________
+  _________________www____________________
+  _________________www____________________
+  _________________www____________________
+  _________________www____________________
+  _________________www____________________
+  _________________www____________________
+  ________________________________________
+  ________________________________________
+  ________________________________________
+  ________________________________________
+  ________________________________________
+  ________________________________________
+  ________________________________________
+  ________________________________________
+  ________________________________________
+  ________________________________________
+  ________________________________________
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+  </dcc-space-cellular>
+  <dcc-cell-color type="w" label="water" color="#0000ff"></dcc-cell-color>
+  <dcc-cell-color type="f" label="water flood" color="#0000ff"></dcc-cell-color>
+  <dcc-cell-color type="b" label="barrage" color="#00ff00"></dcc-cell-color>
+
+
+  <rule-dcc-cell-neighbor label="river" probability="100" transition="w_>ww">
+  ___
+  ___
+  _*_
+  </rule-dcc-cell-neighbor>
+
+  <rule-dcc-cell-neighbor label="flood" probability="100" transition="wb>fb">
+  ___
+  ___
+  _*_
+  </rule-dcc-cell-neighbor>
+
+  <rule-dcc-cell-neighbor label="create flood" probability="70" transition="f_>ff">
+  ***
+  *_*
+  ***
+  </rule-dcc-cell-neighbor>
+
+  <rule-dcc-cell-neighbor label="move flood" probability="100" transition="f_>_f">
+  ___
+  __*
+  ___
+  </rule-dcc-cell-neighbor>
+  <rule-dcc-cell-neighbor label="move flood" probability="100" transition="f_>_f">
+  ___
+  *__
+  ___
+  </rule-dcc-cell-neighbor>
+  <rule-dcc-cell-neighbor label="move flood" probability="100" transition="f_>_f">
+  ___
+  ___
+  *__
+  </rule-dcc-cell-neighbor>
+  <rule-dcc-cell-neighbor label="move flood" probability="100" transition="f_>_f">
+  ___
+  ___
+  __*
+  </rule-dcc-cell-neighbor>
+
+  <dcc-trigger label="Next" action="state/next"></dcc-trigger>
+  <dcc-trigger label="Play" action="timer/start"></dcc-trigger>
+  <dcc-trigger label="Stop" action="timer/stop"></dcc-trigger>
+
+  <dcc-timer cycles="10000" interval="200" publish="state/next">
+     <subscribe-dcc message="timer/start" role="start"></subscribe-dcc>
+     <subscribe-dcc message="timer/stop" role="stop"></subscribe-dcc>
+  </dcc-timer>
+
+  <subscribe-dcc target="cellular-space" message="state/next" role="next"></subscribe-dcc>
