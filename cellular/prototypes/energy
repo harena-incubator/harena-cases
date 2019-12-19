@@ -19,65 +19,65 @@
   <dcc-cell-color type="1" label="light1" color="#BC8F8F"></dcc-cell-color>
   <dcc-cell-color type="2" label="light2" color="#ECEFEF"></dcc-cell-color>
 
-  <rule-dcc-cell-neighbor label="follow wire" probability="100" transition="ew>we">
+  <rule-dcc-cell-pair label="follow wire" probability="100" transition="ew>we">
   ***
   *_*
   ***
-  </rule-dcc-cell-neighbor>
+  </rule-dcc-cell-pair>
 
-  <rule-dcc-cell-neighbor label="absorb energy" probability="100" transition="eb>wn">
+  <rule-dcc-cell-pair label="absorb energy" probability="100" transition="eb>wn">
   ___
   ___
   _*_
-  </rule-dcc-cell-neighbor>
+  </rule-dcc-cell-pair>
 
-  <rule-dcc-cell-neighbor label="create light 1" probability="100" transition="n_>bl">
+  <rule-dcc-cell-pair label="create light 1" probability="100" transition="n_>bl">
   _*_
   *_*
   _*_
-  </rule-dcc-cell-neighbor>
+  </rule-dcc-cell-pair>
 
-  <rule-dcc-cell-neighbor label="create light 1" probability="100" transition="n1>bl">
+  <rule-dcc-cell-pair label="create light 1" probability="100" transition="n1>bl">
   _*_
   *_*
   _*_
-  </rule-dcc-cell-neighbor>
+  </rule-dcc-cell-pair>
 
-  <rule-dcc-cell-neighbor label="create light 1" probability="100" transition="n2>bl">
+  <rule-dcc-cell-pair label="create light 1" probability="100" transition="n2>bl">
   _*_
   *_*
   _*_
-  </rule-dcc-cell-neighbor>
+  </rule-dcc-cell-pair>
 
-  <rule-dcc-cell-neighbor label="create light 1" probability="100" transition="nl>bl">
+  <rule-dcc-cell-pair label="create light 1" probability="100" transition="nl>bl">
   _*_
   *_*
   _*_
-  </rule-dcc-cell-neighbor>
+  </rule-dcc-cell-pair>
 
-  <rule-dcc-cell-neighbor label="create light 2" probability="100" transition="l_>l1">
+  <rule-dcc-cell-pair label="create light 2" probability="100" transition="l_>l1">
   _*_
   *_*
   _*_
-  </rule-dcc-cell-neighbor>
+  </rule-dcc-cell-pair>
 
-  <rule-dcc-cell-neighbor label="create light 2" probability="100" transition="l2>l1">
+  <rule-dcc-cell-pair label="create light 2" probability="100" transition="l2>l1">
   _*_
   *_*
   _*_
-  </rule-dcc-cell-neighbor>
+  </rule-dcc-cell-pair>
 
-  <rule-dcc-cell-neighbor label="create light 3" probability="100" transition="1_>12">
+  <rule-dcc-cell-pair label="create light 3" probability="100" transition="1_>12">
   ***
   *_*
   ***
-  </rule-dcc-cell-neighbor>
+  </rule-dcc-cell-pair>
 
-  <rule-dcc-cell-neighbor label="create energy" probability="50" transition="sw>se">
+  <rule-dcc-cell-pair label="create energy" probability="50" transition="sw>se">
   ___
   ___
   _*_
-  </rule-dcc-cell-neighbor>
+  </rule-dcc-cell-pair>
 
 
   <dcc-trigger label="Next" action="state/next"></dcc-trigger>
