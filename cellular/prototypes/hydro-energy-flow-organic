@@ -132,6 +132,13 @@ _*_
 _*_
 </rule-dcc-cell-flow>
 
+<rule-dcc-cell-flow label="create light 7" probability="100" transition="ll>ll" flow="+-">
+_*_
+*_*
+_*_
+</rule-dcc-cell-flow>
+
+
 <rule-dcc-cell-flow label="light dies" probability="100" transition="l_>__" flow="1">
 _*_
 *_*
