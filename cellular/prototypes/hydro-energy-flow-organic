@@ -22,15 +22,15 @@ ____________________w___________________
 ____________________b___________________
 </dcc-space-cellular>
 <dcc-cell-color type="r" label="river" color="#0000ff">
-  <property-dcc name="value" initial="20"></property-dcc>
+  <property-dcc name="value" initial="55"></property-dcc>
 </dcc-cell-color>
-<dcc-cell-color type="h" label="hydro-power water" color="#0000ff" opacity="20"></dcc-cell-color>
+<dcc-cell-color type="h" label="hydro-power water" color="#0000ff" opacity="60"></dcc-cell-color>
 <dcc-cell-color type="d" label="dirt" color="#ffaa00"></dcc-cell-color>
 <dcc-cell-color type="w" label="wire" color="#00ff00"></dcc-cell-color>
 <dcc-cell-color type="s" label="energy source" color="#808000"></dcc-cell-color>
 <dcc-cell-color type="e" label="eletron" color="#ffff00" opacity="12"></dcc-cell-color>
 <dcc-cell-color type="b" label="lamp bulb" color="#ff0000"></dcc-cell-color>
-<dcc-cell-color type="l" label="light" color="#ffa000" opacity="10"></dcc-cell-color>
+<dcc-cell-color type="l" label="light" color="#000000" opacity="10"></dcc-cell-color>
 
 <rule-dcc-cell-flow label="create water" probability="100" transition="r_>rh" flow="==">
 *_*
@@ -64,7 +64,7 @@ ____________________b___________________
 </rule-dcc-cell-flow>
 
 
-<rule-dcc-cell-flow label="create energy" probability="50" transition="sw>se" flow="_=">
+<rule-dcc-cell-flow label="create energy" probability="100" transition="sw>se" flow="_=">
 ***
 *_*
 ***
@@ -96,41 +96,46 @@ ___
 _*_
 </rule-dcc-cell-flow>
 
-<rule-dcc-cell-flow label="create light 1" probability="100" transition="b_>bl" flow="_-">
-***
+<rule-dcc-cell-flow label="create light 1" probability="100" transition="b_>bl" flow="-/">
+*_*
 *_*
 ***
 </rule-dcc-cell-flow>
 
-<rule-dcc-cell-flow label="create light 2" probability="100" transition="bl>bl" flow="_-">
-***
+<rule-dcc-cell-flow label="create light 2" probability="100" transition="bl>bl" flow="-/">
+*_*
 *_*
 ***
 </rule-dcc-cell-flow>
 
-<rule-dcc-cell-flow label="create light 3" probability="100" transition="l_>ll" flow="_-">
-***
-*_*
-***
-</rule-dcc-cell-flow>
-
-<rule-dcc-cell-flow label="create light 4" probability="100" transition="ll>ll" flow="_-">
-***
-*_*
-***
-</rule-dcc-cell-flow>
-
-<rule-dcc-cell-flow label="light dies" probability="100" transition="ll>__" flow="1">
-___
+<rule-dcc-cell-flow label="create light 3" probability="100" transition="l_>ll" flow="-/">
 _*_
-___
+*_*
+_*_
 </rule-dcc-cell-flow>
 
-
-<rule-dcc-cell-flow label="light withers" probability="100" transition="ll>ll" flow="=-">
-___
+<rule-dcc-cell-flow label="create light 4" probability="100" transition="ll>ll" flow="-/">
 _*_
-___
+*_*
+_*_
+</rule-dcc-cell-flow>
+
+<rule-dcc-cell-flow label="create light 5" probability="100" transition="l_>ll" flow="_-">
+_*_
+*_*
+_*_
+</rule-dcc-cell-flow>
+
+<rule-dcc-cell-flow label="create light 6" probability="100" transition="ll>ll" flow="_-">
+_*_
+*_*
+_*_
+</rule-dcc-cell-flow>
+
+<rule-dcc-cell-flow label="light dies" probability="100" transition="l_>__" flow="1">
+_*_
+*_*
+_*_
 </rule-dcc-cell-flow>
 
 <dcc-trigger label="Next" action="state/next"></dcc-trigger>
