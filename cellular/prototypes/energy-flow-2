@@ -23,6 +23,7 @@ ____________________b___________________
 </dcc-cell-color>
 <dcc-cell-color type="e" label="eletron" color="#ffff00" opacity="12"></dcc-cell-color>
 <dcc-cell-color type="b" label="lamp bulb" color="#ff0000"></dcc-cell-color>
+<dcc-cell-color type="x" label="lamp bulb active" color="#ff0000"></dcc-cell-color>
 <dcc-cell-color type="l" label="light" color="#ffa500" opacity="10"></dcc-cell-color>
 
 <rule-dcc-cell-flow label="create energy" probability="50" transition="sw>se" flow="==">
@@ -37,19 +38,25 @@ ____________________b___________________
 ***
 </rule-dcc-cell-flow>
 
-<rule-dcc-cell-flow label="absorb energy" probability="100" transition="eb>wb" flow="_=">
+<rule-dcc-cell-flow label="absorb energy" probability="100" transition="eb>wx" flow="_=">
 ___
 ___
 _*_
 </rule-dcc-cell-flow>
 
-<rule-dcc-cell-flow label="create light 1" probability="100" transition="b_>bl" flow="=-">
+<rule-dcc-cell-flow label="create light 1" probability="100" transition="x_>xl" flow="=-">
 *_*
 *_*
 ***
 </rule-dcc-cell-flow>
 
-<rule-dcc-cell-flow label="create light 2" probability="100" transition="bl>bl" flow="=-">
+<rule-dcc-cell-pair label="absorb energy" probability="100" transition="ex>wx">
+___
+___
+_*_
+</rule-dcc-cell-pair>
+
+<rule-dcc-cell-flow label="create light 2" probability="100" transition="xl>xl" flow="=-">
 *_*
 *_*
 ***
