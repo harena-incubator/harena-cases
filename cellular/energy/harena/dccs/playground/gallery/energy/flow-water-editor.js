@@ -59,7 +59,7 @@ Selecione um dos ícones abaixo para editar o ambiente:
    </div>
 </div>
 
-<dcc-timer cycles="500" interval="100" publish="state/next">
+<dcc-timer cycles="100000" interval="100" publish="state/next">
    <subscribe-dcc message="timer/start" role="start"></subscribe-dcc>
    <subscribe-dcc message="timer/stop" role="stop"></subscribe-dcc>
 </dcc-timer>

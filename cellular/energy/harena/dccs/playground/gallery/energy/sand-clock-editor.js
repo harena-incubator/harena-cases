@@ -131,7 +131,7 @@ Selecione abaixo a chance de cada um dos eventos:
    </div>
 </div>
 
-<dcc-timer cycles="800" interval="50" publish="state/next">
+<dcc-timer cycles="100000" interval="50" publish="state/next">
    <subscribe-dcc message="timer/start" role="start"></subscribe-dcc>
    <subscribe-dcc message="timer/stop" role="stop"></subscribe-dcc>
 </dcc-timer>
