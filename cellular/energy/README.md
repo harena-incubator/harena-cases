@@ -4,17 +4,17 @@ Este desafio é composto por três etapas:
 
 # Etapa 1
 
-![Etapa1](images/eclogia-etapa1.png)
+![Etapa1](images/ecologia-etapa1.png)
 [Etapa1](harena/dccs/playground/presenter.html?source=energy/ecology1)
 
 # Etapa 2
 
-![Etapa2](images/eclogia-etapa2.png)
+![Etapa2](images/ecologia-etapa2.png)
 [Etapa2](harena/dccs/playground/presenter.html?source=energy/ecology2)
 
 # Etapa 3
 
-![Etapa3](images/eclogia-etapa3.png)
+![Etapa3](images/ecologia-etapa3.png)
 [Etapa3](harena/dccs/playground/presenter.html?source=energy/ecology3)
 
 ## Imagens importadas e usadas no ambiente
