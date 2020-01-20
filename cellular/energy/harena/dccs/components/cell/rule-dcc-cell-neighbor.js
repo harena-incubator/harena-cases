@@ -351,6 +351,14 @@ class RuleDCCCellFlow extends RuleDCCCellPair {
                   propSource = this._removeValue(state[row][col]);
             }
             break;
+         case "_*":
+            if (vSource > 0) {
+               triggered = super._computeTransition(spaceState, row, col, nr, nc);
+               propTarget = this._defineValue(state[nr][nc], vSource);
+               if (this._transMap[1] != 1)
+                  propSource = this._removeValue(state[row][col]);
+            }
+            break;
          case "_-":
             if (vSource > 1 && vSource > vTarget) {
                triggered = super._computeTransition(spaceState, row, col, nr, nc);
