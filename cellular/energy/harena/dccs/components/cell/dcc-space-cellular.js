@@ -202,6 +202,8 @@ class DCCSpaceCellular extends DCCBase {
    }
 
    ruleRegister(topic, rule) {
+      console.log("=== before rules");
+      console.log(this._rules);
       if (rule.transition[0] == "?" || rule.transition[0] == "!") {
          this._wildcardRules.push(rule);
          for (let r in this._cellTypes) {
@@ -214,6 +216,8 @@ class DCCSpaceCellular extends DCCBase {
             this._rules[rule.transition[0]] = this._wildcardRules.slice();
          this._rules[rule.transition[0]].push(rule);
       }
+      console.log("=== rules");
+      console.log(this._rules);
    }
 
    computeCoordinates(row, col) {
@@ -272,6 +276,7 @@ class DCCSpaceCellularEditor extends DCCSpaceCellular {
       super();
       this._editType = "_";
       this.cellClicked = this.cellClicked.bind(this);
+      this.rulesClear = this.rulesClear.bind(this);
       MessageBus.page.subscribe("dcc/rules/clear", this.rulesClear);
    }
 
