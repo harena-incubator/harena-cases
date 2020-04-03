@@ -253,11 +253,14 @@ class Basic {
 
       const cssF = (cssFile) ? cssFile : "theme.css";
 
-      let newCSS = document.createElement("link");
-      newCSS.setAttribute("rel", "stylesheet");
-      newCSS.setAttribute("type", "text/css");
-      newCSS.setAttribute("href", this.themeStyleResolver(cssF));
-      targetDocument.head.appendChild(newCSS);
+      let newCSS = null;
+      if (cssF != null) {
+         let newCSS = document.createElement("link");
+         newCSS.setAttribute("rel", "stylesheet");
+         newCSS.setAttribute("type", "text/css");
+         newCSS.setAttribute("href", this.themeStyleResolver(cssF));
+         targetDocument.head.appendChild(newCSS);
+      }
 
       return newCSS;
    }

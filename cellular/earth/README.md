@@ -15,48 +15,6 @@ Aprendendo sobre simulação em espaço celular:
 ![Relógio de Areia](images/sand-clock.png)
 [Relógio de Areia](harena/scripts/playground/editor.html?source=cell/movement-sand-clock)
 
-Agora tente reproduzi-lo no simulador abaixo:
-
-![Simulador de Relógio de Areia](images/sand-clock-blocks.png)
-[Simulador de Relógio de Areia](harena/scripts/playground/presenter.html?source=energy/sand-clock)
-
-Esta é uma versão mais simples, caso não tenha conseguido a anterior:
-
-![Simulador de Relógio de Areia](images/sand-clock-editor.png)
-[Simulador de Relógio de Areia](harena/dccs/playground/presenter.html?source=energy/sand-clock-editor)
-
-# Equilíbro Ecológico
-
-Este desafio é composto por três etapas:
-
-## Etapa 1
-
-![Etapa1](images/ecology1.png)
-[Etapa1](harena/dccs/playground/presenter.html?source=energy/ecology1)
-
-## Etapa 2
-
-![Etapa2](images/ecology2.png)
-[Etapa2](harena/dccs/playground/presenter.html?source=energy/ecology2)
-
-## Etapa 3
-
-![Etapa3](images/ecology3.png)
-[Etapa3](harena/dccs/playground/presenter.html?source=energy/ecology3)
-
-# Barragem para Água
-
-Veja uma barragem construída:
-
-![Barragem para Água](images/flow-water.png)
-[Barragem para Água](harena/dccs/playground/presenter.html?source=energy/flow-water)
-
-Construa uma barragem para a água:
-
-![Barragem para Água - Editor](images/flow-water-editor.png)
-[Barragem para Água - Editor](harena/dccs/playground/presenter.html?source=energy/flow-water-editor)
-
-
 ## Imagens importadas e usadas no ambiente
 
 * [Rocha](https://pixabay.com/vectors/rocks-stones-mining-soil-pebbles-155635/)
