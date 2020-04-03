@@ -11,14 +11,14 @@ AuthorCellManager.instance.insertSource(
 `<dcc-space-cellular-editor id="cellular-space" cell-width="50" cell-height="50" background-color="#d6f0ffff" grid>
 __________
 __________
+p_________
+________c_
+__p_______
+__c_______
 __________
 __________
-__________
-__________
-__________
-__________
-__________
-t_________
+b_____b___
+t___t___t_
 </dcc-space-cellular-editor>
 
 <dcc-cell-image type="b" label="balloon" image="images/cell/balloon01.svg"></dcc-cell-image>

@@ -13,7 +13,7 @@ Aprendendo sobre simulação em espaço celular:
 # Relógio de Areia
 
 ![Relógio de Areia](images/sand-clock.png)
-[Relógio de Areia](harena/dccs/playground/presenter.html?source=energy/sand-clock)
+[Relógio de Areia](../energy/harena/dccs/playground/presenter.html?source=energy/sand-clock)
 
 Agora tente reproduzi-lo no simulador abaixo:
 
