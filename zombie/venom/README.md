@@ -83,3 +83,6 @@ https://www.youtube.com/results?search_query=proteolytic+action+toxins
 Buscando pela conversão do `fibrogênio` (`fibrogen`) em `fibrina` (`fibrin`):
 https://www.youtube.com/results?search_query=fibrinogen+fibrin
 
+## Imagens importadas e usadas no ambiente
+
+* [Telhado](https://pixabay.com/photos/roof-brick-roofing-tile-colorful-1197886/)
