@@ -2,27 +2,30 @@
 
 # Treino
 
-[![Zumbi 1](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall&mode=no-script)
+[![Zumbi Treino](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall&mode=no-script)
 
-[![Zumbi 2](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden&mode=no-script)
+[![Zumbi Treino Escondido](images/zombie-wall-hidden.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden&mode=no-script)
 
-# Uma Parede
+# Uma Parede (Desafio)
 
-[![Zumbi 1](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge1&mode=no-script)
+[![Zumbi Desafio 1](images/zombie-wall-challenge1.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden-challenge1&mode=no-script)
 
-[![Zumbi 2](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden-challenge1&mode=no-script)
+* [Resposta](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge1&mode=no-script).
+Só clique na resposta depois de ter resolvido o desafio.
 
-# Duas Paredes
+# Duas Paredes (Desafio)
 
-[![Zumbi 1](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge2&mode=no-script)
+[![Zumbi Desafio 2](images/zombie-wall-challenge2.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden-challenge2&mode=no-script)
 
-[![Zumbi 2](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden-challenge2&mode=no-script)
+* [Resposta](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge2&mode=no-script).
+Só clique na resposta depois de ter resolvido o desafio.
 
-# Quantas Paredes?
+# Quantas Paredes? (Desafio)
 
-[![Zumbi 1](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge3&mode=no-script)
+[![Zumbi Desafio 3](images/zombie-wall-challenge3.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden-challenge3&mode=no-script)
 
-[![Zumbi 2](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden-challenge3&mode=no-script)
+* [Resposta](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge3&mode=no-script).
+Só clique na resposta depois de ter resolvido o desafio.
 
 ## Imagens importadas e usadas no ambiente
 

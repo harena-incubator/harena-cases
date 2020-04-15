@@ -1,6 +1,6 @@
 (function() {
 AuthorCellManager.instance.insertSource(
-"Zombie Venom 01",
+"Zombie Venom Treino",
 [],
 `<block type="neighbor"></block>
 <block type="action"></block>`,
