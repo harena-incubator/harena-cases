@@ -18,43 +18,71 @@ _________
 
 <dcc-cell-image type="1" label="zombie1" image="images/cell/zumbi_10.png">
 </dcc-cell-image>
+<dcc-cell-image type="a" label="zombie1r" image="images/cell/zumbi_10.png">
+</dcc-cell-image>
 <dcc-cell-image type="2" label="zombie2" image="images/cell/zumbi_3.png">
+</dcc-cell-image>
+<dcc-cell-image type="b" label="zombie2r" image="images/cell/zumbi_3.png">
 </dcc-cell-image>
 <dcc-cell-image type="w" label="wall" image="images/cell/wall.svg"></dcc-cell-image>
 <dcc-cell-image type="r" label="roof" image="images/cell/cell-tile.svg"></dcc-cell-image>
 <dcc-cell-image type="t" label="border" image="images/cell/cell-tile.svg"></dcc-cell-image>
 
-<rule-dcc-cell-pair label="walk4" probability="100" transition="1t>_1">
+<rule-dcc-cell-pair label="walk4" probability="100" transition="1t>_a">
 ___
 ___
 _*_
 </rule-dcc-cell-pair>
 
-<rule-dcc-cell-pair label="walk4" probability="100" transition="1r>r1">
+<rule-dcc-cell-pair label="walk4" probability="100" transition="ar>ra">
 ___
 ___
 _*_
 </rule-dcc-cell-pair>
 
-<rule-dcc-cell-pair label="walk3" probability="100" transition="1_>t1">
+<rule-dcc-cell-pair label="walk3" probability="100" transition="at>ta">
 ___
 ___
 _*_
 </rule-dcc-cell-pair>
 
-<rule-dcc-cell-pair label="walk2" probability="100" transition="2t>_2">
+<rule-dcc-cell-pair label="walk3" probability="100" transition="a_>t1">
+___
+___
+_*_
+</rule-dcc-cell-pair>
+
+<rule-dcc-cell-pair label="walk3" probability="100" transition="1_>_1">
+___
+___
+_*_
+</rule-dcc-cell-pair>
+
+<rule-dcc-cell-pair label="walk2" probability="100" transition="2t>_b">
 ___
 __*
 ___
 </rule-dcc-cell-pair>
 
-<rule-dcc-cell-pair label="walk2" probability="100" transition="2r>r2">
+<rule-dcc-cell-pair label="walk2" probability="100" transition="br>rb">
 ___
 __*
 ___
 </rule-dcc-cell-pair>
 
-<rule-dcc-cell-pair label="walk1" probability="100" transition="2_>t2">
+<rule-dcc-cell-pair label="walk1" probability="100" transition="bt>tb">
+___
+__*
+___
+</rule-dcc-cell-pair>
+
+<rule-dcc-cell-pair label="walk1" probability="100" transition="b_>t2">
+___
+__*
+___
+</rule-dcc-cell-pair>
+
+<rule-dcc-cell-pair label="walk2" probability="100" transition="2_>_2">
 ___
 __*
 ___
