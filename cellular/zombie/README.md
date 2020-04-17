@@ -34,7 +34,7 @@
 
 # Jogo do Zumbi Venom
 
-Pronto! Você está pronto para jogar o <a href="bit.ly/zombie-venom">Zumbi Venom</a>.
+Pronto! Você está pronto para jogar o <a href="http://bit.ly/zombie-venom">Zumbi Venom</a>.
 
 ## Imagens importadas e usadas no ambiente
 
