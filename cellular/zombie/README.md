@@ -1,31 +1,36 @@
 # Zumbi Venom
 
-# Treino
+# Treino 1
 
-[![Zumbi Treino](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall&mode=no-script)
+[![Zumbi Treino 1](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-train1&mode=no-script)
 
-[![Zumbi Treino Escondido](images/zombie-wall-hidden.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden&mode=no-script)
+# Treino 2
+
+[![Zumbi Treino 2](images/zombie-wall.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-train2&mode=no-script)
 
 # Uma Parede (Desafio)
 
-[![Zumbi Desafio 1](images/zombie-wall-challenge1.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden-challenge1&mode=no-script)
-
-* [Resposta](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge1&mode=no-script).
-Só clique na resposta depois de ter resolvido o desafio.
+[![Zumbi Desafio 1](images/zombie-wall-challenge1.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge1&mode=no-script)
 
 # Duas Paredes (Desafio)
 
-[![Zumbi Desafio 2](images/zombie-wall-challenge2.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden-challenge2&mode=no-script)
+[![Zumbi Desafio 2](images/zombie-wall-challenge1.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge2&mode=no-script)
 
-* [Resposta](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge2&mode=no-script).
-Só clique na resposta depois de ter resolvido o desafio.
+# Duas Paredes mais Difícil (Desafio)
+
+[![Zumbi Desafio 3](images/zombie-wall-challenge3.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge3&mode=no-script)
 
 # Quantas Paredes? (Desafio)
 
-[![Zumbi Desafio 3](images/zombie-wall-challenge3.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-hidden-challenge3&mode=no-script)
+[![Zumbi Desafio 4](images/zombie-wall-challenge4.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge4&mode=no-script)
 
-* [Resposta](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge3&mode=no-script).
-Só clique na resposta depois de ter resolvido o desafio.
+# Quantas Paredes? Mais Difícil (Desafio)
+
+[![Zumbi Desafio 5](images/zombie-wall-challenge5.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge5&mode=no-script)
+
+# Quantas Paredes? Há Solução? (Desafio)
+
+[![Zumbi Desafio 6](images/zombie-wall-challenge6.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge6&mode=no-script)
 
 ## Imagens importadas e usadas no ambiente
 
