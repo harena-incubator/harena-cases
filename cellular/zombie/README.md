@@ -14,7 +14,7 @@
 
 # Duas Paredes (Desafio)
 
-[![Zumbi Desafio 2](images/zombie-wall-challenge1.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge2&mode=no-script)
+[![Zumbi Desafio 2](images/zombie-wall-challenge2.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge2&mode=no-script)
 
 # Duas Paredes mais Difícil (Desafio)
 
@@ -31,6 +31,10 @@
 # Quantas Paredes? Há Solução? (Desafio)
 
 [![Zumbi Desafio 6](images/zombie-wall-challenge6.png)](harena/scripts/playground/editor.html?source=cell/zombie-wall-challenge6&mode=no-script)
+
+# Jogo do Zumbi Venom
+
+Pronto! Você está pronto para jogar o <a href="bit.ly/zombie-venom">Zumbi Venom</a>.
 
 ## Imagens importadas e usadas no ambiente
 
