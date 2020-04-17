@@ -25,9 +25,11 @@ class Properties {
       this._panelDetails = panel;
    }
 
-   editKnotProperties(obj, knotId) {
+   editKnotProperties(obj, knotId, presentation, extra) {
       this._knotOriginalTitle = obj.title;
-      this.editProperties(obj);
+      const editp = this.editProperties(obj);
+      this._editor = new EditDCCProperties(null, presentation,
+         editp.htmls + extra);
    }
 
    editElementProperties(knots, knotid, el, dcc, role) {
@@ -54,10 +56,11 @@ class Properties {
                                                editp.inlineProperty);
                break;
             case "image":
-               this._editor = new EditDCCImage(obj, element);
+               this._editor = new EditDCCImage(obj, dcc, editp.htmls);
                break;
          }
-      }
+      } else
+         this._editor = new EditDCCProperties(dcc, editp.htmls);
       /*
       switch (obj.type) {
          case "text": 
@@ -100,7 +103,8 @@ class Properties {
       let inlineProperty = null;
       let inlineProfile = null;
       for (let p in profile) {
-         if (profile[p].visual == "inline" && profile[p].role == role) {
+         if (profile[p].visual == "inline" &&
+             (role == null || profile[p].role == role)) {
             inlineProperty = p;
             inlineProfile = profile[p];
          }
@@ -114,7 +118,12 @@ class Properties {
                seq++;
             } else {
                for (let s in profile[p].composite) {
-                  html = this._editSingleProperty(
+                  if (profile[p].composite[s].visual == "inline" &&
+                      (role == null || profile[p].composite[s].role == role)) {
+                     inlineProperty = p;
+                     inlineProfile = profile[p].composite[s];
+                  }
+                  let html = this._editSingleProperty(
                      profile[p].composite[s],
                      ((obj[p] && obj[p][s]) ? obj[p][s] : ""), seq);
                   htmlD += html.details;
@@ -310,11 +319,12 @@ class Properties {
 Properties.elProfiles = {
 knot: {
    title: {type: "shortStr",
-           label: "Title"},
+           label: "Title",
+           visual: "panel"},
    categories: {type: "shortStrArray",
                 label: "Categories"},
    level: {type: "shortStr",
-               label: "Level"}
+           label: "Level"}
 },
 text: {
    content: {type: "text",
@@ -328,9 +338,10 @@ text: {
 },
 image: {
    alternative: {type: "shortStr",
-                 label: "label"},
+                 label: "Label"},
    path: {type:  "image",
-          label: "image"}
+          label: "Image",
+          visual: "inline"}
 },
 option: {
    label: {type: "shortStr",
@@ -349,7 +360,9 @@ entity: {
          alternative: {type: "shortStr",
                        label: "alternative"},
          path: {type:  "image",
-                label: "image"}
+                label: "Image",
+                visual: "inline",
+                role: "image"}
       }
    },
    speech: {type: "text",
