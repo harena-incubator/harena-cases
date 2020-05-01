@@ -8,10 +8,6 @@ Aprendendo sobre simulação em espaço celular:
 
 [![Balão, Avião e Nuvem](images/balloon-cloud-plane.png)](harena/scripts/playground/editor.html?source=cell/movement-fly-balloon-cloud-plane)
 
-# Aviões
-
-[![Aviões 1](images/fly1.png)](harena/scripts/playground/editor.html?source=cell/movement-two-planes)
-
 # Relógio de Areia
 
 [![Relógio de Areia](images/sand-clock.png)](harena/scripts/playground/editor.html?source=cell/movement-sand-clock)
