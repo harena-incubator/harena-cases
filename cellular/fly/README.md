@@ -1,6 +1,4 @@
-# Simulando para a Terra 2.0
-
-Aprendendo sobre simulação em espaço celular:
+# Simulando Máquinas Voadoras
 
 # Balão
 
