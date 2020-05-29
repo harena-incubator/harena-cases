@@ -13,7 +13,8 @@ AuthorCellManager.instance.insertSource(
 `<block type="condition"></block>
 <block type="velocity"></block>
 <block type="acceleration"></block>
-<block type="action_agent"></block>`,
+<block type="action_agent"></block>
+<block type="expression"></block>`,
 `<dcc-space-cellular-editor id="cellular-space" cols="950" rows="600"
                             cell-width="1" cell-height="1" background-color="#d6f0ffff" grid>
 </dcc-space-cellular-editor>
@@ -28,6 +29,11 @@ AuthorCellManager.instance.insertSource(
 <dcc-cell-image type="t" label="tree" image="images/cell/tree01.svg"></dcc-cell-image>
 <dcc-cell-image type="#" label="cloudb" image="images/cell/cloud01-black.svg"></dcc-cell-image>
 
+<dcc-cell-ruler image="images/icon/target.svg" proportion="10" unit="m">
+   <subscribe-dcc topic="ruler/activate" role="activate"></subscribe-dcc>
+   <subscribe-dcc topic="ruler/reset" role="reset"></subscribe-dcc>
+</dcc-cell-ruler>
+
 <dcc-timer cycles="100000" interval="1" publish="state/next">
    <subscribe-dcc topic="timer/start" role="start"></subscribe-dcc>
    <subscribe-dcc topic="timer/stop" role="stop"></subscribe-dcc>
@@ -38,7 +44,22 @@ AuthorCellManager.instance.insertSource(
 <subscribe-dcc target="cellular-space" topic="state/next" role="next"></subscribe-dcc>
 <subscribe-dcc target="cellular-space" topic="state/save" role="save"></subscribe-dcc>
 <subscribe-dcc target="cellular-space" topic="state/reset" role="reset"></subscribe-dcc>
+<subscribe-dcc target="cellular-space" topic="space/edit" role="edit"></subscribe-dcc>
+<subscribe-dcc target="cellular-space" topic="space/view" role="view"></subscribe-dcc>
 <subscribe-dcc target="cellular-space" topic="var/space_scale/changed" role="scale"></subscribe-dcc>
+
+<div style="flex:48px; max-height:48px; display:flex; flex-direction:row; border:2px">
+   <div style="flex:20%; max-width:96px; max-height:48px; margin-right:10px">
+      <dcc-trigger label="Régua" action="ruler/activate"
+                   image="images/cell/ruler.svg">
+      </dcc-trigger>
+   </div>
+   <div style="flex:20%; max-width:96px; max-height:48px; margin-right:10px">
+      <dcc-trigger label="Apagar Régua" action="ruler/reset"
+                   image="images/cell/ruler-reset.svg">
+      </dcc-trigger>
+   </div>
+</div>
 <div style="flex:48px; max-height:48px; display:flex; flex-direction:row">
    <div style="flex:20%; max-width:96px; max-height:48px">
       <img style="max-width:48px; max-height:48px; margin-left:24px; margin-right:24px"

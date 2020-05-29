@@ -6,11 +6,11 @@ class DCCVisual extends DCCBase {
    constructor() {
       super();
       this._presentationReady = false;
-      this._pendingTrigger = [];
       this._pendingHide = false;
       this.selectListener = this.selectListener.bind(this);
    }
 
+   /*
    static get observedAttributes() {
       return DCCBase.observedAttributes.concat(["style"]);
    }
@@ -26,6 +26,7 @@ class DCCVisual extends DCCBase {
    set style(newValue) {
       this.setAttribute("style", newValue);
    }
+   */
    
    connectedCallback() {
       this.checkActivateAuthor();
@@ -68,8 +69,10 @@ class DCCVisual extends DCCBase {
    attachTrigger(event, trigger) {
       if (this._presentationReady)
          this._attachTriggerReady(event, trigger);
-      else
+      else if (this._pendingTrigger == null)
          this._pendingTrigger.push([event, trigger]);
+      else
+         this._pendingTrigger = [[event, trigger]];
    }
 
    _attachTriggerReady(event, trigger) {
@@ -88,8 +91,9 @@ class DCCVisual extends DCCBase {
 
    _presentationIsReady() {
       this._presentationReady = true;
-      for (let t of this._pendingTrigger)
-         this._attachTriggerReady(t[0], t[1]);
+      if (this._pendingTrigger != null)
+         for (let t of this._pendingTrigger)
+            this._attachTriggerReady(t[0], t[1]);
       this._pendingTrigger = null;
       if (this._pendingHide) {
          this._pendingHide = false;

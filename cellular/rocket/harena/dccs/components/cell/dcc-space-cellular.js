@@ -7,6 +7,7 @@ class DCCSpaceCellular extends DCCBase {
       super();
       this.cellTypeRegister = this.cellTypeRegister.bind(this);
       this.ruleRegister = this.ruleRegister.bind(this);
+      this.toolRegister = this.toolRegister.bind(this);
       this.stateNext = this.stateNext.bind(this);
       this.notify = this.notify.bind(this);
       
@@ -14,6 +15,7 @@ class DCCSpaceCellular extends DCCBase {
       this._rules = {};
       this._wildcardRules = [];
       this._stateTypes = null;
+      this._tools = [];
    }
 
    connectedCallback() {
@@ -32,6 +34,7 @@ class DCCSpaceCellular extends DCCBase {
 
       MessageBus.page.subscribe("dcc/cell-type/register", this.cellTypeRegister);
       MessageBus.page.subscribe("dcc/rule-cell/register", this.ruleRegister);
+      MessageBus.page.subscribe("dcc/tool-cell/register", this.toolRegister);
    }
 
    _buildInnerHTML() {
@@ -221,6 +224,16 @@ class DCCSpaceCellular extends DCCBase {
          this.removeAttribute("infinite");
    }
 
+   /* non observed attributes */
+
+   get cellGrid() {
+      return this._cellGrid;
+   }
+
+   get cells() {
+      return this._cells;
+   }
+
    cellTypeRegister(topic, cellType) {
       cellType.space = this;
       this._cellTypes[cellType.type] = cellType;
@@ -291,6 +304,17 @@ class DCCSpaceCellular extends DCCBase {
       }
    }
 
+   toolRegister(topic, tool) {
+      tool.space = this;
+      this._tools.push(tool);
+   }
+
+   toolActive() {
+   }
+
+   toolInactive() {
+   }
+
    computeCoordinates(row, col) {
       return {
          x: (col-1) * this.cellWidth,
@@ -306,6 +330,27 @@ class DCCSpaceCellular extends DCCBase {
          y: row * DCCSpaceCellular.defaultCellDimensions.height,
          width : DCCSpaceCellular.defaultCellDimensions.width,
          height: DCCSpaceCellular.defaultCellDimensions.height
+      };
+   }
+
+   /*
+   computeClickedCell(x, y) {
+      const mapped = this.mapCoordinatesToSpace(x, y);
+      return this.computeCell(mapped.x, mapped.y);
+   }
+   */
+
+   mapCoordinatesToSpace(x, y) {
+      const gc = this._cellGrid.getBoundingClientRect();
+      const scale = (this.scale) ? this.scale : 1;
+      return {x: Math.trunc((x - gc.x) / scale),
+              y: Math.trunc((y - gc.y) / scale)};
+   }
+
+   computeCell(x, y) {
+      return {
+         row: Math.floor(y / this.cellHeight) + 1,
+         col: Math.floor(x / this.cellWidth) + 1
       };
    }
 
@@ -372,6 +417,23 @@ class DCCSpaceCellularEditor extends DCCSpaceCellular {
       this._cellGrid.addEventListener("click", this.cellClicked, false);
    }
 
+   deactivateEditor() {
+      this._activeEditor = false;
+      this._cellGrid.removeEventListener("click", this.cellClicked);
+   }
+
+   toolActive() {
+      this._editorWasActive = this._activeEditor;
+      if (this._activeEditor)
+         this.deactivateEditor();
+   }
+
+   toolInactive() {
+      if (this._editorWasActive)
+         this.activateEditor();
+   }
+
+   /*
    cellClicked(event) {
       const gc = this._cellGrid.getBoundingClientRect();
       const scale = (this.scale) ? this.scale : 1;
@@ -379,18 +441,16 @@ class DCCSpaceCellularEditor extends DCCSpaceCellular {
                                     Math.trunc((event.clientY - gc.y) / scale));
       this.changeState(this._editType, cell.row, cell.col);
    }
+   */
 
-   computeCell(x, y) {
-      return {
-         row: Math.floor(y / this.cellHeight) + 1,
-         col: Math.floor(x / this.cellWidth) + 1
-      };
+   cellClicked(event) {
+      // const cell = this.computeClickedCell(event.clientX, event.clientY);
+      const mapped = this.mapCoordinatesToSpace(event.clientX, event.clientY);
+      const cell = this.computeCell(mapped.x, mapped.y);
+      this.changeState(this._editType, cell.row, cell.col);
    }
 
    changeState(type, row, col) {
-      console.log("=== change state");
-      console.log(row);
-      console.log(col);
       let r = row - 1;
       let c = col - 1;
       if (this._state[r][c] != null && this._state[r][c].dcc.type != type) {
@@ -467,8 +527,12 @@ class DCCSpaceCellularEditor extends DCCSpaceCellular {
                             for (let t in this._cellTypes)
                                if (this._cellTypes[t].label.toLowerCase() == tLabel.toLowerCase())
                                   this._editType = t;
+                         for (let t of this._tools)
+                            t.inactivateTool();
                          break;
             case "reset": this.resetState(); break;
+            case "edit": this.activateEditor(); break;
+            case "view": this.deactivateEditor(); break;
             case "save":  this.saveState(); break;
             case "load":  this.loadState(); break;
             case "download": this.downloadState(); break;

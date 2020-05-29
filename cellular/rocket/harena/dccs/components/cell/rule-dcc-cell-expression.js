@@ -68,8 +68,8 @@ class RuleDCCCellExpression extends RuleDCCTransition {
 
       cstate.properties.t = this._rounds * this.timeRate;
 
-      console.log("=== cstate");
-      console.log(cstate);
+      // console.log("=== cstate");
+      // console.log(cstate);
 
       const varRole = DCCExpression.role["variable"];
       let triggered = false;
@@ -81,19 +81,36 @@ class RuleDCCCellExpression extends RuleDCCTransition {
                   if (RuleDCCCellExpression.internalVar.includes(c[1]))
                      c[2] = cstate.properties[c[1]];
                }
-            console.log("=== state");
-            console.log(JSON.stringify(l[1]));
+            // console.log("=== state");
+            // console.log(JSON.stringify(l[1]));
             if (RuleDCCCellExpression.internalVar.includes(l[0]))
                cstate.properties[l[0]] = DCCExpression.computeExpression(l[1]);
-            console.log("=== computed ");
-            console.log(l[0]);
-            console.log(JSON.stringify(l[1]));
+            // console.log("=== computed ");
+            // console.log(l[0]);
+            // console.log(JSON.stringify(l[1]));
          }
-         const nr = Math.round(cstate.properties.y);
-         const nc = Math.round(cstate.properties.x)
+         let nr = Math.round(cstate.properties.y);
+         let nc = Math.round(cstate.properties.x)
          if (nr >= 0 && nr < spaceState.nrows &&
              nc >= 0 && nc < spaceState.ncols)
             triggered = this._computeTransition(spaceState, row, col, nr, nc);
+         else {
+            const difr = nr - row;
+            const difc = nc - col;
+            if (nr < 0 || nr >= spaceState.nrows) {
+               nr = (nr < 0) ? 0 : spaceState.nrows - 1;
+               nc = col + (difc / difr) * (nr - row);
+            } else {
+               nc = (nc < 0) ? 0 : spaceState.ncols - 1;
+               nr = row + (difr / difc) * (nc - col);
+            }
+            console.log("=== nr e nc");
+            console.log(nr);
+            console.log(nc);
+            if (nr >= 0 && nr < spaceState.nrows &&
+                nc >= 0 && nc < spaceState.ncols)
+               triggered = this._computeTransition(spaceState, row, col, nr, nc);
+         }
       }
       return triggered;
    }
