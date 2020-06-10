@@ -1,6 +1,10 @@
 # Simulando Boids
 
+## Influência das Cores
+
 [![Influência das Cores](images/movement-influence-colors.png)](harena/dccs/playground/presenter.html?source=cell/movement-influence-colors)
+
+## Boids
 
 [![Boids](images/boids01.png)](harena/scripts/playground/editor.html?source=cell/boids)
 
