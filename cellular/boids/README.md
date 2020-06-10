@@ -1,7 +1,9 @@
 # Simulando Boids
 
-[![Aviões 1](images/fly1.png)](harena/scripts/playground/editor.html?source=cell/movement-two-planes)
+[![Influência das Cores](images/movement-influence-colors.png)](harena/dccs/playground/presenter.html?source=cell/movement-influence-colors)
 
-## Imagens importadas e usadas no ambiente
+[![Boids](images/boids01.png)](harena/scripts/playground/editor.html?source=cell/boids)
+
+## Imagens que serviram de base para criações
 
 * [Pássaros](https://pixabay.com/vectors/flock-birds-animals-pigeons-flying-1837494/)
