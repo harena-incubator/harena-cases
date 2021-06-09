@@ -1,6 +1,5 @@
 # Zombie Health 01 (case,start)
-
-~ =100
+~ points := 100
 
 ![Doctor](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
 
@@ -20,22 +19,16 @@ Descubra o que picou cada Zumbi. Você tem que ser rápido, porque tem que atend
 
 * Iniciar Fase 1 -> 1
 
-
-
-
-
-
-
 # 1 (case)
 
 ![zumbi_1](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_1.png)
 
 Undeadha se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  ; local levemente inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
+* Local da Picada <-> Mostra Sintoma "sente pouca dor no local da mordida; local levemente inchado"
+* Estado do Zumbi <-> Mostra Sintoma "está com os olhos normais; respira e engole de forma regular"
+* Ferida <-> Mostra Sintoma "tem uma ferida sem destaques além daqueles já descritos"
+* Batimentos <-> Mostra Sintoma "tem batimentos cardíacos descompassados, num ritmo atrapalhado"
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
 
@@ -45,10 +38,10 @@ Undeadha se apresentou na clínica reclamando que algum bicho o picou ou mordeu,
 
 Pricensteinia se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida grande, com bordas elevadas e tem uma área preta no meio)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
+* Local da Picada -> Mostra Sintoma "sente muita dor no local da mordida; local inchado"
+* Estado do Zumbi -> Mostra Sintoma "está com os olhos normais; respira e engole de forma regular"
+* Ferida -> Mostra Sintoma "tem uma ferida grande, com bordas elevadas e tem uma área preta no meio"
+* Batimentos -> Mostra Sintoma "tem batimentos cardíacos normais"
 
 * Realizar Diagnóstico -> Diagnóstico aranha marrom
 
@@ -58,10 +51,10 @@ Pricensteinia se apresentou na clínica reclamando que algum bicho o picou ou mo
 
 Tor-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida ; o local está mudando para uma coloração azul ; local muito inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida grande, com bordas elevadas e tem uma área preta no meio)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
+* Local da Picada -> Mostra Sintoma "sente muita dor no local da mordida ; o local está mudando para uma coloração azul ; local muito inchado"
+* Estado do Zumbi -> Mostra Sintoma "está com os olhos normais; respira e engole de forma regular"
+* Ferida -> Mostra Sintoma "tem uma ferida grande, com bordas elevadas e tem uma área preta no meio"
+* Batimentos -> Mostra Sintoma "tem batimentos cardíacos normais"
 
 * Realizar Diagnóstico -> Diagnóstico jararaca
 
@@ -71,10 +64,10 @@ Tor-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, 
 
 Grrmurray se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  ; local levemente inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
+* Local da Picada -> Mostra Sintoma "sente pouca dor no local da mordida; local levemente inchado"
+* Estado do Zumbi -> Mostra Sintoma "está com os olhos normais; respira e engole de forma regular"
+* Ferida -> Mostra Sintoma "tem uma ferida sem destaques além daqueles já descritos"
+* Batimentos -> Mostra Sintoma "tem batimentos cardíacos descompassados, num ritmo atrapalhado"
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
 
@@ -84,10 +77,10 @@ Grrmurray se apresentou na clínica reclamando que algum bicho o picou ou mordeu
 
 Frankenperez se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  ; local levemente inchado)
-* Estado do Zumbi -> Mostra Sintoma(está cansado para respirar)
-* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
+* Local da Picada -> Mostra Sintoma "sente pouca dor no local da mordida; local levemente inchado"
+* Estado do Zumbi -> Mostra Sintoma "está cansado para respirar"
+* Ferida -> Mostra Sintoma "tem uma ferida sem destaques além daqueles já descritos"
+* Batimentos -> Mostra Sintoma "tem batimentos cardíacos descompassados, num ritmo atrapalhado"
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
 
@@ -97,10 +90,10 @@ Frankenperez se apresentou na clínica reclamando que algum bicho o picou ou mor
 
 Sananimated se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local muito inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida grande, com bordas elevadas e tem uma área preta no meio)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
+* Local da Picada -> Mostra Sintoma "sente muita dor no local da mordida; local muito inchado"
+* Estado do Zumbi -> Mostra Sintoma "está com os olhos normais; respira e engole de forma regular"
+* Ferida -> Mostra Sintoma "tem uma ferida grande, com bordas elevadas e tem uma área preta no meio"
+* Batimentos -> Mostra Sintoma "tem batimentos cardíacos normais"
 
 * Realizar Diagnóstico -> Diagnóstico jararaca
 
@@ -110,10 +103,10 @@ Sananimated se apresentou na clínica reclamando que algum bicho o picou ou mord
 
 Grrgriffiths se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente pouca dor no local da mordida  )
-* Estado do Zumbi -> Mostra Sintoma(está com o olho caído)
-* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
+* Local da Picada -> Mostra Sintoma "sente pouca dor no local da mordida  "
+* Estado do Zumbi -> Mostra Sintoma "está com o olho caído"
+* Ferida -> Mostra Sintoma "tem uma ferida sem destaques além daqueles já descritos"
+* Batimentos -> Mostra Sintoma "tem batimentos cardíacos normais"
 
 * Realizar Diagnóstico -> Diagnóstico cascavel
 
@@ -123,10 +116,10 @@ Grrgriffiths se apresentou na clínica reclamando que algum bicho o picou ou mor
 
 Brooks-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local levemente inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
+* Local da Picada -> Mostra Sintoma "sente muita dor no local da mordida; local levemente inchado"
+* Estado do Zumbi -> Mostra Sintoma "está com os olhos normais; respira e engole de forma regular"
+* Ferida -> Mostra Sintoma "tem uma ferida sem destaques além daqueles já descritos"
+* Batimentos -> Mostra Sintoma "tem batimentos cardíacos descompassados, num ritmo atrapalhado"
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
 
@@ -136,10 +129,10 @@ Brooks-grr se apresentou na clínica reclamando que algum bicho o picou ou morde
 
 Grrreen se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida ; o local está mudando para uma coloração azul ; local muito inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos normais)
+* Local da Picada -> Mostra Sintoma "sente muita dor no local da mordida ; o local está mudando para uma coloração azul ; local muito inchado"
+* Estado do Zumbi -> Mostra Sintoma "está com os olhos normais; respira e engole de forma regular"
+* Ferida -> Mostra Sintoma "tem uma ferida sem destaques além daqueles já descritos"
+* Batimentos -> Mostra Sintoma "tem batimentos cardíacos normais"
 
 * Realizar Diagnóstico -> Diagnóstico jararaca
 
@@ -149,10 +142,10 @@ Grrreen se apresentou na clínica reclamando que algum bicho o picou ou mordeu, 
 
 Williarot se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
-* Local da Picada -> Mostra Sintoma(sente muita dor no local da mordida  ; local levemente inchado)
-* Estado do Zumbi -> Mostra Sintoma(está com os olhos normais; respira e engole de forma regular)
-* Ferida -> Mostra Sintoma(tem uma ferida sem destaques além daqueles já descritos)
-* Batimentos -> Mostra Sintoma(tem batimentos cardíacos descompassados, num ritmo atrapalhado)
+* Local da Picada -> Mostra Sintoma "sente muita dor no local da mordida; local levemente inchado"
+* Estado do Zumbi -> Mostra Sintoma "está com os olhos normais; respira e engole de forma regular"
+* Ferida -> Mostra Sintoma "tem uma ferida sem destaques além daqueles já descritos"
+* Batimentos -> Mostra Sintoma "tem batimentos cardíacos descompassados, num ritmo atrapalhado"
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
 
@@ -166,7 +159,7 @@ Williarot se apresentou na clínica reclamando que algum bicho o picou ou mordeu
 
 # Mostra Sintoma (note)
 
-O zumbi <>.
+O zumbi ^Previous.input1^.
 
 # Diagnóstico jararaca (case)
 
@@ -308,7 +301,7 @@ Um zumbi acabou de chegar à clinica! Ele relata que foi pescar na mata. Logo an
 ![Final](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/end.jpg)
 Parabéns você chegou ao final do jogo! Foi sugado por um buraco negro e vai começar tudo de novo em outra dimensão!
 
-Você fez o total de <dcc-expression expression="points" active></dcc-expression> pontos.
+Você fez o total de ^points^ pontos.
 
 # Dor Sangramento Edema (note)
 
@@ -521,8 +514,7 @@ Use as cores verde (1 clique), azul (2 cliques) e vermelho (3 cliques) para indi
 * Escorpião -> Cascavel errado
 
 # Jararaca certo (right)
-
-~ +10
+~ points := points + 10
 
 ![Certo](https://cdn.pixabay.com/photo/2019/06/26/20/30/zombie-4301192_960_720.png)
 
@@ -530,13 +522,12 @@ Use as cores verde (1 clique), azul (2 cliques) e vermelho (3 cliques) para indi
 
 Parabéns! Você diagnosticou corretamente e pôde dar ao paciente um soro contra veneno de **Jararaca**.
 
-Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
+Você tem ^points^ pontos.
 
-<dcc-trigger action="knot/>/navigate" label="Próximo Caso"></dcc-trigger>
+* Próximo Caso -> Knot.Next
 
 # Jararaca errado (wrong)
-
-~ -10
+~ points := points - 10
 
 ![Errado](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png)
 
@@ -544,13 +535,12 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por uma **Jararaca**.
 
-Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
+Você tem ^points^ pontos.
 
-<dcc-trigger action="knot/>/navigate" label="Próximo Caso"></dcc-trigger>
+* Próximo Caso -> Knot.Next
 
 # Cascavel certo (right)
-
-~ +10
+~ points := points + 10
 
 ![Certo](https://cdn.pixabay.com/photo/2019/06/26/20/30/zombie-4301192_960_720.png)
 
@@ -558,13 +548,12 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 Parabéns! Você diagnosticou corretamente, e pôde dar ao paciente um soro contra veneno de **Cascavel**.
 
-Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
+Você tem ^points^ pontos.
 
-<dcc-trigger action="knot/>/navigate" label="Próximo Caso"></dcc-trigger>
+* Próximo Caso -> Knot.Next
 
 # Cascavel errado (wrong)
-
-~ -10
+~ points := points - 10
 
 ![Errado](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png)
 
@@ -572,13 +561,12 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por uma **Cascavel**.
 
-Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
+Você tem ^points^ pontos.
 
-<dcc-trigger action="knot/>/navigate" label="Próximo Caso"></dcc-trigger>
+* Próximo Caso -> Knot.Next
 
 # Aranha Marrom certo (right)
-
-~ +10
+~ points := points + 10
 
 ![Certo](https://cdn.pixabay.com/photo/2019/06/26/20/30/zombie-4301192_960_720.png)
 
@@ -586,13 +574,12 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 Parabéns! Você diagnosticou corretamente, e pôde dar ao paciente um soro contra veneno de **Aranha Marrom**.
 
-Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
+Você tem ^points^ pontos.
 
-<dcc-trigger action="knot/>/navigate" label="Próximo Caso"></dcc-trigger>
+* Próximo Caso -> Knot.Next
 
 # Aranha Marrom errado (wrong)
-
-~ -10
+~ points := points - 10
 
 ![Errado](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png)
 
@@ -600,13 +587,12 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por uma **Aranha Marrom**.
 
-Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
+Você tem ^points^ pontos.
 
-<dcc-trigger action="knot/>/navigate" label="Próximo Caso"></dcc-trigger>
+* Próximo Caso -> Knot.Next
 
 # Escorpião certo (right)
-
-~ +10
+~ points := points + 10
 
 ![Certo](https://cdn.pixabay.com/photo/2019/06/26/20/30/zombie-4301192_960_720.png)
 
@@ -614,13 +600,12 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 Parabéns! Você diagnosticou corretamente, e pôde dar ao paciente um soro contra veneno de **Escorpião**.
 
-Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
+Você tem ^points^ pontos.
 
-<dcc-trigger action="knot/>/navigate" label="Próximo Caso"></dcc-trigger>
+* Próximo Caso -> Knot.Next
 
 # Escorpião errado (wrong)
-
-~ -10
+~ points := points - 10
 
 ![Errado](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png)
 
@@ -628,9 +613,9 @@ Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por um **Escorpião**.
 
-Você tem <dcc-expression expression="points" active></dcc-expression> pontos.
+Você tem ^points^ pontos.
 
-<dcc-trigger action="knot/>/navigate" label="Próximo Caso"></dcc-trigger>
+* Próximo Caso -> Knot.Next
 
 ____ Data _____
 * theme: zombie
