@@ -1,5 +1,4 @@
 # Zombie Health 01 (case,start)
-
 ~ =100
 
 ![Doctor](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
@@ -19,12 +18,6 @@ Você tem ^points^ pontos.
 Descubra o que picou cada Zumbi. Você tem que ser rápido, porque tem que atender 10 zumbis.
 
 * Iniciar Fase 1 -> 1
-
-
-
-
-
-
 
 # 1 (case)
 
@@ -155,14 +148,6 @@ Williarot se apresentou na clínica reclamando que algum bicho o picou ou mordeu
 * Batimentos -> Mostra Sintoma "tem batimentos cardíacos descompassados, num ritmo atrapalhado"
 
 * Realizar Diagnóstico -> Diagnóstico escorpião
-
-
-
-
-
-
-
-
 
 # Mostra Sintoma (note)
 
