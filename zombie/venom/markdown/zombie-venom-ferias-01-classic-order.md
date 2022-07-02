@@ -1154,6 +1154,11 @@ ___ Template ___
 
 * template: simple/case/quiz_sequence
 
+___ Flow ___
+
+* Sequential:
+  * _sequential_
+
 ___ Data ___
 
 * theme: simple(purple)
