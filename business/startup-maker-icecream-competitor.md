@@ -2,8 +2,9 @@
 ~~~html
 <div class="styt-pul-main">
     <p>
+      <dcc-table-csv schema="comp_price" content="5;4;8;10;6;3;8;7;1;2" subscribe="var/set/rodada:table/retrieve/comp_price"></dcc-table-csv>
       <dcc-compute id='dcc1' expression='total_quantity:=0;cost:=2;quantity:=0;sold := 0;profit:= 0;input_price := 2;last_sold := 0;last_price := 0;money := 100;rodada:= 0' autorun></dcc-compute>
-      <dcc-compute id='dcc2' expression='comp_quantity:=0;comp_sold:=0;comp_profit:=0;comp_price:=2;comp_last_sold:=0;comp_last_price:=0;comp_money:=100' autorun></dcc-compute>
+      <dcc-compute id='dcc2' expression='comp_quantity:=0;comp_sold:=0;comp_profit:=0;comp_price:=3;comp_last_sold:=0;comp_last_price:=0;comp_money:=100' autorun></dcc-compute>
     </p>
     <div class="row">
       <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
@@ -142,7 +143,7 @@
           </div>
 
         <p>
-          <dcc-compute id="calculate-model" expression="price:=input_price;comp_price := round(((25 + price - 3.5 * cost)/7)*100)/100;comp_quantity := round((25 - 3.5 * comp_price + price)*100)/100; quantity := round((25 - 3.5 * price + comp_price)*100)/100;arch_sold:=sold;comp_arch_sold:=comp_sold;total_income:=round(quantity*price*100)/100;total_cost:=quantity*cost;profit:=round((total_income - total_cost)*100)/100;comp_total_income:=round(comp_quantity*comp_price*100)/100;comp_total_cost:=comp_quantity*cost;comp_profit:=round((comp_total_income-comp_total_cost)*100)/100"></dcc-compute>
+          <dcc-compute id="calculate-model" expression="price:=input_price;comp_quantity := round((25 - 3.5 * comp_price + price)*100)/100; quantity := round((25 - 3.5 * price + comp_price)*100)/100;arch_sold:=sold;comp_arch_sold:=comp_sold;total_income:=round(quantity*price*100)/100;total_cost:=quantity*cost;profit:=round((total_income - total_cost)*100)/100;comp_total_income:=round(comp_quantity*comp_price*100)/100;comp_total_cost:=comp_quantity*cost;comp_profit:=round((comp_total_income-comp_total_cost)*100)/100"></dcc-compute>
           <dcc-compute id="check-quantity" condition="quantity<0" active expression="quantity := 0"></dcc-compute>
           <dcc-compute id="comp-check-quantity" condition="comp_quantity<0" active expression="comp_quantity := 0"></dcc-compute>
           <dcc-compute id="update-rodada"
