@@ -2,7 +2,7 @@
 
 ~~~
 <dcc-space-cellular-editor id="cellular-space" rows="14" cols="20"
-  cell-width="32" cell-height="32" background-color="#d6f0ff" grid>
+  cell-width="32" cell-height="32" background-color="#d6f0ff" grid analysis>
 </dcc-space-cellular-editor>
 
 <dcc-cell-image type="a" label="alga" image="https://mc-unicamp.github.io/oficinas/simula/micromundos/harena/scripts/playground/images/cell/alga.svg"></dcc-cell-image>
@@ -69,14 +69,10 @@ ___ Data ___
     * height: 25
 * block_types:
   * Regras:
-    * transform_horizontal
-    * transform_vertical
-  * Ser:
     * entity
-    * entity_movement
     * entity_growth
-    * entity_mortality
     * entity_eat
+    * entity_mortality
 
 ___ Template ___
 

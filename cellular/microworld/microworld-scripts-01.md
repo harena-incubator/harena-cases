@@ -2,15 +2,13 @@
 
 ~~~
 <dcc-space-cellular-editor id="cellular-space" rows="14" cols="20"
-  cell-width="32" cell-height="32" background-color="#d6f0ff" grid>
+  cell-width="32" cell-height="32" background-color="#d6f0ff" grid analysis>
 </dcc-space-cellular-editor>
 
 <dcc-cell-image type="a" label="alga" image="https://mc-unicamp.github.io/oficinas/simula/micromundos/harena/scripts/playground/images/cell/alga.svg"></dcc-cell-image>
 <dcc-cell-image type="g" label="glass" image="https://mc-unicamp.github.io/oficinas/simula/aquarium/harena/scripts/playground/images/cell/glass-block-01.png"></dcc-cell-image>
 <dcc-cell-image type="n" label="nematode" image="https://mc-unicamp.github.io/oficinas/simula/micromundos/harena/scripts/playground/images/cell/nematode.svg"></dcc-cell-image>
-<dcc-cell-image type="o" label="nematode-inverse" image="https://harena-lab.github.io/dcc/dcc/playground/scripts/images/cell/nematode-inverse.svg"></dcc-cell-image>
-<dcc-cell-image type="t" label="tardigrade" image="https://mc-unicamp.github.io/oficinas/simula/micromundos/harena/scripts/playground/images/cell/tardigrade.svg"></dcc-cell-image>
-<dcc-cell-image type="u" label="tardigrade-inverse" image="https://harena-lab.github.io/dcc/dcc/playground/scripts/images/cell/tardigrade-inverse.svg"></dcc-cell-image>
+<dcc-cell-image type="t" label="tardigrade" image="https://harena-lab.github.io/dcc/dcc/playground/scripts/images/cell/tardigrade-inverse.svg"></dcc-cell-image>
 
 <dcc-timer cycles="100000" interval="1000" topic="state/next">
    <subscribe-dcc topic="timer/start" map="start"></subscribe-dcc>
@@ -63,20 +61,8 @@ ___ Data ___
     * image: https://mc-unicamp.github.io/oficinas/simula/micromundos/harena/scripts/playground/images/cell/nematode.svg
     * width: 25
     * height: 25
-  * nematode-inverse:
-    * symbol: o
-    * title: nematóide
-    * image: https://harena-lab.github.io/dcc/dcc/playground/scripts/images/cell/nematode-inverse.svg
-    * width: 25
-    * height: 25
   * tardigrade:
     * symbol: t
-    * title: tardígrado
-    * image: https://mc-unicamp.github.io/oficinas/simula/micromundos/harena/scripts/playground/images/cell/tardigrade.svg
-    * width: 25
-    * height: 25
-  * tardigrade-inverse:
-    * symbol: u
     * title: tardígrado
     * image: https://harena-lab.github.io/dcc/dcc/playground/scripts/images/cell/tardigrade-inverse.svg
     * width: 25
@@ -84,7 +70,6 @@ ___ Data ___
 * block_types:
   * Regras:
     * transform_horizontal
-    * transform_vertical
 
 ___ Template ___
 

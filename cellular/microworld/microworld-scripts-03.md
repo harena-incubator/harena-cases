@@ -79,14 +79,10 @@ ___ Data ___
     * height: 25
 * block_types:
   * Regras:
-    * transform_horizontal
-    * transform_vertical
-  * Ser:
     * entity
-    * entity_movement
     * entity_growth
-    * entity_mortality
     * entity_eat
+    * entity_mortality
 
 ___ Template ___
 
