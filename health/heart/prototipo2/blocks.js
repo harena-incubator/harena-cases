@@ -1,7 +1,7 @@
 Blockly.Blocks['imagem_eletro'] = {
   init: function () {
     this.jsonInit({
-      message0: '%1',
+      message0: '%1 %2',
       args0: [
         {
           type: 'field_dropdown',
@@ -12,9 +12,14 @@ Blockly.Blocks['imagem_eletro'] = {
             [{src: '3ondaQRS.png', width: 200, height: 200, alt: 'heart 3'}, 'heart3'],
             [{src: '4ondaT.png', width: 200, height: 200, alt: 'heart 4'}, 'heart4']
           ]
+        },
+        {
+          type: 'input_value',
+          name: 'mov',
+          check: 'Mov'
         }
       ],
-      message1: 'Em qual local esse fenômeno ocorre: %1',
+      message1: 'local: %1',
       args1: [
         {
           type: 'field_dropdown',
@@ -27,7 +32,7 @@ Blockly.Blocks['imagem_eletro'] = {
           ]
         }
       ],
-      message2: 'O que está acontecendo: %1',
+      message2: 'descricao: %1',
       args2: [
         {
           type: 'field_dropdown',
@@ -40,22 +45,30 @@ Blockly.Blocks['imagem_eletro'] = {
           ]
         }
       ],
-      message3: 'Onda elétrica gerada no ECG: %1',
-        args3: [
-          {
-            type: 'input_value',
-            name: 'onda',
-            check: 'Onda',
-          }
-        ],
-        message4: 'Movimento físico disparado: %1',
-        args4: [
-          {
-            type: 'input_value',
-            name: 'mov',
-            check: 'Mov',
-          }
-        ],
+      message3: 'ECG: %1',
+      args3: [
+        {
+          type: 'input_value',
+          name: 'onda',
+          check: 'Onda'
+        }
+      ],
+      // message3: 'ECG: %1',
+      //   args3: [
+          // {
+          //   type: 'input_value',
+          //   name: 'onda',
+          //   check: 'Onda',
+          // }
+      //   ],
+      // message4: 'físico: %1',
+      // args4: [
+        // {
+        //   type: 'input_value',
+        //   name: 'mov',
+        //   check: 'Mov',
+        // }
+      // ],
       colour: 80,
       tooltip: 'Coração',
       nextStatement: null,
@@ -80,7 +93,7 @@ Blockly.Blocks['imagem_mov'] = {
           ]
         }
       ],
-      message1: 'Em qual local esse fenômeno ocorre: %1',
+      message1: 'local: %1',
       args1: [
         {
           type: 'field_dropdown',
@@ -93,7 +106,7 @@ Blockly.Blocks['imagem_mov'] = {
           ]
         }
       ],
-      message2: 'O que está acontecendo: %1',
+      message2: 'descrição: %1',
       args2: [
         {
           type: 'field_dropdown',

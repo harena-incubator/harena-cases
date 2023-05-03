@@ -1,7 +1,7 @@
 Blockly.Blocks['imagem_eletro'] = {
   init: function () {
     this.jsonInit({
-      message0: '%1',
+      message0: '%1 %2',
       args0: [
         {
           type: 'field_dropdown',
@@ -12,6 +12,11 @@ Blockly.Blocks['imagem_eletro'] = {
             [{src: '3ondaQRS.png', width: 200, height: 200, alt: 'heart 3'}, 'heart3'],
             [{src: '4ondaT.png', width: 200, height: 200, alt: 'heart 4'}, 'heart4']
           ]
+        },
+        {
+          type: 'input_value',
+          name: 'onda',
+          check: 'Onda',
         }
       ],
       message1: '%1',
@@ -33,7 +38,7 @@ Blockly.Blocks['imagem_eletro'] = {
 Blockly.Blocks['descriacao_eletro'] = {
   init: function () {
     this.jsonInit({
-      message0: 'Em qual local esse fenômeno ocorre: %1',
+      message0: 'onde: %1',
       args0: [
         {
           type: 'field_dropdown',
@@ -46,7 +51,7 @@ Blockly.Blocks['descriacao_eletro'] = {
           ]
         }
       ],
-      message1: 'O que está acontecendo: %1',
+      message1: 'o quê: %1',
       args1: [
         {
           type: 'field_dropdown',
@@ -100,7 +105,7 @@ Blockly.Blocks['imagem_mov'] = {
 Blockly.Blocks['descriacao_mov'] = {
   init: function () {
     this.jsonInit({
-      message0: 'Em qual local esse fenômeno ocorre: %1',
+      message0: 'local: %1',
       args0: [
         {
           type: 'field_dropdown',
@@ -112,7 +117,7 @@ Blockly.Blocks['descriacao_mov'] = {
           ]
         }
       ],
-      message1: 'O que está acontecendo: %1',
+      message1: 'descrição: %1',
       args1: [
         {
           type: 'field_dropdown',
@@ -131,68 +136,68 @@ Blockly.Blocks['descriacao_mov'] = {
   }
 }
 
-Blockly.Blocks['imagem_eletro_2'] = {
-  init: function () {
-    this.jsonInit({
-      message0: '%1',
-      args0: [
-        {
-          type: 'field_dropdown',
-          name: 'entity',
-          options: [
-            [{src: '1ondaP.png', width: 200, height: 200, alt: 'heart 1'}, 'heart1'],
-            [{src: '2segmentoPR.png', width: 200, height: 200, alt: 'heart 2'}, 'heart2'],
-            [{src: '3ondaQRS.png', width: 200, height: 200, alt: 'heart 3'}, 'heart3'],
-            [{src: '4ondaT.png', width: 200, height: 200, alt: 'heart 4'}, 'heart4']
-          ]
-        }
-      ],
-      message1: 'Onda elétrica gerada no ECG: %1',
-        args1: [
-          {
-            type: 'input_value',
-            name: 'onda',
-            check: 'Onda',
-          }
-        ],
-        message2: 'Movimento físico disparado: %1',
-        args2: [
-          {
-            type: 'input_value',
-            name: 'mov',
-            check: 'Mov',
-          }
-        ],
-      colour: 80,
-      tooltip: 'Coração',
-      nextStatement: null,
-      previousStatement: null
-    })
-  }
-}
+// Blockly.Blocks['imagem_eletro_2'] = {
+//   init: function () {
+//     this.jsonInit({
+//       message0: '%1',
+//       args0: [
+//         {
+//           type: 'field_dropdown',
+//           name: 'entity',
+//           options: [
+//             [{src: '1ondaP.png', width: 200, height: 200, alt: 'heart 1'}, 'heart1'],
+//             [{src: '2segmentoPR.png', width: 200, height: 200, alt: 'heart 2'}, 'heart2'],
+//             [{src: '3ondaQRS.png', width: 200, height: 200, alt: 'heart 3'}, 'heart3'],
+//             [{src: '4ondaT.png', width: 200, height: 200, alt: 'heart 4'}, 'heart4']
+//           ]
+//         }
+//       ],
+//       message1: 'Onda elétrica gerada no ECG: %1',
+//         args1: [
+//           {
+//             type: 'input_value',
+//             name: 'onda',
+//             check: 'Onda',
+//           }
+//         ],
+//         message2: 'Movimento físico disparado: %1',
+//         args2: [
+//           {
+//             type: 'input_value',
+//             name: 'mov',
+//             check: 'Mov',
+//           }
+//         ],
+//       colour: 80,
+//       tooltip: 'Coração',
+//       nextStatement: null,
+//       previousStatement: null
+//     })
+//   }
+// }
 
-Blockly.Blocks['imagem_mov_2'] = {
-  init: function () {
-    this.jsonInit({
-      message0: '%1',
-      args0: [
-        {
-          type: 'field_dropdown',
-          name: 'entity',
-          options: [
-            [{src: '1movimento.png', width: 200, height: 200, alt: 'heart_mov 1'}, 'heart_mov1'],
-            [{src: '2movimento_segmentoPR.png', width: 200, height: 200, alt: 'heart_mov 2'}, 'heart_mov2'],
-            [{src: '2movimento.png', width: 200, height: 200, alt: 'heart_mov 3'}, 'heart_mov3'],
-            [{src: '3movimento.png', width: 200, height: 200, alt: 'heart_mov 4'}, 'heart_mov4']
-          ]
-        }
-      ],
-        colour: 300,
-        tooltip: 'Eletro',
-        output: 'Mov'
-    })
-  }
-}
+// Blockly.Blocks['imagem_mov_2'] = {
+//   init: function () {
+//     this.jsonInit({
+//       message0: '%1',
+//       args0: [
+//         {
+//           type: 'field_dropdown',
+//           name: 'entity',
+//           options: [
+//             [{src: '1movimento.png', width: 200, height: 200, alt: 'heart_mov 1'}, 'heart_mov1'],
+//             [{src: '2movimento_segmentoPR.png', width: 200, height: 200, alt: 'heart_mov 2'}, 'heart_mov2'],
+//             [{src: '2movimento.png', width: 200, height: 200, alt: 'heart_mov 3'}, 'heart_mov3'],
+//             [{src: '3movimento.png', width: 200, height: 200, alt: 'heart_mov 4'}, 'heart_mov4']
+//           ]
+//         }
+//       ],
+//         colour: 300,
+//         tooltip: 'Eletro',
+//         output: 'Mov'
+//     })
+//   }
+// }
 
 Blockly.Blocks['imagem_onda'] = {
   init: function () {
