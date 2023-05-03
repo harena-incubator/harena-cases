@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+    <script src="blocks.js"></script>
+  </head>
+  <body>
+    <div id="blocklyDiv" style="height: 700px; width: 100%;"></div>
+    <xml id="toolbox" style="display: none">
+      <category name="Associar imagens da atividade elétrica do coração com suas descrições" colour="210">
+        <block type="imagem_eletro"></block>
+        <block type="descriacao_eletro"></block>
+      </category>
+      <category name="Associar imagens do movimento físico do coração com suas descrições" colour="110">
+        <block type="imagem_mov"></block>
+        <block type="descriacao_mov"></block>
+      </category>
+      <category name="Ordenar imagens do movimento físico e dos sinais elétricos de acordo com seu momento na onda do ECG" colour="20">
+        <block type="imagem_eletro_2"></block>
+        <block type="imagem_mov_2"></block>
+        <block type="imagem_onda"></block>
+      </category>
+    </xml>
+    <script>
+      var workspace = Blockly.inject('blocklyDiv',
+          {toolbox: document.getElementById('toolbox'),
+          zoom:
+          {controls: true,
+          wheel: true,
+          startScale: 1.0,
+          maxScale: 3,
+          minScale: 0.3,
+          scaleSpeed: 1.2,
+          pinch: true},
+          trashcan: true});
+    </script>
+    
+  </body>
+</html>
