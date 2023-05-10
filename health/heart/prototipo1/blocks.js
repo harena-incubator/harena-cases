@@ -105,27 +105,40 @@ Blockly.Blocks['imagem_mov'] = {
 Blockly.Blocks['descriacao_mov'] = {
   init: function () {
     this.jsonInit({
-      message0: 'local: %1',
+      message0: 'onde: %1',
       args0: [
         {
           type: 'field_dropdown',
           name: 'entity',
           options: [
-            ['Átrio: Contração atrial/despolarização atrial', 'mov1'],
-            ['Saída do sangue venoso do ventrículo direito pela artéria pulmonar e saída de sangue arterial do ventrículo esquerdo para a aorta', 'mov2'],
-            ['TEXTO A DEFINIR', 'mov3']
+            ['Átrio', 'mov1'],
+            ['Nó AV', 'mov2'],
+            ['Ventrículo', 'mov3']
           ]
         }
       ],
-      message1: 'descrição: %1',
+      message1: 'ação: %1',
       args1: [
         {
           type: 'field_dropdown',
           name: 'entity',
           options: [
-            ['Envio do sangue venoso do átrio direito para o ventrículo direito e envio do sangue arterial do átrio esquerdo para o ventrículo esquerdo', 'mov1'],
-            ['Ventrículos: contração ventricular/despolarização ventricular', 'segementoPR'],
-            ['Ventrículo: repolarização ventricular', 'ondaQRS']
+            ['Despolarização à contração', 'mov1'],
+            ['Convergência dos estímulos atriais + retardo da condução do estímulo elétrico', 'mov2'],
+            ['Repolarização à diastole', 'mov3']
+          ]
+        }
+      ],
+      message2: 'resultado: %1',
+      args2: [
+        {
+          type: 'field_dropdown',
+          name: 'entity',
+          options: [
+            ['Passagem do sangue do átrio para o ventrículo', 'mov1'],
+            ['Permitir a contração e esvaziamento atrial antes da contração ventricular', 'segementoPR'],
+            ['Envio do sangue para o sistema arterial pulmonar (ventrículo direito) e sistêmico (ventrículo esquerdo)', 'ondaQRS'],
+            ['Enchimento passivo dos ventrículos pela diferença de pressão entre átrios/ventriculos', 'ondaT']
           ]
         }
       ],
