@@ -1,7 +1,7 @@
 Blockly.Blocks['imagem_eletro'] = {
   init: function () {
     this.jsonInit({
-      message0: '%1 %2',
+      message0: '%1',
       args0: [
         {
           type: 'field_dropdown',
@@ -12,14 +12,9 @@ Blockly.Blocks['imagem_eletro'] = {
             [{src: '3ondaQRS.png', width: 200, height: 200, alt: 'heart 3'}, 'heart3'],
             [{src: '4ondaT.png', width: 200, height: 200, alt: 'heart 4'}, 'heart4']
           ]
-        },
-        {
-          type: 'input_value',
-          name: 'mov',
-          check: 'Mov'
         }
       ],
-      message1: 'local: %1',
+      message1: 'Em qual local esse fenômeno ocorre: %1',
       args1: [
         {
           type: 'field_dropdown',
@@ -32,7 +27,7 @@ Blockly.Blocks['imagem_eletro'] = {
           ]
         }
       ],
-      message2: 'descricao: %1',
+      message2: 'O que está acontecendo: %1',
       args2: [
         {
           type: 'field_dropdown',
@@ -45,30 +40,22 @@ Blockly.Blocks['imagem_eletro'] = {
           ]
         }
       ],
-      message3: 'ECG: %1',
-      args3: [
-        {
-          type: 'input_value',
-          name: 'onda',
-          check: 'Onda'
-        }
-      ],
-      // message3: 'ECG: %1',
-      //   args3: [
-          // {
-          //   type: 'input_value',
-          //   name: 'onda',
-          //   check: 'Onda',
-          // }
-      //   ],
-      // message4: 'físico: %1',
-      // args4: [
-        // {
-        //   type: 'input_value',
-        //   name: 'mov',
-        //   check: 'Mov',
-        // }
-      // ],
+      message3: 'Onda elétrica gerada no ECG: %1',
+        args3: [
+          {
+            type: 'input_value',
+            name: 'onda',
+            check: 'Onda',
+          }
+        ],
+        message4: 'Movimento físico disparado: %1',
+        args4: [
+          {
+            type: 'input_value',
+            name: 'mov',
+            check: 'Mov',
+          }
+        ],
       colour: 80,
       tooltip: 'Coração',
       nextStatement: null,
@@ -93,29 +80,40 @@ Blockly.Blocks['imagem_mov'] = {
           ]
         }
       ],
-      message1: 'local: %1',
+      message1: 'onde: %1',
       args1: [
         {
           type: 'field_dropdown',
           name: 'entity',
           options: [
-            ['Átrio: Contração atrial/despolarização atrial', 'mov1'],
-            ['Saída do sangue venoso do ventrículo direito pela artéria pulmonar e saída de sangue arterial do ventrículo esquerdo para a aorta', 'mov2'],
-            ['TEXTO A DEFINIR', 'mov3'],
-            ['TEXTO A DEFINIR', 'mov4']
+            ['Átrio', 'mov1'],
+            ['Nó AV', 'mov2'],
+            ['Ventrículo', 'mov3']
           ]
         }
       ],
-      message2: 'descrição: %1',
+      message2: 'ação: %1',
       args2: [
         {
           type: 'field_dropdown',
           name: 'entity',
           options: [
-            ['Envio do sangue venoso do átrio direito para o ventrículo direito e envio do sangue arterial do átrio esquerdo para o ventrículo esquerdo', 'mov1'],
-            ['Ventrículos: contração ventricular/despolarização ventricular', 'mov2'],
-            ['Ventrículo: repolarização ventricular', 'mov3'],
-            ['TEXTO A DEFINIR', 'mov4']
+            ['Despolarização à contração', 'mov1'],
+            ['Convergência dos estímulos atriais + retardo da condução do estímulo elétrico', 'mov2'],
+            ['Repolarização à diastole', 'mov3']
+          ]
+        }
+      ],
+      message3: 'resultado: %1',
+      args3: [
+        {
+          type: 'field_dropdown',
+          name: 'entity',
+          options: [
+            ['Passagem do sangue do átrio para o ventrículo', 'mov1'],
+            ['Permitir a contração e esvaziamento atrial antes da contração ventricular', 'segementoPR'],
+            ['Envio do sangue para o sistema arterial pulmonar (ventrículo direito) e sistêmico (ventrículo esquerdo)', 'ondaQRS'],
+            ['Enchimento passivo dos ventrículos pela diferença de pressão entre átrios/ventriculos', 'ondaT']
           ]
         }
       ],
@@ -138,6 +136,7 @@ Blockly.Blocks['imagem_onda'] = {
             [{src: '1ondaPECG.png', width: 200, height: 200, alt: 'ecg 1'}, 'ecg1'],
             [{src: '2segmentoPRECG.png', width: 200, height: 200, alt: 'ecg 2'}, 'ecg2'],
             [{src: '3ondaQRSECG.png', width: 200, height: 200, alt: 'ecg 3'}, 'ecg3'],
+            [{src: '5segmentoSTECG.png', width: 200, height: 200, alt: 'ecg 5'}, 'ecg5'],
             [{src: '4ondaTECG.png', width: 200, height: 200, alt: 'ecg 4'}, 'ecg4']
           ]
         }
