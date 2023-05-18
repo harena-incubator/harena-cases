@@ -15,8 +15,8 @@ Blockly.Blocks['imagem_eletro'] = {
         },
         {
           type: 'input_value',
-          name: 'onda',
-          check: 'Onda',
+          name: 'mov',
+          check: 'Mov',
         }
       ],
       message1: 'onde: %1',
@@ -27,7 +27,7 @@ Blockly.Blocks['imagem_eletro'] = {
           options: [
             ['Sino atrial', 'ondaP'],
             ['Nodo AV', 'segementoPR'],
-            ['feixe de His purKinje', 'ondaQRS'],
+            ['Feixe de His/purkinje', 'ondaQRS'],
             ['Ventrículo', 'ondaT']
           ]
         }
@@ -39,22 +39,15 @@ Blockly.Blocks['imagem_eletro'] = {
           name: 'entity',
           options: [
             ['Estímulo elétrico gerando a despolarização atrial', 'ondaP'],
-            ['Condução de estimulo elétrico do átrio para os ventrículos', 'segementoPR'],
-            ['Condução dos impulsos elétricos para as câmaras inferiores', 'ondaQRS'],
+            ['Condução do estimulo elétrico dos átrio para os ventrículos', 'segementoPR'],
+            ['Condução do impulsos elétricos nos ventrículos', 'ondaQRS'],
             ['Repolarização ventricular', 'ondaT']
           ]
         }
       ],
-        message3: ' %1',
-        args3: [
-          {
-            type: 'input_value',
-            name: 'mov',
-            check: 'Mov',
-          }
-        ],
       colour: 80,
       tooltip: 'Coração',
+      output: 'atvEle',
       nextStatement: null,
       previousStatement: null
     })
@@ -124,7 +117,7 @@ Blockly.Blocks['imagem_mov'] = {
 Blockly.Blocks['imagem_onda'] = {
   init: function () {
     this.jsonInit({
-      message0: '%1',
+      message0: '%1 %2',
       args0: [
         {
           type: 'field_dropdown',
@@ -136,11 +129,15 @@ Blockly.Blocks['imagem_onda'] = {
             [{src: '5segmentoSTECG.png', width: 200, height: 200, alt: 'ecg 5'}, 'ecg5'],
             [{src: '4ondaTECG.png', width: 200, height: 200, alt: 'ecg 4'}, 'ecg4']
           ]
+        },
+        {
+          type: 'input_value',
+          name: 'atvEle',
+          check: 'atvEle',
         }
       ],
         colour: 20,
-        tooltip: 'Eletro',
-        output: 'Onda'
+        tooltip: 'Eletro'
     })
   }
 }
