@@ -19,29 +19,27 @@ Blockly.Blocks['imagem_eletro'] = {
           check: 'Mov',
         }
       ],
-      message1: 'onde: %1',
+      message1: 'estrutura: %1',
       args1: [
         {
           type: 'field_dropdown',
           name: 'entity',
           options: [
             ['Sino atrial', 'ondaP'],
-            ['Nodo AV', 'segementoPR'],
-            ['Feixe de His/purkinje', 'ondaQRS'],
-            ['Ventrículo', 'ondaT']
+            ['Nó atrio ventricular', 'segementoPR'],
+            ['Sistema His-Purkinje', 'ondaQRS']
           ]
         }
       ],
-      message2: 'o quê: %1',
+      message2: 'efeito elétrico: %1',
       args2: [
         {
           type: 'field_dropdown',
           name: 'entity',
           options: [
-            ['Estímulo elétrico gerando a despolarização atrial', 'ondaP'],
-            ['Condução do estimulo elétrico dos átrio para os ventrículos', 'segementoPR'],
-            ['Condução do impulsos elétricos nos ventrículos', 'ondaQRS'],
-            ['Repolarização ventricular', 'ondaT']
+            ['Estímulo elétrico DISPARANDO ...', 'ondaP'],
+            ['Conexão elétrica entre átrios e ventrículos', 'segementoPR'],
+            ['Condução rápida dos estímulos elétricos nos ventrículos', 'ondaQRS']
           ]
         }
       ],
@@ -70,7 +68,7 @@ Blockly.Blocks['imagem_mov'] = {
           ]
         }
       ],
-      message1: 'onde: %1',
+      message1: 'estrutura: %1',
       args1: [
         {
           type: 'field_dropdown',
@@ -82,28 +80,29 @@ Blockly.Blocks['imagem_mov'] = {
           ]
         }
       ],
-      message2: 'ação: %1',
+      message2: 'efeito mecânico: %1',
       args2: [
         {
           type: 'field_dropdown',
           name: 'entity',
           options: [
-            ['Despolarização à contração', 'mov1'],
+            ['Contração atrial', 'mov1'],
             ['Convergência dos estímulos atriais + retardo da condução do estímulo elétrico', 'mov2'],
-            ['Repolarização à diastole', 'mov3']
+            ['contração ventricular', 'mov3'],
+            ['Relaxamento Ventricular', 'mov4']
           ]
         }
       ],
-      message3: 'resultado: %1',
+      message3: 'efeito fisiológico: %1',
       args3: [
         {
           type: 'field_dropdown',
           name: 'entity',
           options: [
-            ['Passagem do sangue do átrio para o ventrículo', 'mov1'],
-            ['Permitir a contração e esvaziamento atrial antes da contração ventricular', 'segementoPR'],
-            ['Envio do sangue para o sistema arterial pulmonar (ventrículo direito) e sistêmico (ventrículo esquerdo)', 'ondaQRS'],
-            ['Enchimento passivo dos ventrículos pela diferença de pressão entre átrios/ventriculos', 'ondaT']
+            ['Envio de sangue sob pressão do átrio para ventrículos', 'mov1'],
+            ['Retadrdo de condução para contração atrial antes da contração ventricular', 'segementoPR'],
+            ['Envio do sangue para o sistema arterial pulmonar e sistêmico', 'ondaQRS'],
+            ['Relaxamento e enchimento dos ventrículos', 'ondaT']
           ]
         }
       ],
