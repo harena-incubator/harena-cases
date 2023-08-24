@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+    <script src="blocks.js"></script>
+    <title>Tutorial 2</title>
+  </head>
+  <body>
+    <div id="blocklyDiv" style="height: 700px; width: 100%;"></div>
+    <xml id="toolbox" style="display: none">
+      
+      <category name="Componentes" colour="20">
+        <block type="imagem"></block>
+        <block type="sequence"></block>
+      </category>
+    </xml>
+    <script>
+      var workspace = Blockly.inject('blocklyDiv',
+          {toolbox: document.getElementById('toolbox'),
+          zoom:
+          {controls: true,
+          wheel: true,
+          startScale: 1.0,
+          maxScale: 3,
+          minScale: 0.3,
+          scaleSpeed: 1.2,
+          pinch: true},
+          trashcan: true});
+    </script>
+    
+  </body>
+</html>
