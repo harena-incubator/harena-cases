@@ -224,12 +224,21 @@ Blockly.Blocks['acao3'] = {
 Blockly.Blocks['sequence'] = {
   init: function () {
     this.jsonInit({
-        "message0": "%1",
-        "args0": [
+      "type": "sequence",
+      "message0": "%1",
+      "args0": [
+        {
+          "type": "field_image",
+          "src": "robo.png",
+          "width": 150,
+          "height": 150,
+          "alt": "*"
+        }
+      ],
+        "message1": "%1",
+        "args1": [
           {"type": "input_statement", "name": "DO"}
         ],
-        "previousStatement": null,
-        "nextStatement": null,
         "colour": 120
     })
   }
