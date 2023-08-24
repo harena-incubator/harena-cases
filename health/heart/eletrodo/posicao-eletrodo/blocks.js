@@ -22,7 +22,42 @@ Blockly.Blocks['imagem_eletrodo'] = {
   }
 }
 
-Blockly.Blocks['sequence'] = {
+Blockly.Blocks['acao'] = {
+  init: function () {
+    this.jsonInit({
+      message0: 'Colocar eletrodo %1 na posição %2 .',
+      args0: [
+        {
+        type: 'input_value',
+        name: 'VAR',
+        check: 'eletrodo',
+        },
+        {
+          type: 'field_dropdown',
+          name: 'entity',
+          options: [            
+            ['A', 'posA'],
+            ['B', 'posB'],
+            ['C', 'posC'],
+            ['D', 'posD'],
+            ['E', 'posE'],
+            ['F', 'posF'],
+            ['G', 'posG'],
+            ['H', 'posH'],
+            ['I', 'posI'],
+            ['J', 'posJ'],
+            ['K', 'posK'],
+            ['L', 'posL']
+        ]
+        }
+      ],
+     colour: 17,
+     nextStatement: null,
+     previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['homem'] = {
   init: function () {
     this.jsonInit({
       "type": "torax",
@@ -36,70 +71,30 @@ Blockly.Blocks['sequence'] = {
           "alt": "*"
         }
       ],
-      message1: 'A %1 B %2 C %3 D %4 E %5 F %6 G %7 H %8 I %9 J %10 K %11 L %12',
-      args1: [
+     colour: 500
+    })
+  }
+}
+
+Blockly.Blocks['sequence'] = {
+  init: function () {
+    this.jsonInit({
+      "type": "sequence",
+      "message0": "%1",
+      "args0": [
         {
-        type: 'input_value',
-        name: 'VAR',
-        check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
-        },
-        {
-          type: 'input_value',
-          name: 'VAR',
-          check: 'eletrodo',
+          "type": "field_image",
+          "src": "robo.png",
+          "width": 150,
+          "height": 150,
+          "alt": "*"
         }
       ],
-     colour: 500
+        "message1": "%1",
+        "args1": [
+          {"type": "input_statement", "name": "DO"}
+        ],
+        "colour": 120
     })
   }
 }
