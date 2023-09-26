@@ -165,6 +165,7 @@ Blockly.Blocks['imagem_prepad'] = {
   }
 }
 
+
 Blockly.Blocks['acao1'] = {
   init: function () {
     this.jsonInit({
@@ -181,6 +182,7 @@ Blockly.Blocks['acao1'] = {
     })
   }
 }
+
 Blockly.Blocks['acao2'] = {
   init: function () {
     this.jsonInit({
@@ -221,6 +223,149 @@ Blockly.Blocks['acao3'] = {
   }
 }
 
+Blockly.Blocks['acao4'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Apresentar-se",
+      colour: 499,
+      nextStatement: null,
+      previousStatement: null
+
+    })
+  }
+}
+
+Blockly.Blocks['acao5'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Explicar o procedimento ao paciente",
+      colour: 590,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+
+Blockly.Blocks['acao6'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Pedir para o paciente notificar dor/desconforto",
+      colour: 234,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao7'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Checar prontuário",
+      colour: 456,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao8'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Checar histórico do paciente",
+      colour: 567,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao9'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Conferir identificação do paciente",
+      colour: 789,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao10'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Remover roupas e acessórios necessários",
+      colour: 891,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao11'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Posicionar o paciente (supina)",
+      colour: 911,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao12'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Preparar monitor",
+      colour: 101,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao13'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Conectar eletrodos aos cabos",
+      colour: 112,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao14'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Avaliar monitor e Documentar",
+      colour: 131,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao15'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Colocar EPI",
+      colour: 259,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao16'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Preparar paciente",
+      colour: 299,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
+Blockly.Blocks['acao17'] = {
+  init: function () {
+    this.jsonInit({
+      "message0": "Colocar eletrodos no paciente",
+      colour: 412,
+      nextStatement: null,
+      previousStatement: null
+    })
+  }
+}
 Blockly.Blocks['sequence'] = {
   init: function () {
     this.jsonInit({
