@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/blockly/blockly.min.js"></script>
+    <script src="blocks.js"></script>
+    <title>Preparando um tórax</title>
+  </head>
+  <body>
+    <div id="blocklyDiv" style="height: 700px; width: 100%;"></div>
+    <xml id="toolbox" style="display: none">
+      <category name="Ação" colour="236">
+        <block type="acao1"></block>
+        <block type="acao2"></block>
+        <block type="acao3"></block>
+        <block type="acao4"></block>
+        <block type="acao5"></block>
+        <block type="acao6"></block>
+        <block type="acao7"></block>
+        <block type="acao8"></block>
+        <block type="acao9"></block>
+        <block type="acao10"></block>
+        <block type="acao11"></block>
+        <block type="acao12"></block>
+        <block type="acao13"></block>
+        <block type="acao14"></block>
+        <block type="acao15"></block>
+        <block type="acao16"></block>
+        <block type="acao17"></block>
+        <block type="acao18"></block>
+        <block type="acao19"></block>
+        <block type="acao20"></block>
+        <block type="acao21"></block>
+        <block type="acao22"></block>
+        <block type="acao23"></block>
+        <block type="acao24"></block>
+        <block type="acao25"></block>
+        <block type="acao26"></block>
+        <block type="acao27"></block>
+      </category>
+      <category name="Material" colour="43">
+      	<block type="imagem_gilete"></block>
+        <block type="imagem_algodao"></block>
+        <block type="imagem_gazes"></block>
+        <block type="imagem_cotonete"></block>
+        <block type="imagem_alcool"></block>
+        <block type="imagem_gel"></block>
+        <block type="imagem_rad"></block>
+        <block type="imagem_prepad"></block>
+        <block type="imagem_luva"></block>
+        <block type="imagem_mascara"></block>
+        <block type="imagem_tesoura"></block>
+      </category>
+      <category name="Robô" colour="259">
+      	<block type="sequence"></block>
+      </category>
+    </xml>
+    <script>
+      var workspace = Blockly.inject('blocklyDiv',
+          {toolbox: document.getElementById('toolbox'),
+          zoom:
+          {controls: true,
+          wheel: true,
+          startScale: 1.0,
+          maxScale: 3,
+          minScale: 0.3,
+          scaleSpeed: 1.2,
+          pinch: true},
+          trashcan: true});
+    </script>
+    
+  </body>
+</html>
