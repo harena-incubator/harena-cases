@@ -184,7 +184,9 @@ blocks:
         'check': 'atvMec'
       },
     ],
-    colour: 250
+    colour: 250,
+    nextStatement: null,
+    previousStatement: null
   }
 ],
 
