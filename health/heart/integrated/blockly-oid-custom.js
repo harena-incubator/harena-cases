@@ -18,13 +18,20 @@ toolbox: {
         {
           'kind': 'block',
           'type': 'heart_image'
-        },
+        }        
+      ],
+      'colour': 300
+    },
+    {
+      'kind': 'category',
+      'name': 'Atividade Elétrica',
+      'contents': [
         {
           'kind': 'block',
           'type': 'sequence'
         }
       ],
-      'colour': 300
+      colour: 250
     }
   ]
 },
@@ -80,8 +87,8 @@ blocks:
         'type': 'field_dropdown',
         'name': 'entity',
         'options': [
-          [{src: 'images/heart1.svg', width: 100, height: 100, alt: 'heart 1'}, 'heart1'],
-          [{src: 'images/heart2.svg', width: 100, height: 100, alt: 'heart 2'}, 'heart2']
+          [{src: 'assets/images/heart1.svg', width: 100, height: 100, alt: 'heart 1'}, 'heart1'],
+          [{src: 'assets/images/heart2.svg', width: 100, height: 100, alt: 'heart 2'}, 'heart2']
         ]
       }
     ],
@@ -114,16 +121,17 @@ generator: {
     const state = block.getFieldValue('state')
     const rhythm = block.getFieldValue('rhythm')
     const healthy = block.getFieldValue('healthy')
-    return `// heart ${state} ${rhythm} ${healthy}`
+    const image = generator.statementToCode(block, 'image')
+    return `heart ${state} ${rhythm} ${healthy} attached ${image}`
   },
   
   'heart_image': function (block, generator) {
     const entity = block.getFieldValue('entity')
-    return `// heart image ${entity}`
+    return `heart image ${entity}`
   },
   
   'sequence': function (block, generator) {
-    return `// sequence`
+    return `sequence`
   }
 }
 
