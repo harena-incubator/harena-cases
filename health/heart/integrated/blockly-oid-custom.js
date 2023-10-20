@@ -192,30 +192,53 @@ blocks:
 
 generator: {
   'eletro': function (block, generator) {
-    const image = block.getFieldValue('image')
-    const estrutura = block.getFieldValue('estrutura')
-    const efeito = block.getFieldValue('efeito')
-    return `eletro ${image} ${estrutura} ${efeito}`
+    return JSON.stringify({
+      type: 'eletro',
+      image: block.getFieldValue('image'),
+      estrutura: block.getFieldValue('estrutura'),
+      efeito: block.getFieldValue('efeito')
+    })
   },
   
   'mecanico': function (block, generator) {
-    const image = block.getFieldValue('image')
-    const estrutura = block.getFieldValue('estrutura')
-    const efeitoMec = block.getFieldValue('efeitoMec')
-    const efeitoFis = block.getFieldValue('efeitoFis')
-    return `mec ${image} ${estrutura} ${efeitoMec} ${efeitoMec}`
+    return JSON.stringify({
+      type: 'mecanico',
+      image: block.getFieldValue('image'),
+      estrutura: block.getFieldValue('estrutura'),
+      efeitoMec: block.getFieldValue('efeitoMec'),
+      efeitoFis: block.getFieldValue('efeitoFis')
+    })
   },
 
   'onda': function (block, generator) {
-    const image = block.getFieldValue('image')
-    return `onda ${image}`
+    return JSON.stringify({
+      type: 'onda',
+      image: block.getFieldValue('image')
+    })
   },
   
   'sequence': function (block, generator) {
-    const onda = generator.statementToCode(block, 'onda')
-    const atvEle = generator.statementToCode(block, 'atvEle')
-    const atvMec = generator.statementToCode(block, 'atvMec')
-    return `sequence ${onda} ${atvEle} ${atvMec}`
+    let result = []
+    let onda = generator.statementToCode(block, 'onda')
+    onda = (onda.length == 0) ? null : JSON.parse(onda)
+    let atvEle = generator.statementToCode(block, 'atvEle')
+    atvEle = (atvEle.length == 0) ? null : JSON.parse(atvEle)
+    let atvMec = generator.statementToCode(block, 'atvMec')
+    atvMec = (atvMec.length == 0) ? null : JSON.parse(atvMec)
+    result = [{
+      type: 'sequence',
+      onda: onda,
+      atvEle: atvEle,
+      atvMec: atvMec
+    }]
+    const nextBlock =
+      block.nextConnection && block.nextConnection.targetBlock()
+    if (nextBlock) {
+      const nb = generator.blockToCode(nextBlock)
+      if (nb.length > 0)
+        result = result.concat(JSON.parse(nb))
+    }
+    return JSON.stringify(result)
   }
 }
 

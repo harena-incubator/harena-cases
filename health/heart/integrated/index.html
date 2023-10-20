@@ -15,12 +15,16 @@
       <lively-talk-oid
         custom="robot"
         character="assets:images/robot.svg"
-        subscribe="blocks/updated~display">
+        subscribe="action/robot~process">
       </lively-talk-oid>
+      <button-oid label="Simular"
+                  value="simular"
+                  publish="click~action/robot">
+      </button-oid>
     </div>
     <div slot="side-b">
       <blockly-oid custom="heart"
-                   publish="update~blocks/updated"
+                   publish="update~action/robot"
                    subscribe="pane/resize~resize">
       </blockly-oid>
     </div>
