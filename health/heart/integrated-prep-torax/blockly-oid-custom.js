@@ -658,116 +658,116 @@ generator: {
 
   'acao1': function (block, generator) {
     const material = generator.statementToCode(block, 'material')
-    return `Raspando com ${material} `
+    return `Raspando com ${material} \n`
   },
 
   'acao2': function (block, generator) {
     const material = generator.statementToCode(block, 'material')
-    return `Limpando com ${material}`
+    return `Limpando com ${material}\n`
   }
   ,
 
   'acao3': function (block, generator) {
     const material1 = generator.statementToCode(block, 'material1')
     const material2 = generator.statementToCode(block, 'material2')
-    return `Limpando com ${material1} e ${material2}`
+    return `Limpando com ${material1} e ${material2}\n`
   },
 
   'acao4': function (block, generator) {
-    return `Se apresentando ao paciente`
+    return `Se apresentando ao paciente\n`
   },
 
   'acao5': function (block, generator) {
-    return `Explicando o procedimento ao paciente`
+    return `Explicando o procedimento ao paciente\n`
   },
 
   'acao6': function (block, generator) {
-    return `Pedindo para o paciente notificar dor, palpitação, desconforto`
+    return `Pedindo para o paciente notificar dor, palpitação, desconforto\n`
   },
 
   'acao7': function (block, generator) {
-    return `Checando prontuário `
+    return `Checando prontuário \n`
   },
 
   'acao8': function (block, generator) {
-    return `Checando histórico do paciente `
+    return `Checando histórico do paciente\n`
   },
 
   'acao9': function (block, generator) {
-    return `Conferindo identificação do paciente`
+    return `Conferindo identificação do paciente\n`
   },
 
   'acao10': function (block, generator) {
-    return `Removendo roupas que estão cobrindo o tórax`
+    return `Removendo roupas que estão cobrindo o tórax\n`
   },
 
   'acao11': function (block, generator) {
-    return `Posicionando o paciente (supina)`
+    return `Posicionando o paciente (supina)\n`
   },
 
   'acao12': function (block, generator) {
-    return `Admitindo o paciente no sistema do monitor`
+    return `Admitindo o paciente no sistema do monitor\n`
   },
 
   'acao13': function (block, generator) {
-    return `Checando se cabo não está tensionado `
+    return `Checando se cabo não está tensionado \n`
   },
 
   'acao14': function (block, generator) {
-    return `Descrevendo as etapas realizadas para monitorização`
+    return `Descrevendo as etapas realizadas para monitorização\n`
   },
 
   'acao15': function (block, generator) {
     const material = generator.statementToCode(block, 'material')
-    return `Vestindo o EPI ${material} `
+    return `Vestindo o EPI ${material} \n`
   },
 
   'acao16': function (block, generator) {
-    return `Avaliando tórax `
+    return `Avaliando tórax \n`
   },
 
   'acao17': function (block, generator) {
-    return `Colocando eletrodos no paciente `
+    return `Colocando eletrodos no paciente \n`
   },
 
   'acao18': function (block, generator) {
-    return `Lavando as mãos`
+    return `Lavando as mãos\n`
   },
 
   'acao19': function (block, generator) {
-    return `Se Dirigindo ao paciente`
+    return `Se Dirigindo ao paciente\n`
   },
 
   'acao20': function (block, generator) {
-    return `Retirando acessórios`
+    return `Retirando acessórios\n`
   },
 
   'acao21': function (block, generator) {
-    return `Removendo pelo com gaze`
+    return `Removendo pelo com gaze\n`
   },
 
   'acao22': function (block, generator) {
-    return `Conectando o cabo do eletrodo com o adesivo `
+    return `Conectando o cabo do eletrodo com o adesivo \n`
   },
 
   'acao23': function (block, generator) {
-    return `Checando no monitor em qual derivação o paciente deve ficar`
+    return `Checando no monitor em qual derivação o paciente deve ficar\n`
   },
 
   'acao24': function (block, generator) {
-    return `Ajustando os alarmes de acordo com a necessidade do paciente (nunca desativá-los)`
+    return `Ajustando os alarmes de acordo com a necessidade do paciente (nunca desativá-los)\n`
   },
 
   'acao25': function (block, generator) {
-    return `Fazendo a avaliação cardiovascular inicial com documentação da frequência cardíaca e ritmo`
+    return `Fazendo a avaliação cardiovascular inicial com documentação da frequência cardíaca e ritmo\n`
   },
 
   'acao26': function (block, generator) {
-    return `Documentando alterações `
+    return `Documentando alterações\n`
   },
 
   'acao27': function (block, generator) {
-    return `Descrevendo intercorrências `
+    return `Descrevendo intercorrências\n`
   }
 }
 
