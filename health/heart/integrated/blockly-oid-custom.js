@@ -92,8 +92,8 @@ blocks:
         'name': 'image',
         'options': [
           [{src: 'assets/images/1movimento.png', width: 200, height: 200, alt: 'heart_mov 1'}, 'heart_mov1'],
-          [{src: 'assets/images/2movimento.png', width: 200, height: 200, alt: 'heart_mov 2'}, 'heart_mov2'],
-          [{src: 'assets/images/3movimento.png', width: 200, height: 200, alt: 'heart_mov 3'}, 'heart_mov3ou4'],
+          [{src: 'assets/images/2movimento.png', width: 200, height: 200, alt: 'heart_mov 2'}, 'heart_mov2ou4'],
+          [{src: 'assets/images/3movimento.png', width: 200, height: 200, alt: 'heart_mov 3'}, 'heart_mov3'],
           [{src: 'assets/images/5movimento.png', width: 200, height: 200, alt: 'heart_mov 4'}, 'heart_mov5']
         ]
       }
