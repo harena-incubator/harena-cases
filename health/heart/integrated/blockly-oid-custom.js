@@ -70,8 +70,8 @@ blocks:
         'type': 'field_dropdown',
         'name': 'efeito',
         'options': [
-          ['Estímulo elétrico disparando a despolarização atrial', 'ondaP'],
-          ['Conexão elétrica entre átrios e ventrículos', 'segmentoPR'],
+          ['Estímulo disparando a despolarização atrial', 'ondaP'],
+          ['Tempo de retardo entre a ativação auricular e ventricular', 'segmentoPR'],
           ['Condução rápida dos estímulos elétricos nos ventrículos', 'ondaQRS'],
           ['Intervalo entre o fim da despolarização e o início da repolarização ventricular', 'segmentoST'],
           ['Repolarização ventricular', 'ondaT']
@@ -134,7 +134,7 @@ blocks:
           ['Retadrdo de condução para contração atrial antes da contração ventricular', 'mov2'],
           ['Envio do sangue para o sistema arterial pulmonar e sistêmico', 'mov3'],
           ['Representa o início da repolarização ventricular', 'mov4'],
-          ['Relaxamento e enchimento dos ventrículos', 'mov5']
+          ['Enchimento dos ventrículos', 'mov5']
         ]
       }
     ],
