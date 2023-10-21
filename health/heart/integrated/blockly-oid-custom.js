@@ -43,11 +43,11 @@ blocks:
         'type': 'field_dropdown',
         'name': 'image',
         'options': [
-          [{src: 'assets/images/1ondaP.png', width: 200, height: 200, alt: 'heart 1'}, 'heart1'],
-          [{src: 'assets/images/2segmentoPR.png', width: 200, height: 200, alt: 'heart 2'}, 'heart2'],
-          [{src: 'assets/images/3ondaQRS.png', width: 200, height: 200, alt: 'heart 3'}, 'heart3'],
-          [{src: 'assets/images/4segmentoST.png', width: 200, height: 200, alt: 'heart 4'}, 'heart4'],
-          [{src: 'assets/images/5ondaT.png', width: 200, height: 200, alt: 'heart 4'}, 'heart5']
+          [{src: 'assets/images/1ondaP.png', width: 200, height: 200, alt: 'heart 1'}, 'ondaP'],
+          [{src: 'assets/images/2segmentoPR.png', width: 200, height: 200, alt: 'heart 2'}, 'segmentoPR'],
+          [{src: 'assets/images/3ondaQRS.png', width: 200, height: 200, alt: 'heart 3'}, 'ondaQRS'],
+          [{src: 'assets/images/4segmentoST.png', width: 200, height: 200, alt: 'heart 4'}, 'segmentoST'],
+          [{src: 'assets/images/5ondaT.png', width: 200, height: 200, alt: 'heart 4'}, 'ondaT']
         ]
       }
     ],
@@ -60,7 +60,7 @@ blocks:
           ['Sino atrial', 'ondaP'],
           ['Nó atrio ventricular', 'segmentoPR'],
           ['Sistema His-Purkinje', 'ondaQRS'],
-          ['Ventrículo', 'segmentoSTouOndaT']
+          ['Ventrículo', 'segmentoST/OndaT']
         ]
       }
     ],
@@ -130,7 +130,7 @@ blocks:
         'type': 'field_dropdown',
         'name': 'efeitoFis',
         'options': [
-          ['Envio de sangue sob pressão do átrio para ventrículos', 'mov1'],
+          ['Envio de sangue sob pressão do átrio para ventrículos', 'ondaP'],
           ['Retadrdo de condução para contração atrial antes da contração ventricular', 'mov2'],
           ['Envio do sangue para o sistema arterial pulmonar e sistêmico', 'mov3'],
           ['Representa o início da repolarização ventricular', 'mov4'],
@@ -151,7 +151,7 @@ blocks:
         'type': 'field_dropdown',
         'name': 'image',
         'options': [
-          [{src: 'assets/images/1ondaPECG.png', width: 200, height: 200, alt: 'ecg 1'}, 'ecg1'],
+          [{src: 'assets/images/1ondaPECG.png', width: 200, height: 200, alt: 'ecg 1'}, 'ondaP'],
           [{src: 'assets/images/2segmentoPRECG.png', width: 200, height: 200, alt: 'ecg 2'}, 'ecg2'],
           [{src: 'assets/images/3ondaQRSECG.png', width: 200, height: 200, alt: 'ecg 3'}, 'ecg3'],
           [{src: 'assets/images/4segmentoSTECG.png', width: 200, height: 200, alt: 'ecg 4'}, 'ecg4'],
