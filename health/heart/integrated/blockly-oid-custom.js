@@ -91,10 +91,10 @@ blocks:
         'type': 'field_dropdown',
         'name': 'image',
         'options': [
-          [{src: 'assets/images/1movimento.png', width: 200, height: 200, alt: 'heart_mov 1'}, 'heart_mov1'],
-          [{src: 'assets/images/2movimento.png', width: 200, height: 200, alt: 'heart_mov 2'}, 'heart_mov2ou4'],
-          [{src: 'assets/images/3movimento.png', width: 200, height: 200, alt: 'heart_mov 3'}, 'heart_mov3'],
-          [{src: 'assets/images/5movimento.png', width: 200, height: 200, alt: 'heart_mov 4'}, 'heart_mov5']
+          [{src: 'assets/images/1movimento.png', width: 200, height: 200, alt: 'heart_mov 1'}, 'ondaP'],
+          [{src: 'assets/images/2movimento.png', width: 200, height: 200, alt: 'heart_mov 2'}, 'segmentoPR/segmentoST'],
+          [{src: 'assets/images/3movimento.png', width: 200, height: 200, alt: 'heart_mov 3'}, 'ondaQRS'],
+          [{src: 'assets/images/5movimento.png', width: 200, height: 200, alt: 'heart_mov 4'}, 'ondaT']
         ]
       }
     ],
@@ -104,9 +104,9 @@ blocks:
         'type': 'field_dropdown',
         'name': 'estrutura',
         'options': [
-          ['Átrio', 'mov1'],
-          ['Nó AV', 'mov2'],
-          ['Ventrículo', 'mov345']
+          ['Átrio', 'ondaP'],
+          ['Nó AV', 'segmentoPR'],
+          ['Ventrículo', 'ondaQRS/segmentoST/OndaT']
         ]
       }
     ],
@@ -116,11 +116,11 @@ blocks:
         'type': 'field_dropdown',
         'name': 'efeitoMec',
         'options': [
-          ['Contração atrial', 'mov1'],
-          ['Convergência dos estímulos atriais + retardo da condução do estímulo elétrico', 'mov2'],
-          ['Contração ventricular', 'mov3'],
-          ['Não existe atividade mecânica', 'mov4'],
-          ['Relaxamento Ventricular', 'mov5']
+          ['Contração atrial', 'ondaP'],
+          ['Convergência dos estímulos atriais + retardo da condução do estímulo elétrico', 'segmentoPR'],
+          ['Contração ventricular', 'ondaQRS'],
+          ['Não existe atividade mecânica', 'segmentoST'],
+          ['Relaxamento Ventricular', 'ondaT']
         ]
       }
     ],
@@ -131,10 +131,10 @@ blocks:
         'name': 'efeitoFis',
         'options': [
           ['Envio de sangue sob pressão do átrio para ventrículos', 'ondaP'],
-          ['Retadrdo de condução para contração atrial antes da contração ventricular', 'mov2'],
-          ['Envio do sangue para o sistema arterial pulmonar e sistêmico', 'mov3'],
-          ['Representa o início da repolarização ventricular', 'mov4'],
-          ['Enchimento dos ventrículos', 'mov5']
+          ['Retadrdo de condução para contração atrial antes da contração ventricular', 'segmentoPR'],
+          ['Envio do sangue para o sistema arterial pulmonar e sistêmico', 'ondaQRS'],
+          ['Representa o início da repolarização ventricular', 'segmentoST'],
+          ['Enchimento dos ventrículos', 'ondaT']
         ]
       }
     ],
@@ -152,10 +152,10 @@ blocks:
         'name': 'image',
         'options': [
           [{src: 'assets/images/1ondaPECG.png', width: 200, height: 200, alt: 'ecg 1'}, 'ondaP'],
-          [{src: 'assets/images/2segmentoPRECG.png', width: 200, height: 200, alt: 'ecg 2'}, 'ecg2'],
-          [{src: 'assets/images/3ondaQRSECG.png', width: 200, height: 200, alt: 'ecg 3'}, 'ecg3'],
-          [{src: 'assets/images/4segmentoSTECG.png', width: 200, height: 200, alt: 'ecg 4'}, 'ecg4'],
-          [{src: 'assets/images/5ondaTECG.png', width: 200, height: 200, alt: 'ecg 5'}, 'ecg5']
+          [{src: 'assets/images/2segmentoPRECG.png', width: 200, height: 200, alt: 'ecg 2'}, 'segmentoPR'],
+          [{src: 'assets/images/3ondaQRSECG.png', width: 200, height: 200, alt: 'ecg 3'}, 'ondaQRS'],
+          [{src: 'assets/images/4segmentoSTECG.png', width: 200, height: 200, alt: 'ecg 4'}, 'segmentoST'],
+          [{src: 'assets/images/5ondaTECG.png', width: 200, height: 200, alt: 'ecg 5'}, 'ondaT']
       ]
       }
     ],
