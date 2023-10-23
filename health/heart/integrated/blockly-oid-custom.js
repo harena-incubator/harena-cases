@@ -60,7 +60,7 @@ blocks:
           ['Sino atrial', 'ondaP'],
           ['Nó atrio ventricular', 'segmentoPR'],
           ['Sistema His-Purkinje', 'ondaQRS'],
-          ['Ventrículo', 'segmentoST/OndaT']
+          ['Ventrículo', 'segmentoST/ondaT']
         ]
       }
     ],
@@ -106,7 +106,7 @@ blocks:
         'options': [
           ['Átrio', 'ondaP'],
           ['Nó AV', 'segmentoPR'],
-          ['Ventrículo', 'ondaQRS/segmentoST/OndaT']
+          ['Ventrículo', 'ondaQRS/segmentoST/ondaT']
         ]
       }
     ],
@@ -131,7 +131,7 @@ blocks:
         'name': 'efeitoFis',
         'options': [
           ['Envio de sangue sob pressão do átrio para ventrículos', 'ondaP'],
-          ['Retadrdo de condução para contração atrial antes da contração ventricular', 'segmentoPR'],
+          ['Retardo de condução para contração atrial antes da contração ventricular', 'segmentoPR'],
           ['Envio do sangue para o sistema arterial pulmonar e sistêmico', 'ondaQRS'],
           ['Representa o início da repolarização ventricular', 'segmentoST'],
           ['Enchimento dos ventrículos', 'ondaT']
