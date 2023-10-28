@@ -2,7 +2,7 @@
 
 ~~~
 <dcc-space-cellular-editor id="cellular-space" rows="28" cols="40"
-  cell-width="16" cell-height="16" background-color="#dddddd" grid analysis>
+  cell-width="20" cell-height="20" background-color="#dddddd" grid analysis>
 </dcc-space-cellular-editor>
 
 <div style="flex:48px; max-height:48px; display:flex; flex-direction:row">
@@ -116,9 +116,77 @@
 <subscribe-dcc target="cellular-space" topic="state/save" map="save"></subscribe-dcc>
 <subscribe-dcc target="cellular-space" topic="state/reset" map="reset"></subscribe-dcc>
 <subscribe-dcc target="cellular-space" topic="input/changed/space_scale" map="scale"></subscribe-dcc>
+
 ~~~
 
-# Final (input,end) #
+# Final (quiz)
+
+<h2>Antes de ir embora, quero saber o quanto você aprendeu sobre células e células mutantes.</h2>
+
+* Ir para o Quiz -> Flow.Next
+
+# Perguntas 2 (quiz)
+
+> Uma célula é:
+? q1
+  * type: choice
+  * exclusive: true
+  * reveal: vertical
+  * options:
+    * 'Pedacinho fundamental de todos os seres vivos'
+    * 'Um pedaço do Telefone celular'
+    * 'Um componente somente dos vegetais'
+
+<br><br>
+
+> Quantas células existem na pele?
+? q2
+  * type: choice
+  * exclusive: true
+  * reveal: vertical
+  * options:
+    * 'Umas 100'
+    * 'Milhões'
+    * 'Não temos células na pele'
+
+<br><br>
+
+> Desde quando a gente nasce até quando ficamos adultos, a pele tem sempre as células?
+? q3
+  * type: choice
+  * exclusive: true
+  * reveal: vertical
+  * options:
+    * 'Sim, sempre as mesmas'
+    * 'Vamos trocando de células à medida que vivemos'
+    * 'Paramos de fabricar células depois de adultos'
+
+<br><br>
+
+> Uma célula mutante é:
+? q4
+  * type: choice
+  * exclusive: true
+  * reveal: vertical
+  * options:
+    * 'Somente células do Wolverine'
+    * 'Uma célula que têm poderes'
+    * 'Uma célula que sofre uma modificação interna'
+
+<br><br>
+
+> O nosso organismo consegue curar-se de células mutantes?
+? q5
+  * type: choice
+  * exclusive: true
+  * reveal: vertical
+  * options:
+    * 'Sim, matando-as'
+    * 'Não, não é possível curar-se'
+
+* Encerrar -> Flow.Next
+
+# Mensagem Final (quiz,end) #
 <h1>Parabéns, você chegou ao final!</h1>
 
 ___ Data ___
@@ -160,7 +228,7 @@ ___ Data ___
     * width: 25
     * height: 25
 
-* sliders:
+* radio:
   * c1duplicates:
     * pre_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-1-single.png
     * pre_width: 96
@@ -168,7 +236,12 @@ ___ Data ___
     * pos_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-1-double.png
     * pos_width: 96
     * pos_height: 48
-    * initial: 0
+    * options:
+      * 'baixo': 5
+      * 'médio-baixo': 20
+      * 'médio': 30
+      * 'médio-alto': 35
+      * 'alto': 60
   * c1dies:
     * pre_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-1-single.png
     * pre_width: 96
@@ -176,7 +249,12 @@ ___ Data ___
     * pos_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-1-dies.png
     * pos_width: 96
     * pos_height: 48
-    * initial: 0
+    * options:
+      * 'baixo': 5
+      * 'médio-baixo': 20
+      * 'médio': 30
+      * 'médio-alto': 35
+      * 'alto': 60
   * c1mutant:
     * pre_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-1-single.png
     * pre_width: 96
@@ -184,7 +262,10 @@ ___ Data ___
     * pos_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-3-single.png
     * pos_width: 96
     * pos_height: 48
-    * initial: 0
+    * options:
+      * 'baixo': 0.5
+      * 'médio': 2
+      * 'alto': 5
   * c3duplicates:
     * pre_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-3-single.png
     * pre_width: 96
@@ -192,7 +273,12 @@ ___ Data ___
     * pos_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-3-double.png
     * pos_width: 96
     * pos_height: 48
-    * initial: 0
+    * options:
+      * 'baixo': 5
+      * 'médio-baixo': 20
+      * 'médio': 30
+      * 'médio-alto': 35
+      * 'alto': 60
   * c3dies:
     * pre_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-3-single.png
     * pre_width: 96
@@ -200,7 +286,12 @@ ___ Data ___
     * pos_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-3-dies.png
     * pos_width: 96
     * pos_height: 48
-    * initial: 0
+    * options:
+      * 'baixo': 5
+      * 'médio-baixo': 20
+      * 'médio': 30
+      * 'médio-alto': 35
+      * 'alto': 60
   * c3mutant:
     * pre_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-3-single.png
     * pre_width: 96
@@ -208,7 +299,10 @@ ___ Data ___
     * pos_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-5-single.png
     * pos_width: 96
     * pos_height: 48
-    * initial: 0
+    * options:
+      * 'baixo': 0.5
+      * 'médio': 2
+      * 'alto': 5
   * c5duplicates:
     * pre_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-5-single.png
     * pre_width: 96
@@ -216,7 +310,12 @@ ___ Data ___
     * pos_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-5-double.png
     * pos_width: 96
     * pos_height: 48
-    * initial: 0
+    * options:
+      * 'baixo': 5
+      * 'médio-baixo': 20
+      * 'médio': 30
+      * 'médio-alto': 35
+      * 'alto': 60
   * c5dies:
     * pre_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-5-single.png
     * pre_width: 96
@@ -224,7 +323,12 @@ ___ Data ___
     * pos_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-5-dies.png
     * pos_width: 96
     * pos_height: 48
-    * initial: 0
+    * options:
+      * 'baixo': 5
+      * 'médio-baixo': 20
+      * 'médio': 30
+      * 'médio-alto': 35
+      * 'alto': 60
   * c5moves:
     * pre_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-5-single.png
     * pre_width: 96
@@ -232,7 +336,10 @@ ___ Data ___
     * pos_image: https://mc-unicamp.github.io/oficinas/simula/mutant/image/cell-5-moves.png
     * pos_width: 96
     * pos_height: 48
-    * initial: 0
+    * options:
+      * 'baixo': 5
+      * 'médio': 30
+      * 'alto': 80
 * script_mode: no-script-no-hide
 
 ___ Template ___

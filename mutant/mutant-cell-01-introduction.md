@@ -1,4 +1,71 @@
-# Scene 1 #
+# Quiz 1 (quiz)
+
+<h2>Antes de iniciarmos, quero saber o quanto você sabe sobre células e células mutantes.</h2>
+
+* Ir para o Quiz -> Flow.Next
+
+# Perguntas 1 (quiz)
+
+> Uma célula é:
+? q1
+  * type: choice
+  * exclusive: true
+  * reveal: vertical
+  * options:
+    * 'Pedacinho fundamental de todos os seres vivos'
+    * 'Um pedaço do Telefone celular'
+    * 'Um componente somente dos vegetais'
+
+<br><br>
+
+> Quantas células existem na pele?
+? q2
+  * type: choice
+  * exclusive: true
+  * reveal: vertical
+  * options:
+    * 'Umas 100'
+    * 'Milhões'
+    * 'Não temos células na pele'
+
+<br><br>
+
+> Desde quando a gente nasce até quando ficamos adultos, a pele tem sempre as células?
+? q3
+  * type: choice
+  * exclusive: true
+  * reveal: vertical
+  * options:
+    * 'Sim, sempre as mesmas'
+    * 'Vamos trocando de células à medida que vivemos'
+    * 'Paramos de fabricar células depois de adultos'
+
+<br><br>
+
+> Uma célula mutante é:
+? q4
+  * type: choice
+  * exclusive: true
+  * reveal: vertical
+  * options:
+    * 'Somente células do Wolverine'
+    * 'Uma célula que têm poderes'
+    * 'Uma célula que sofre uma modificação interna'
+
+<br><br>
+
+> O nosso organismo consegue curar-se de células mutantes?
+? q5
+  * type: choice
+  * exclusive: true
+  * reveal: vertical
+  * options:
+    * 'Sim, matando-as'
+    * 'Não, não é possível curar-se'
+
+* Iniciar -> Flow.Next
+
+# Scene 1 (detailed_cell) #
 ~~~html
 <div class="styt-pul-main">
   <div class="row">
@@ -51,7 +118,7 @@
 * Próxima Página -> Flow.Next
 
 
-# Scene 2 #
+# Scene 2 (detailed_cell) #
 ~~~html
 <div class="styt-pul-main">
   <div class="row">
@@ -99,7 +166,7 @@
 
 * Próxima Página -> Flow.Next
 
-# Scene 3 #
+# Scene 3 (detailed_cell) #
 ~~~html
 <div class="styt-pul-main">
   <div class="row">
@@ -147,7 +214,7 @@
 
 * Próxima Página -> Flow.Next
 
-# Scene 4 #
+# Scene 4 (detailed_cell) #
 ~~~html
 <div class="styt-pul-main">
   <div class="row">
@@ -195,7 +262,7 @@
 
 * Próxima Página -> Flow.Next
 
-# Scene 5 #
+# Scene 5 (detailed_cell) #
 ~~~html
 <div class="styt-pul-main">
   <div class="row">
@@ -246,9 +313,12 @@
 
 * Próxima Página -> Flow.Next
 
+# Mensagem Final (quiz,end) #
+<h1>Parabéns, você concluiu a introdução!</h1>
+
 ___ Template ___
 
-* template: plain/case/empty
+* template: compact/case/cell_editor_sliders
 ___ Flow ___
 
 * Sequential:
@@ -256,4 +326,4 @@ ___ Flow ___
 
 ___ Data ___
 
-* theme: plain
+* theme: compact(green)
