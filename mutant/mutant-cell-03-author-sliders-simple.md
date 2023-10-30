@@ -119,13 +119,9 @@
 
 ~~~
 
-# Final (quiz)
+# Perguntas 2 (quiz)
 
 <h2>Antes de ir embora, quero saber o quanto você aprendeu sobre células e células mutantes.</h2>
-
-* Ir para o Quiz -> Flow.Next
-
-# Perguntas 2 (quiz)
 
 > Uma célula é:
 ? q1
