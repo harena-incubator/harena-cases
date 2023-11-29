@@ -43,11 +43,11 @@ blocks:
         'type': 'field_dropdown',
         'name': 'image',
         'options': [
-          [{src: 'assets/images/1ondaP.png', width: 200, height: 200, alt: 'heart 1'}, 'ondaP'],
+          [{src: 'assets/images/ondaP.gif', width: 200, height: 200, alt: 'heart 1'}, 'ondaP'],
           [{src: 'assets/images/2segmentoPR.png', width: 200, height: 200, alt: 'heart 2'}, 'segmentoPR'],
-          [{src: 'assets/images/3ondaQRS.png', width: 200, height: 200, alt: 'heart 3'}, 'ondaQRS'],
+          [{src: 'assets/images/qrs.gif', width: 200, height: 200, alt: 'heart 3'}, 'ondaQRS'],
           [{src: 'assets/images/4segmentoST.png', width: 200, height: 200, alt: 'heart 4'}, 'segmentoST'],
-          [{src: 'assets/images/5ondaT.png', width: 200, height: 200, alt: 'heart 4'}, 'ondaT']
+          [{src: 'assets/images/ondaT.gif', width: 200, height: 200, alt: 'heart 4'}, 'ondaT']
         ]
       }
     ],
