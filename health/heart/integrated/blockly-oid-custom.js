@@ -44,7 +44,7 @@ blocks:
         'name': 'image',
         'options': [
           [{src: 'assets/images/ondaP.gif', width: 200, height: 200, alt: 'heart 1'}, 'ondaP'],
-          [{src: 'assets/images/2segmentoPR.png', width: 200, height: 200, alt: 'heart 2'}, 'segmentoPR'],
+          [{src: 'assets/images/PR.gif', width: 200, height: 200, alt: 'heart 2'}, 'segmentoPR'],
           [{src: 'assets/images/qrs.gif', width: 200, height: 200, alt: 'heart 3'}, 'ondaQRS'],
           [{src: 'assets/images/4segmentoST.png', width: 200, height: 200, alt: 'heart 4'}, 'segmentoST'],
           [{src: 'assets/images/ondaT.gif', width: 200, height: 200, alt: 'heart 4'}, 'ondaT']
