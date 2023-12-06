@@ -228,13 +228,13 @@ Oid.customize('foid:lively-talk', {
         }*/
 
         if(existe =='X'){
-          oid.txt += '<tr><td>Não existe coração</td><td><button>Saiba Mais</button></td></tr>'
+          oid.txt += '<tr><td>Não existe coração</td><td><button-oid label="Saiba mais" value="sem-coracao" publish="click~action/robot"></button-oid></td></tr>'
         }else{
           if(instrucoes =='X'){
             oid.txt += '<tr><td>Blocos soltos</td><td><button>Saiba Mais</button></td></tr>'
           }else{
             if(ciclo =='X'){
-              oid.txt += '<tr><td>Quantidade de ciclos incorreta</td><td><button>Saiba Mais</button></td></tr>'
+              oid.txt += '<tr><td>Quantidade de ciclos incorreta</td><td><button-oid label="Saiba mais" value="ciclos-incorreta" publish="click~action/robot"></button-oid></td></tr>'
             }
             if(vazio =='X'){
               oid.txt += '<tr><td>Campo vazio</td><td><button>Saiba Mais</button></td></tr>'
@@ -264,6 +264,12 @@ Oid.customize('foid:lively-talk', {
       else if (parameters.value == 'saiba') {
         oid.handleSend('display',
           {value: (oid.know == null || oid.know.length == 0) ? '-> Não há nova informações...' : oid.know})
+      } else if (parameters.value == 'sem-coracao') {
+        oid.handleSend('display',
+          {value: 'Não existe um coração. Arraste um bloco coração para começar!'})
+      } else if (parameters.value == 'ciclos-incorreta') {
+        oid.handleSend('display',
+          {value: oid.smciclo})
       } else if (parameters.value.length == 0)
         oid.statements = null
       else if (parameters.value != null) {
