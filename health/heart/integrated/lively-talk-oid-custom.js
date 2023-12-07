@@ -83,7 +83,7 @@ Oid.customize('foid:lively-talk', {
             if (empty) {
               //feedback += '-> Há uma ou mais instruções incompletas\n'
               vazio = '&#10060;'
-              oid.smvazio = 'Está faltando algo! A associação entre o ECG, aAtvidade elétrica e a atividade mecânica não está completa! '
+              oid.smvazio = 'Está faltando algo! A associação entre o ECG, a atvidade elétrica e a atividade mecânica não está completa! '
               erro++
             }
             // analisando consistencia entre texto e imagem de cada célula
@@ -98,7 +98,7 @@ Oid.customize('foid:lively-talk', {
             if (pEle > 0) {
               //feedback += -> O texto que você escolheu em uma das imagens em algum dos blocos não descreve adequadamente a atividade ilustrada. (detalhes em Saiba mais)\n
               textoEle = '&#10060;'
-              oid.smtextoEle = 'Associação entre textos e imagens inconsistente em ${pEle} blocos na atividade elétrica'
+              oid.smtextoEle = `Associação entre textos e imagens inconsistente em ${pEle} blocos na atividade elétrica.`
               //oid.know += -> Associação entre textos e imagens inconsistente em ${pEle} blocos na atividade elétrica\n
               erro++
             }
@@ -114,7 +114,7 @@ Oid.customize('foid:lively-talk', {
               //feedback += -> O texto que você escolheu em uma das imagens em algum dos blocos não descreve adequadamente a atividade ilustrada. (detalhes em Saiba mais)\n
               //oid.know += -> Associação entre textos e imagens inconsistente em ${pMec} blocos na atividade mecânica\n
               textoMec = '&#10060;'
-              oid.smtextoMec = 'Associação entre textos e imagens inconsistente em ${pMec} blocos na atividade mecânica'
+              oid.smtextoMec = `Associação entre textos e imagens inconsistente em ${pMec} blocos na atividade mecânica.`
               erro++
             }
 
@@ -228,16 +228,16 @@ Oid.customize('foid:lively-talk', {
 
           }
         }        
-        oid.txt += '<tr><td>Existe coração</td><td>'+existe+'</td><td><button-oid label="Saiba Mais" value="sem-coracao" publish="click~action/robot"> </button-oid></td></tr>'
+        oid.txt += '<tr><td>Existe coração</td><td>'+existe+'</td><td><button-oid label="&#128269;" value="sem-coracao" publish="click~action/robot"> </button-oid></td></tr>'
         if(existe!='&#10060;'){
-          oid.txt += '<tr><td>Blocos soltos</td><td>'+instrucoes+'</td><td><button-oid label="Saiba Mais" value="instrucoes-incorreta" publish="click~action/robot"></button-oid></td></tr>'
+          oid.txt += '<tr><td>Blocos soltos</td><td>'+instrucoes+'</td><td><button-oid label="&#128269;" value="instrucoes-incorreta" publish="click~action/robot"></button-oid></td></tr>'
           if(instrucoes!='&#10060;'){
-            oid.txt += '<tr><td>Quantidade de ciclos</td><td>'+ciclo+'</td><td><button-oid label="Saiba Mais" value="ciclos-incorreta" publish="click~action/robot"></button-oid></td></tr>'
-            oid.txt += '<tr><td>Campo vazio</td><td>'+vazio+'</td><td><button-oid label="Saiba Mais" value="campo-vazio" publish="click~action/robot"></button-oid></td></tr>'
-            oid.txt += '<tr><td>Descrição da atividade elétrica</td><td>'+textoEle+'</td><td><button-oid label="Saiba Mais" value="txtEle-incorreta" publish="click~action/robot"></button-oid></td></tr>'
-            oid.txt += '<tr><td>Descrição da atividade mecânica</td><td>'+textoMec+'</td><td><button-oid label="Saiba Mais" value="txtMec-incorreta" publish="click~action/robot"></button-oid></td></tr>'
-            oid.txt += '<tr><td>Ordem dos ciclos</td><td>'+ordem+'</td><td><button-oid label="Saiba Mais" value="ordem-incorreta" publish="click~action/robot"></button-oid></td></tr>'
-            oid.txt += '<tr><td>Conexão entre blocos</td><td>'+associacao+'</td><td><button-oid label="Saiba Mais" value="associacao-incorreta" publish="click~action/robot"></button-oid></td></tr>'
+            oid.txt += '<tr><td>Quantidade de ciclos</td><td>'+ciclo+'</td><td><button-oid label="&#128269;" value="ciclos-incorreta" publish="click~action/robot"></button-oid></td></tr>'
+            oid.txt += '<tr><td>Campo vazio</td><td>'+vazio+'</td><td><button-oid label="&#128269;" value="campo-vazio" publish="click~action/robot"></button-oid></td></tr>'
+            oid.txt += '<tr><td>Descrição da atividade elétrica</td><td>'+textoEle+'</td><td><button-oid label="&#128269;" value="txtEle-incorreta" publish="click~action/robot"></button-oid></td></tr>'
+            oid.txt += '<tr><td>Descrição da atividade mecânica</td><td>'+textoMec+'</td><td><button-oid label="&#128269;" value="txtMec-incorreta" publish="click~action/robot"></button-oid></td></tr>'
+            oid.txt += '<tr><td>Ordem dos ciclos</td><td>'+ordem+'</td><td><button-oid label="&#128269;" value="ordem-incorreta" publish="click~action/robot"></button-oid></td></tr>'
+            oid.txt += '<tr><td>Conexão entre blocos</td><td>'+associacao+'</td><td><button-oid label="&#128269;" value="associacao-incorreta" publish="click~action/robot"></button-oid></td></tr>'
           }
         }
 
