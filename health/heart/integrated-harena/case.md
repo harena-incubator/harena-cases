@@ -1,171 +1,10 @@
-# Entrada #
+# Entrada (pre) #
 
-Primeiro vamos fazer algumas perguntas para conhecer o seu perfil. Isso será importante para o jogo que você vai jogar.
-
-* Próximo -> Kolb1
-
-# Kolb1 #
-> 1) Enquanto aprendo:
-? kb1
-  * type: choice
-  * exclusive
-  * options:
-    * 'Gosto de lidar com meus sentimentos. '
-    * 'Gosto de pensar sobre idéias. '
-    * 'Gosto de estar fazendo coisas. '
-    * 'Gosto de observar e escutar.'
-* Próximo -> Kolb2 
-
-# Kolb2 #
-> 2) Aprendo melhor quando:
-? kb2
-  * type: choice
-  * exclusive
-  * options:
-    * 'Ouço e observo com atenção. '
-    * 'Me apoio em pensamento lógico. '
-    * 'Confio em meus palpites e impressões. '
-    * 'Trabalho com afinco para executar a tarefa. '
-* Anterior -> Kolb1
-* Próximo -> Kolb3
-
-# Kolb3 #
-> 3) Quando estou aprendendo:
-? kb3
-  * type: choice
-  * exclusive
-  * options:
-    * 'Tendo a buscar as explicações para as coisas. '
-    * 'Sou responsável acerca das coisas. '
-    * 'Fico quieto e concentrado.'
-    * 'Tenho sentimentos e reações fortes.'
-* Anterior -> Kolb2
-* Próximo -> Kolb4
-
-# Kolb4 #
-> 4) Aprendo:
-? kb4
-  * type: choice
-  * exclusive
-  * options:
-    * 'Sentindo. '
-    * 'Fazendo. '
-    * 'Observando. '
-    * 'Pensando. '
-* Anterior -> Kolb3
-* Próximo -> Kolb5
-
-# Kolb5 #
-> 5) Enquanto aprendo:
-? kb5
-  * type: choice
-  * exclusive
-  * options:
-    * 'Me abro a novas experiências.'
-    * 'Examino todos os ângulos da questão. '
-    * 'Gosto de analisar as coisas, desdobrá-las em suas partes. '
-    * 'Gosto de testar as coisas. '
-* Anterior -> Kolb4
-* Próximo -> Kolb6
-
-# Kolb6 #
-> 6)  Enquanto estou aprendendo:
-? kb6
-  * type: choice
-  * exclusive
-  * options:
-    * 'Sou uma pessoa observadora.'
-    * 'Sou uma pessoa ativa. '
-    * 'Sou uma pessoa intuitiva. '
-    * 'Sou uma pessoa lógica. '
-* Anterior -> Kolb5
-* Próximo -> Kolb7
-
-# Kolb7 #
-> 7) Aprendo melhor através de:
-? kb7
-  * type: choice
-  * exclusive
-  * options:
-    * 'Observação. '
-    * 'Interações pessoais. '
-    * 'Teorias racionais. '
-    * 'Oportunidades para experimentar e praticar. '
-* Anterior -> Kolb6
-* Próximo -> Kolb8
-
-# Kolb8 #
-> 8) Enquanto aprendo:
-? kb8
-  * type: choice
-  * exclusive
-  * options:
-    * 'Gosto de ver os resultados de meu trabalho.'
-    * 'Gosto de idéias e teorias.' 
-    * 'Penso antes de agir. '
-    * 'Sinto-me pessoalmente envolvido no assunto. '
-* Anterior -> Kolb7
-* Próximo -> Kolb9
-
-# Kolb9 #
-> 9) Aprendo melhor quando:
-? kb9
-  * type: choice
-  * exclusive
-  * options:
-    * 'Me apoio em minhas observações. '
-    * 'Me apoio em minhas impressões. ' 
-    * 'Posso experimentar coisas por mim mesmo. '
-    * 'Me apoio em minhas idéias. '
-* Anterior -> Kolb8
-* Próximo -> Kolb10
-
-# Kolb10 #
-> 10) Quando estou aprendendo:
-? kb10
-  * type: choice  
-  * exclusive
-  * options:
-    * 'Sou uma pessoa compenetrada. '
-    * 'Sou uma pessoa flexível. '
-    * 'Sou uma pessoa responsável. '
-    * 'Sou uma pessoa racional. '
-* Anterior -> Kolb9
-* Próximo -> Kolb11
-
-# Kolb11 #
-> 11) Enquanto aprendo:
-? kb11
-  * type: choice
-  * exclusive
-  * options:
-    * 'Me envolvo todo. '
-    * 'Gosto de observar. '
-    * 'Avalio as coisas. '
-    * 'Gosto de estar ativo. '
-* Anterior -> Kolb10
-* Próximo -> Kolb12
-
-# Kolb12 #
-> 12) Aprendo melhor quando:
-? kb12
-  * type: choice
-  * exclusive
-  * options:
-    * 'Analiso as idéias. '
-    * 'Sou receptivo e de mente aberta. '
-    * 'Sou cuidadoso. '
-    * 'Sou prático. '
-* Anterior-> Kolb11
-* Finalizar-> Teste1
-
-# Testes #
-
-Agora iremos iniciar um teste com 5 questões para avaliarmos seu conhecimento sobre a fisiologia do coração.
+Iniciaremos com um teste com 5 questões para avaliarmos seu conhecimento sobre a fisiologia do coração.
 
 * Iniciar -> Teste1
 
-# Teste1 #
+# Teste1 (pre) #
 > 1) Verdadeiro ou falso: a atividade mecânica do coração precede a sua atividade elétrica.
 ? ta1
   * type: choice
@@ -175,7 +14,7 @@ Agora iremos iniciar um teste com 5 questões para avaliarmos seu conhecimento s
     * 'B) Falso'
 * Próximo -> Teste2
 
-# Teste2 #
+# Teste2 (pre) #
 > 2) O impulso elétrico que se movimenta pelo coração pode ser visualizado por meio de eletrocardiografia, cujo produto final é um eletrocardiograma (ECG). Cada fase do ciclo cardíaco é refletida em forma de ondas, de complexos, de segmentos e de intervalos na tela de um monitor cardíaco ou no eletro. Sabemos que o impulso elétrico se inicia no Nó sinoatrial e percorre átrio e ventrículos. Assinale a alternativa CORRETA que representa no ECG a repolarização ventricular.
 ? ta2
   * type: choice
@@ -186,9 +25,11 @@ Agora iremos iniciar um teste com 5 questões para avaliarmos seu conhecimento s
     * 'C) Onda T.'
     * 'D) Onda U.'
 * Anterior -> Teste1
+{{
 * Próximo -> Teste3
+}}
 
-# Teste3 #
+# Teste3 (pre) #
 > 3) No eletrocardiograma, a onda P representa:
 ? ta3
   * type: choice
@@ -200,9 +41,11 @@ Agora iremos iniciar um teste com 5 questões para avaliarmos seu conhecimento s
     * 'D) A despolarização dos átrios.'
     * 'E) A despolarização dos ventrículos'
 * Anterior -> Teste2
+{{
 * Próximo -> Teste4
+}}
 
-# Teste4 #
+# Teste4 (pre) #
 > 4) Qual das alternativas abaixo descreve corretamente o resultado da passagem do estímulo elétrico pelos átrios:
 ? ta4
   * type: choice
@@ -214,9 +57,11 @@ Agora iremos iniciar um teste com 5 questões para avaliarmos seu conhecimento s
     * 'D) Intervalo PR - Repolarização atrial.'
     * 'E) Onda T- Repolarização atrial.'
 * Anterior -> Teste3
+{{
 * Próximo -> Teste5
+}}
 
-# Teste5 #
+# Teste5 (pre) #
 > 5) A Monitorização cardíaca avalia a atividade elétrica do coração por meio de eletrodos fixados na pele. Por meio da monitorização é possível avaliar o ritmo cardíaco. Em relação ao complexo QRS, é correto afirmar que:
 ? ta5
   * type: choice
@@ -227,9 +72,41 @@ Agora iremos iniciar um teste com 5 questões para avaliarmos seu conhecimento s
     * 'C) Representa a despolarização ao longo do septo e paredes ventriculares.'
     * 'D) Representa a repolarização do sistema His-Purkinje.'
 * Anterior -> Teste4
-* Finalizar -> Enunciado
+{{
+* Finalizar -> Videos
+}}
 
-# Enunciado #
+# Videos (video) #
+
+Nesta seção, você assistirá alguns vídeos ilustrando o funcionamento do coração.
+
+* Iniciar -> Video1
+
+# Video1 (video) #
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bP3DxzY_q8k?si=AE-vhf_-0CpbkxFa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+* Próximo -> Video2
+
+# Video2 (video) #
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PIyfkR7RNa4?si=jJb1tVkNMJBDpTl3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+* Anterior -> Video1
+{{
+* Próximo -> Video3
+}}
+
+# Video3 (video) #
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/svAZ6m1DEVA?si=oXL5KNcg0O1KfxzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+* Anterior -> Video2
+{{
+* Próximo -> Enunciado
+}}
+
+# Enunciado (atividade) #
 ![Robô](https://uploaddeimagens.com.br/images/004/645/077/full/enunciado.png?1698097943)
 * Ajudar Robô -> Jogo
 
@@ -274,13 +151,13 @@ Agora iremos iniciar um teste com 5 questões para avaliarmos seu conhecimento s
   </div>
 ~~~
 
-# PostTestes #
+# PostTestes (pos) #
 
 Para finalizarmos iremos refazer o teste com 5 questões para avaliarmos seu conhecimento sobre a fisiologia do coração ápos montar o batimento cardíaco do Robô.
 
 * Iniciar -> PosTeste1
 
-# PosTeste1 #
+# PosTeste1 (pos) #
 > 1) Verdadeiro ou falso: a atividade mecânica do coração precede a sua atividade elétrica.
 ? tp1
   * type: choice
@@ -290,7 +167,7 @@ Para finalizarmos iremos refazer o teste com 5 questões para avaliarmos seu con
     * 'B) Falso'
 * Próximo -> PosTeste2
 
-# PosTeste2 #
+# PosTeste2 (pos) #
 > 2) O impulso elétrico que se movimenta pelo coração pode ser visualizado por meio de eletrocardiografia, cujo produto final é um eletrocardiograma (ECG). Cada fase do ciclo cardíaco é refletida em forma de ondas, de complexos, de segmentos e de intervalos na tela de um monitor cardíaco ou no eletro. Sabemos que o impulso elétrico se inicia no Nó sinoatrial e percorre átrio e ventrículos. Assinale a alternativa CORRETA que representa no ECG a repolarização ventricular.
 ? tp2
   * type: choice
@@ -301,9 +178,11 @@ Para finalizarmos iremos refazer o teste com 5 questões para avaliarmos seu con
     * 'C) Onda T.'
     * 'D) Onda U.'
 * Anterior -> PosTeste1
+{{
 * Próximo -> PosTeste3
+}}
 
-# PosTeste3 #
+# PosTeste3 (pos) #
 > 3) No eletrocardiograma, a onda P representa:
 ? tp3
   * type: choice
@@ -315,9 +194,11 @@ Para finalizarmos iremos refazer o teste com 5 questões para avaliarmos seu con
     * 'D) A despolarização dos átrios.'
     * 'E) A despolarização dos ventrículos'
 * Anterior -> PosTeste2
+{{
 * Próximo -> PosTeste4
+}}
 
-# PosTeste4 #
+# PosTeste4 (pos) #
 > 4) Qual das alternativas abaixo descreve corretamente o resultado da passagem do estímulo elétrico pelos átrios:
 ? tp4
   * type: choice
@@ -329,9 +210,11 @@ Para finalizarmos iremos refazer o teste com 5 questões para avaliarmos seu con
     * 'D) Intervalo PR - Repolarização atrial.'
     * 'E) Onda T- Repolarização atrial.'
 * Anterior -> PosTeste3
+{{
 * Próximo -> PosTeste5
+}}
 
-# PosTeste5 #
+# PosTeste5 (pos) #
 > 5) A Monitorização cardíaca avalia a atividade elétrica do coração por meio de eletrodos fixados na pele. Por meio da monitorização é possível avaliar o ritmo cardíaco. Em relação ao complexo QRS, é correto afirmar que:
 ? tp5
   * type: choice
@@ -342,14 +225,16 @@ Para finalizarmos iremos refazer o teste com 5 questões para avaliarmos seu con
     * 'C) Representa a despolarização ao longo do septo e paredes ventriculares.'
     * 'D) Representa a repolarização do sistema His-Purkinje.'
 * Anterior -> PosTeste4
+{{
 * Finalizar -> Fim
+}}
 
-# Fim (end)
+# Fim (conclusao,end) #
 ![Fim](https://uploaddeimagens.com.br/images/004/645/119/full/fim.png?1698102176)
 
 ___ Template ___
 
-* template: plain/case/empty
+* template: sections/basic
 ___ Flow ___
 
 * Sequential:
@@ -357,4 +242,4 @@ ___ Flow ___
 
 ___ Data ___
 
-* theme: plain
+* theme: sections(blue)
