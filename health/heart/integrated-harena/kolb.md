@@ -1,6 +1,51 @@
-# Entrada (kolb) #
+# Entrada (demografico) #
 
 Primeiro vamos fazer algumas perguntas para conhecer o seu perfil. Isso será importante para o jogo que você vai jogar.
+
+* Iniciar -> Demografico
+
+# Demografico (demografico) #
+> Idade
+? idade
+<br>
+> Anos de formada como enfermeira
+? formada
+<br>
+> Anos atuando como enfermeira em UTI
+? atuando
+<br>
+> Tem especialização?
+? temesp
+  * type: choice
+  * exclusive
+  * options:
+    * 'sim'
+    * 'não'
+<br>
+> Se sim, qual especialização?
+? especializacao
+<br>
+> Mestrado concluído?
+? mestrado
+  * type: choice
+  * exclusive
+  * options:
+    * 'sim'
+    * 'não'
+<br>
+> Doutorado concluído?
+? doutorado
+  * type: choice
+  * exclusive
+  * options:
+    * 'sim'
+    * 'não'
+
+* Próximo -> IKolb
+
+# IKolb (kolb) #
+
+Agora vamos fazer algumas perguntas sobre o seu perfil de aprendizagem.
 
 * Iniciar -> Kolb1
 
@@ -187,6 +232,10 @@ Primeiro vamos fazer algumas perguntas para conhecer o seu perfil. Isso será im
 
 # Fim (kolb,end)
 Obrigado por responder as questões sobre o seu perfil de aprendizagem. Agora você está preparado para participar do jogo!
+
+<br>
+
+<a href="https://jacinto.harena.org/player/env/index-jacinto.html">Retornar ao Painel Principal</a>
 
 ___ Template ___
 
