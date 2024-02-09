@@ -1,8 +1,14 @@
-# Entrada (pre) #
+# Resumo (summary) #
+
+![Resumo](theme/section1.svg)
+
+* Iniciar -> PreTestes
+
+# PreTestes (pre) #
 
 Iniciaremos com um teste com 5 questões para avaliarmos seu conhecimento sobre a fisiologia do coração.
 
-* Iniciar -> Teste1
+* Próximo -> Teste1
 
 # Teste1 (pre) #
 > 1) Verdadeiro ou falso: a atividade mecânica do coração precede a sua atividade elétrica.
@@ -103,6 +109,16 @@ Nesta seção, você assistirá alguns vídeos ilustrando o funcionamento do cor
 
 * Anterior -> Video2
 {{
+* Próximo -> Video4
+}}
+
+
+# Video4 (video) #
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NpOtRPr6qRQ?si=bL97eJivouG8XSr6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+* Anterior -> Video3
+{{
 * Próximo -> Enunciado
 }}
 
@@ -126,15 +142,10 @@ Nesta seção, você assistirá alguns vídeos ilustrando o funcionamento do cor
                   value="simular"
                   publish="click~action/robot">
       </button-oid>
-      <button-oid label="Saiba mais"
-                  value="saiba"
-                  publish="click~action/robot">
-      </button-oid>
+      <br>
+      <br>
+      <br>
       <dcc-input-typed variable="notes" rows="5">Anotações:</dcc-input-typed>
-      <dcc-input
-      <br>
-      <br>
-      <br>
       <br>
       <br>
       <button-oid label="-->Finalizar<--"
