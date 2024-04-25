@@ -7,17 +7,15 @@
     <title>Kolb 9</title>
   </head>
   <body>
+
+    <script>
+      function Evento(){
+        const state = Blockly.serialization.workspaces.save(workspace);
+        console.log(state);
+      }
+    </script>
     <div id="blocklyDiv" style="height: 700px; width: 100%;"></div>
-    <xml id="toolbox" style="display: none">
-      
-      <category name="Respostas" colour="20">
-        <block type="op1"></block>
-        <block type="op2"></block>
-        <block type="op3"></block>
-        <block type="op4"></block>
-        <block type="pergt"></block>
-      </category>
-    </xml>
+
     <script>
       var workspace = Blockly.inject('blocklyDiv',
           {toolbox: document.getElementById('toolbox'),
@@ -30,6 +28,43 @@
           scaleSpeed: 1.2,
           pinch: true},
           trashcan: true});
+          Blockly.serialization.workspaces.load({
+    "blocks": {
+        "languageVersion": 0,
+        "blocks": [
+            {
+                "type": "pergt",
+                "id": "s5ph+V)Tv0aCi|J;8s^!",
+                "x": 51,
+                "y": 12
+            },
+            {
+                "type": "op1",
+                "id": "hq]WL@K%L(.tn[vxq/Qo",
+                "x": 54,
+                "y": 59
+            },
+            {
+                "type": "op2",
+                "id": "R^1LW0,`BWs`%I}.`A8P",
+                "x": 55,
+                "y": 93
+            },
+            {
+                "type": "op3",
+                "id": "@%$];g),Zcz9EzsvYd?_",
+                "x": 54,
+                "y": 130
+            },
+            {
+                "type": "op4",
+                "id": "G.fG6@/zrr}Sa)uuyjG#",
+                "x": 53,
+                "y": 165
+            }
+        ]
+    }
+}, workspace);
     </script>
     
   </body>
