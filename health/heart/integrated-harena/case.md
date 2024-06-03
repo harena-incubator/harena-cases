@@ -16,7 +16,7 @@ Iniciaremos com um teste com 5 questões para avaliarmos seu conhecimento sobre 
   * type: choice
   * exclusive
   * options:
-    * '	A) Verdadeiro'
+    * 'A) Verdadeiro'
     * 'B) Falso'
 * Próximo -> Teste2
 

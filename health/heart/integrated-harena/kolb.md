@@ -2,9 +2,9 @@
 
 Primeiro vamos fazer algumas perguntas para conhecer o seu perfil. Isso será importante para o jogo que você vai jogar.
 
-* Iniciar -> Demografico
+* Iniciar -> Demografico1
 
-# Demografico (demografico) #
+# Demografico1 (demografico) #
 > Idade
 ? idade
 <br>
@@ -13,7 +13,11 @@ Primeiro vamos fazer algumas perguntas para conhecer o seu perfil. Isso será im
 <br>
 > Anos atuando como enfermeira em UTI
 ? atuando
-<br>
+
+* Próximo -> Demografico2
+
+# Demografico2 (demografico) #
+
 > Tem especialização?
 ? temesp
   * type: choice
@@ -50,15 +54,15 @@ Agora vamos fazer algumas perguntas sobre o seu perfil de aprendizagem.
 * Iniciar -> Kolb1
 
 # Kolb1 (kolb) #
-> 1) Enquanto aprendo:
-? kb1
-  * type: choice
-  * exclusive
-  * options:
-    * 'Gosto de lidar com meus sentimentos. '
-    * 'Gosto de pensar sobre idéias. '
-    * 'Gosto de estar fazendo coisas. '
-    * 'Gosto de observar e escutar.'
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb1"
+              publish="update~action/kolb1"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
 
 * Anterior -> Entrada 
 {{
@@ -66,165 +70,176 @@ Agora vamos fazer algumas perguntas sobre o seu perfil de aprendizagem.
 }}
 
 # Kolb2 (kolb) #
-> 2) Aprendo melhor quando:
-? kb2
-  * type: choice
-  * exclusive
-  * options:
-    * 'Ouço e observo com atenção. '
-    * 'Me apoio em pensamento lógico. '
-    * 'Confio em meus palpites e impressões. '
-    * 'Trabalho com afinco para executar a tarefa. '
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb2"
+              publish="update~action/kolb2"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior -> Kolb1
 {{
 * Próximo -> Kolb3
 }}
 
 # Kolb3 (kolb) #
-> 3) Quando estou aprendendo:
-? kb3
-  * type: choice
-  * exclusive
-  * options:
-    * 'Tendo a buscar as explicações para as coisas. '
-    * 'Sou responsável acerca das coisas. '
-    * 'Fico quieto e concentrado.'
-    * 'Tenho sentimentos e reações fortes.'
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb3"
+              publish="update~action/kolb3"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior -> Kolb2
 {{
 * Próximo -> Kolb4
 }}
 
 # Kolb4 (kolb) #
-> 4) Aprendo:
-? kb4
-  * type: choice
-  * exclusive
-  * options:
-    * 'Sentindo. '
-    * 'Fazendo. '
-    * 'Observando. '
-    * 'Pensando. '
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb4"
+              publish="update~action/kolb4"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior -> Kolb3
 {{
 * Próximo -> Kolb5
 }}
 
 # Kolb5 (kolb) #
-> 5) Enquanto aprendo:
-? kb5
-  * type: choice
-  * exclusive
-  * options:
-    * 'Me abro a novas experiências.'
-    * 'Examino todos os ângulos da questão. '
-    * 'Gosto de analisar as coisas, desdobrá-las em suas partes. '
-    * 'Gosto de testar as coisas. '
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb5"
+              publish="update~action/kolb5"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior -> Kolb4
 {{
 * Próximo -> Kolb6
 }}
 
 # Kolb6 (kolb) #
-> 6)  Enquanto estou aprendendo:
-? kb6
-  * type: choice
-  * exclusive
-  * options:
-    * 'Sou uma pessoa observadora.'
-    * 'Sou uma pessoa ativa. '
-    * 'Sou uma pessoa intuitiva. '
-    * 'Sou uma pessoa lógica. '
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb6"
+              publish="update~action/kolb6"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior -> Kolb5
 {{
 * Próximo -> Kolb7
 }}
 
 # Kolb7 (kolb) #
-> 7) Aprendo melhor através de:
-? kb7
-  * type: choice
-  * exclusive
-  * options:
-    * 'Observação. '
-    * 'Interações pessoais. '
-    * 'Teorias racionais. '
-    * 'Oportunidades para experimentar e praticar. '
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb7"
+              publish="update~action/kolb7"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior -> Kolb6
 {{
 * Próximo -> Kolb8
 }}
 
 # Kolb8 (kolb) #
-> 8) Enquanto aprendo:
-? kb8
-  * type: choice
-  * exclusive
-  * options:
-    * 'Gosto de ver os resultados de meu trabalho.'
-    * 'Gosto de idéias e teorias.' 
-    * 'Penso antes de agir. '
-    * 'Sinto-me pessoalmente envolvido no assunto. '
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb8"
+              publish="update~action/kolb8"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior -> Kolb7
 {{
 * Próximo -> Kolb9
 }}
 
 # Kolb9 (kolb) #
-> 9) Aprendo melhor quando:
-? kb9
-  * type: choice
-  * exclusive
-  * options:
-    * 'Me apoio em minhas observações. '
-    * 'Me apoio em minhas impressões. ' 
-    * 'Posso experimentar coisas por mim mesmo. '
-    * 'Me apoio em minhas idéias. '
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb9"
+              publish="update~action/kolb9"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior -> Kolb8
 {{
 * Próximo -> Kolb10
 }}
 
 # Kolb10 (kolb) #
-> 10) Quando estou aprendendo:
-? kb10
-  * type: choice  
-  * exclusive
-  * options:
-    * 'Sou uma pessoa compenetrada. '
-    * 'Sou uma pessoa flexível. '
-    * 'Sou uma pessoa responsável. '
-    * 'Sou uma pessoa racional. '
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb10"
+              publish="update~action/kolb10"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior -> Kolb9
 {{
 * Próximo -> Kolb11
 }}
 
 # Kolb11 (kolb) #
-> 11) Enquanto aprendo:
-? kb11
-  * type: choice
-  * exclusive
-  * options:
-    * 'Me envolvo todo. '
-    * 'Gosto de observar. '
-    * 'Avalio as coisas. '
-    * 'Gosto de estar ativo. '
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb11"
+              publish="update~action/kolb11"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior -> Kolb10
 {{
 * Próximo -> Kolb12
 }}
 
 # Kolb12 (kolb) #
-> 12) Aprendo melhor quando:
-? kb12
-  * type: choice
-  * exclusive
-  * options:
-    * 'Analiso as idéias. '
-    * 'Sou receptivo e de mente aberta. '
-    * 'Sou cuidadoso. '
-    * 'Sou prático. '
+
+~~~
+<div style="height:60vh;overflow:hidden">
+  <blockly-oid custom="kolb12"
+              publish="update~action/kolb12"
+              subscribe="pane/resize~resize">
+  </blockly-oid>
+</div>
+~~~
+
 * Anterior-> Kolb11
 {{
 * Finalizar-> Fim
@@ -235,7 +250,9 @@ Obrigado por responder as questões sobre o seu perfil de aprendizagem. Agora vo
 
 <br>
 
-<a href="https://jacinto.harena.org/player/env/index-jacinto.html">Retornar ao Painel Principal</a>
+<span class="styt-button-frame" style="cursor:pointer">
+  <a class="styt-button" style="height:60px" href="https://jacinto.harena.org/player/env/index-jacinto-section1.html">Retornar ao Painel Principal</a>
+</span>
 
 ___ Template ___
 
