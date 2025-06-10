@@ -12,6 +12,9 @@ Deusa: Infelizmente você foi atropelado por um caminhão e morreu...
 # forum p #
 Por que você decidiu seguir o conselho do professor?
 ? rp
+  * type: text
+  * rows: 20
+  * mandatory
 * Ver resposta de um colega -> Ver resposta de um colega p
 
 # Ver resposta de um colega p #
@@ -21,12 +24,18 @@ Ela justificou sua escolha dizendo:
 
 Você concorda ou discorda da sua colega? Justifique.
 ? rp2
+  * type: text
+  * rows: 20
+  * mandatory
 
 * Continuar -> Rever escolha p
 
 # Rever escolha p #
 Agora que você viu a opinião de outra colega, se você pudesse você mudaria sua escolha?
 ? rp3
+  * type: text
+  * rows: 20
+  * mandatory
 
 * Retornar ao game -> Retornar ao game
 
@@ -60,6 +69,9 @@ Vamos dar uma pausa no jogo para refletir e compartilhar ideias em um fórum de 
 # forum ab #
 Por que você decidiu seguir o conselho do arquimago?
 ? rab
+  * type: text
+  * rows: 20
+  * mandatory
 * Ver resposta de um colega -> Ver resposta de um colega
 
 # Ver resposta de um colega #
@@ -69,12 +81,18 @@ Ele justificou sua escolha dizendo:
 
 Como você respode a esse comentário de seu colega?
 ? rab2
+  * type: text
+  * rows: 20
+  * mandatory
 
 * Rever escolha -> Rever escolha rab
 
 # Rever escolha rab #
 Agora que você viu a opinião de outro colega, se você pudesse você mudaria sua escolha?
 ? rab3
+  * type: text
+  * rows: 20
+  * mandatory
 
 * Retornar ao game -> Retornar ao game rab
 
@@ -257,6 +275,9 @@ Vamos dar uma pausa no jogo para refletir e compartilhar ideias em um fórum de 
 # forum ac #
 Por que você decidiu seguir o conselho do arquimago?
 ? rac
+  * type: text
+  * rows: 20
+  * mandatory
 * Ver resposta de um colega -> Ver resposta de um colega ac
 
 # Ver resposta de um colega ac #
@@ -266,12 +287,18 @@ Ele justificou sua escolha dizendo:
 
 Como você respode a esse comentário de seu colega?
 ? rac2
+  * type: text
+  * rows: 20
+  * mandatory
 
 * Rever escolha -> Rever escolha ac
 
 # Rever escolha ac #
 Agora que você viu a opinião de outro colega, se você pudesse você mudaria sua escolha?
 ? rac3
+  * type: text
+  * rows: 20
+  * mandatory
 
 * Retornar ao game -> Retornar ao game ac
 
@@ -393,6 +420,9 @@ Fim de jogo.
 # Responder questão final #
 Sabendo que escolher aceitar a proposta do professor/arquimago afetou o final de seu jogo, você teria escolhido outra opção? Se sim, qual e por quê?
 ? rpac4
+  * type: text
+  * rows: 20
+  * mandatory
 
 # Fortalecer fronteiras #
 <!--Teria que voltar para o quarto e clicar no objeto musica? ou no proprio gabinete ter música-->
@@ -626,6 +656,9 @@ Vamos dar uma pausa no jogo para refletir e compartilhar ideias em um fórum de 
 # forum bb #
 Por que você decidiu seguir o conselho do bob?
 ? rbb
+  * type: text
+  * rows: 20
+  * mandatory
 * Ver resposta de um colega -> Ver resposta de um colega bb
 
 # Ver resposta de um colega bb #
@@ -635,12 +668,18 @@ Ele justificou sua escolha dizendo:
 
 Como você respode a esse comentário de seu colega?
 ? rbb2
+  * type: text
+  * rows: 20
+  * mandatory
 
 * Rever escolha -> Rever escolha bb
 
 # Rever escolha bb#
 Agora que você viu a opinião de outro colega, se você pudesse você mudaria sua escolha?
 ? rbb3
+  * type: text
+  * rows: 20
+  * mandatory
 
 * Retornar ao game -> Retornar ao game bb
 
@@ -723,6 +762,9 @@ Vamos dar uma pausa no jogo para refletir e compartilhar ideias em um fórum de 
 # forum #
 Por que você decidiu seguir o conselho da maga?
 ? rmaga
+  * type: text
+  * rows: 20
+  * mandatory
 * Ver resposta de um colega -> Ver resposta de um colega m
 
 # Ver resposta de um colega m#
@@ -732,12 +774,18 @@ Ele justificou sua escolha dizendo:
 
 Como você respode a esse comentário de seu colega?
 ? rmaga2
+  * type: text
+  * rows: 20
+  * mandatory
 
 * Rever escolha -> Rever escolha m
 
 # Rever escolha m #
 Agora que você viu a opinião de outro colega, se você pudesse você mudaria sua escolha?
 ? rmaga3
+  * type: text
+  * rows: 20
+  * mandatory
 
 * Retornar ao game -> Retornar ao game m
 
@@ -757,8 +805,11 @@ Fim de jogo.
 # forum final #
 Sabendo que escolher aceitar a proposta da maga afetou o final de seu jogo, você teria escolhido outra opção? Se sim, qual e por quê?
 ? rmaga4
+  * type: text
+  * rows: 20
+  * mandatory
 
-
+* Concluir -> Encerramento
 
 
 
@@ -843,6 +894,11 @@ Fim de jogo.
 # forum final rab #
 Sabendo que escolher aceitar a proposta do arquimago afetou o final de seu jogo, você teria escolhido outra opção? Se sim, qual e por quê?
 ? rab4
+  * type: text
+  * rows: 20
+  * mandatory
+
+* Concluir -> Encerramento
 
 # iniciar #
 <img src="https://harena-incubator.github.io/harena-cases/idn/image/quarto.svg"\>
@@ -930,7 +986,15 @@ Narrador: O salão explode em aplausos e murmúrios animados. As luzes brilham m
 # forum final bb #
 Sabendo que escolher aceitar a proposta do bobo da corte afetou o final de seu jogo, você teria escolhido outra opção? Se sim, qual e por quê?
 ? rbb4
+  * type: text
+  * rows: 20
+  * mandatory
 
+* Concluir -> Encerramento
+
+# Encerramento (end) #
+
+Parabéns! Você concluiu o jogo.
 
 ___ Template ___
 
