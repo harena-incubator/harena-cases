@@ -2,7 +2,7 @@
 ~ points := 100
 ~ current := 1
 
-![Doctor](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
+![Doctor](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/doctor.png)
 
 Você é um Médico Girafa que foi chamado para ajudar a curar zumbis que foram picados por animais peçonhentos.
 
@@ -258,7 +258,7 @@ Se você for picado por uma **aranha marrom**, quais os sintomas se apresentam?
 
 # Fase 1 (profile)
 
-![Zumbis](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbis1.png)
+![Zumbis](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbis1.png)
 
 <H1>Fase 1</H1>
 
@@ -268,7 +268,7 @@ Descubra o que picou cada Zumbi. Você tem que ser rápido, porque tem que atend
 
 # Caso 1 (profile)
 
-![zumbi_1](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_1.png)
+![zumbi_1](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbi_1.png)
 
 Undeadha se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
@@ -281,7 +281,7 @@ Undeadha se apresentou na clínica reclamando que algum bicho o picou ou mordeu,
 
 # Caso 2 (profile)
 
-![zumbi_2](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_2.png)
+![zumbi_2](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbi_2.png)
 
 Pricensteinia se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
@@ -294,7 +294,7 @@ Pricensteinia se apresentou na clínica reclamando que algum bicho o picou ou mo
 
 # Caso 3 (profile)
 
-![zumbi_3](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_3.png)
+![zumbi_3](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbi_3.png)
 
 Tor-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
@@ -307,7 +307,7 @@ Tor-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, 
 
 # Caso 4 (profile)
 
-![zumbi_4](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_4.png)
+![zumbi_4](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbi_4.png)
 
 Grrmurray se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
@@ -320,7 +320,7 @@ Grrmurray se apresentou na clínica reclamando que algum bicho o picou ou mordeu
 
 # Caso 5 (profile)
 
-![zumbi_5](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_5.png)
+![zumbi_5](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbi_5.png)
 
 Frankenperez se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
@@ -333,7 +333,7 @@ Frankenperez se apresentou na clínica reclamando que algum bicho o picou ou mor
 
 # Caso 6 (profile)
 
-![zumbi_6](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_6.png)
+![zumbi_6](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbi_6.png)
 
 Sananimated se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
@@ -346,7 +346,7 @@ Sananimated se apresentou na clínica reclamando que algum bicho o picou ou mord
 
 # Caso 7 (profile)
 
-![zumbi_7](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_7.png)
+![zumbi_7](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbi_7.png)
 
 Grrgriffiths se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
@@ -359,7 +359,7 @@ Grrgriffiths se apresentou na clínica reclamando que algum bicho o picou ou mor
 
 # Caso 8 (profile)
 
-![zumbi_8](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_8.png)
+![zumbi_8](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbi_8.png)
 
 Brooks-grr se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
@@ -372,7 +372,7 @@ Brooks-grr se apresentou na clínica reclamando que algum bicho o picou ou morde
 
 # Caso 9 (profile)
 
-![zumbi_9](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_9.png)
+![zumbi_9](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbi_9.png)
 
 Grrreen se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
@@ -385,7 +385,7 @@ Grrreen se apresentou na clínica reclamando que algum bicho o picou ou mordeu, 
 
 # Caso 10 (profile)
 
-![zumbi_10](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen02/zumbi_10.png)
+![zumbi_10](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbi_10.png)
 
 Williarot se apresentou na clínica reclamando que algum bicho o picou ou mordeu, o que você deseja examinar?
 
@@ -402,7 +402,7 @@ O zumbi ^Previous.input1^.
 
 # Diagnóstico jararaca (profile, branch)
 
-![Treatment](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
+![Treatment](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/doctor.png)
 
 Então, qual animal peçonhento você acha que picou o paciente?
 
@@ -413,7 +413,7 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 # Diagnóstico cascavel (profile, branch)
 
-![Treatment](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
+![Treatment](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/doctor.png)
 
 Então, qual animal peçonhento você acha que picou o paciente?
 
@@ -424,7 +424,7 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 # Diagnóstico aranha marrom (profile, branch)
 
-![Treatment](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
+![Treatment](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/doctor.png)
 
 Então, qual animal peçonhento você acha que picou o paciente?
 
@@ -435,7 +435,7 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 # Diagnóstico escorpião (profile, branch)
 
-![Treatment](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/doctor.png)
+![Treatment](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/doctor.png)
 
 Então, qual animal peçonhento você acha que picou o paciente?
 
@@ -446,7 +446,7 @@ Então, qual animal peçonhento você acha que picou o paciente?
 
 # Fase 2 (profile)
 
-![Zumbis](https://www.ic.unicamp.br/~santanch/lab/zombie-health/images/gen01/zumbis2.png)
+![Zumbis](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/zumbis2.png)
 
 <H1>Fase 2</H1>
 
@@ -456,7 +456,7 @@ Leia com atenção cada caso e preste atenção nas pistas que podem te ajudar n
 
 # Caso 11 (profile)
 
-![zumbi_1](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/1.png)
+![zumbi_1](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/1.png)
 
 O paciente chega ao pronto socorro mancando. Ele foi pescar larvas nojentas que moram na lagoa perto de sua casa. Acidentalmente, o paciente pegou o rabo de um bicho, que o mordeu. O que você deseja examinar?
 
@@ -469,7 +469,7 @@ O paciente chega ao pronto socorro mancando. Ele foi pescar larvas nojentas que 
 
 # Caso 12 (profile)
 
-![zumbi_2](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/2.png)
+![zumbi_2](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/2.png)
 
 Um novo paciente se apresentou na clínica para ser atendido. Ele diz que estava planejando assustar umas pessoas e resolveu se esconder dentro de um barril na sua casa. Então, acabou sentando em cima de um bicho que fazia um barulho esquisito com o rabo. O que você deseja examinar?
 
@@ -482,7 +482,7 @@ Um novo paciente se apresentou na clínica para ser atendido. Ele diz que estava
 
 # Caso 13 (profile)
 
-![zumbi_3](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/3.png)
+![zumbi_3](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/3.png)
 
 Um novo zumbi apareceu na clínica. O paciente relata que estava atrasado para ir para escola Zumbi para aprender a domesticar zumboscas - moscas que foram para Zumbilândia depois de comerem comida estragada. Então, ele colocou o sapato correndo e sentiu uma dor no dedão do pé. Nesse momento, percebeu que esmagou alguma coisa, mas não deu muita importância. Ao correr, o paciente começou a sentir uma dor muito forte no pé e percebeu que estava com uma ferida no dedão. O que você deseja examinar?
 
@@ -495,7 +495,7 @@ Um novo zumbi apareceu na clínica. O paciente relata que estava atrasado para i
 
 # Caso 14 (profile)
 
-![zumbi_4](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/4.png)
+![zumbi_4](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/4.png)
 
 Um novo zumbi chegou ao pronto-socorro! Ele conta que estava coletando sucata para fazer um brinquedo novo, e viu um bicho esquisito. Quando ele chegou perto do bicho, levou uma ferroada na mão que doeu tanto que ele pulou igual um macaco. Ele diz ainda que a sua galinha de estimação correu para ajudar, e o bicho esquisito saiu correndo de medo. O que você deseja examinar?
 
@@ -508,7 +508,7 @@ Um novo zumbi chegou ao pronto-socorro! Ele conta que estava coletando sucata pa
 
 # Caso 15 (profile)
 
-![zumbi_5](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/5.png)
+![zumbi_5](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/5.png)
 
 Um novo paciente chegou à clínica! Ele relata que foi passear de barco e parou numa ilha que tinha um farol muito bonito. Quando ele desceu do barco, percebeu que a ilha tinha um monte de Zumbirinhas, um tipo de gaivota da Zumbilândia. Como está sempre com fome, o paciente foi pegar um ovo para fazer uma boquinha, mas sentiu uma dor muito forte na mão. O que você deseja examinar?
 
@@ -521,7 +521,7 @@ Um novo paciente chegou à clínica! Ele relata que foi passear de barco e parou
 
 # Caso 16 (profile)
 
-![zumbi_6](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/6.png)
+![zumbi_6](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/6.png)
 
 Um zumbi acabou de chegar à clinica! Ele relata que foi pescar na mata. Logo antes de chegar no rio, viu um bicho se que fazia um barulho engraçadinho com o rabo. Então, o paciente saiu atrás do bicho e, quando se abaixou para encostar nele, o animal pulou e lhe deu uma mordida no braço. O que você deseja examinar?
 
@@ -779,7 +779,7 @@ Se você for picado por uma **aranha marrom**, quais os sintomas se apresentam?
 * Próximo Animal -> Flow.Next
 
 # Final (profile, end)
-![Final](https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/end.jpg)
+![Final](https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/end.jpg)
 Parabéns você chegou ao final do jogo! Foi sugado por um buraco negro e vai começar tudo de novo em outra dimensão!
 
 Você fez o total de ^points^ pontos.
@@ -1022,7 +1022,7 @@ Parabéns! Você diagnosticou corretamente e pôde dar ao paciente um soro contr
 ~ points := points - 10
 
 <div class="styt-profile-multiple">
-<img src="https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png">
+<img src="https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/treatment-wrong.png">
 <img src="https://media.giphy.com/media/26DN0U3SqKDG2fTFe/giphy.gif">
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por uma <b>Jararaca</b>.
@@ -1050,7 +1050,7 @@ Parabéns! Você diagnosticou corretamente, e pôde dar ao paciente um soro cont
 ~ points := points - 10
 
 <div class="styt-profile-multiple">
-<img src="https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png">
+<img src="https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/treatment-wrong.png">
 <img src="https://media.giphy.com/media/dEfPULgo1DYfm/giphy.gif">
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por uma <b>Cascavel</b>.
@@ -1078,7 +1078,7 @@ Parabéns! Você diagnosticou corretamente, e pôde dar ao paciente um soro cont
 ~ points := points - 10
 
 <div class="styt-profile-multiple">
-<img src="https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png">
+<img src="https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/treatment-wrong.png">
 <img src="https://media.giphy.com/media/1k2UWbJCWqvXtq1xDJ/giphy.gif">
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por uma <b>Aranha Marrom</b>.
@@ -1106,7 +1106,7 @@ Parabéns! Você diagnosticou corretamente, e pôde dar ao paciente um soro cont
 ~ points := points - 10
 
 <div class="styt-profile-multiple">
-<img src="https://www.ic.unicamp.br/~santanch/lab/zombie-health/caseset03/images/treatment-wrong.png">
+<img src="https://museu.harena.org/oficinas/zumbi/caseset05/cases/images/treatment-wrong.png">
 <img src="https://media.giphy.com/media/QscbCkTeoBb68/giphy.gif">
 
 Infelizmente você fez o tratamento incorreto... O paciente foi picado por um <b>Escorpião</b>.
