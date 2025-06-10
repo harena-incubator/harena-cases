@@ -424,6 +424,8 @@ Sabendo que escolher aceitar a proposta do professor/arquimago afetou o final de
   * rows: 20
   * mandatory
 
+* Concluir -> Encerramento
+
 # Fortalecer fronteiras #
 <!--Teria que voltar para o quarto e clicar no objeto musica? ou no proprio gabinete ter música-->
 * Ir para janela -> ir para janela
