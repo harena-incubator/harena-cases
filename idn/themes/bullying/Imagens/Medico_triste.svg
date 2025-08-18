@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="63.486595mm"
+   height="185.98058mm"
+   viewBox="0 0 63.486595 185.98058"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    sodipodi:docname="Medico_triste.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,13 +24,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.50835204"
-     inkscape:cx="362.93746"
-     inkscape:cy="611.78076"
-     inkscape:window-width="1141"
-     inkscape:window-height="1032"
-     inkscape:window-x="214"
-     inkscape:window-y="60"
-     inkscape:window-maximized="0"
+     inkscape:cx="80.65277"
+     inkscape:cy="412.11598"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="70"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
@@ -54,7 +54,8 @@
   <g
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-74.283301,-52.676997)">
     <g
        id="g127"
        transform="matrix(1.7942797,0,0,1.7942797,-100.76656,-101.06939)">

@@ -190,18 +190,6 @@
        height="1.0281514"><feGaussianBlur
          stdDeviation="1.5905217"
          id="feGaussianBlur80" /></filter></defs>
-    <rect
-     style="fill:none;stroke:#000000;stroke-width:0"
-     id="rect5"
-     width="131.31935"
-     height="224.5376"
-     x="89.519112"
-     y="51.048088"
-     inkscape:label="doctor-image" />
-     
-     <image xlink:href="" style="fill:none;stroke-width:0.264583" id="doctor-image" data-name="general-image"
-     width="131.31935" height="224.5376" x="89.519112"
-      y="51.048088" inkscape:label="doctor-image" />
      
      <g
      id="layer1"><rect
@@ -739,6 +727,12 @@
          id="path45"
          style="opacity:1;fill:#666666;stroke-width:0"
          d="m 359.37555,249.5226 h 3.34317 l 0.32659,1.90728 -4.05077,-0.0119 z" /></g>
+
+     <image xlink:href="" style="fill:none;stroke-width:0.264583" id="doctor-image" data-name="general-image"
+     width="131.31935" height="224.5376" x="89.519112"
+      y="51.048088" inkscape:label="doctor-image" />
+     
+
 
     <foreignObject data-name="text" x="350" y="680" width="815" height="80">
       <div id="text" class="cls-15" style="font-size:18px;font-family:Tahoma, Geneva, sans-serif;color:#2e2e2eff">
