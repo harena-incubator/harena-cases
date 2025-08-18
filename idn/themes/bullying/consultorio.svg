@@ -2,8 +2,8 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="500mm"
-   height="300mm"
+   width="500"
+   height="300"
    viewBox="0 0 500 300"
    version="1.1"
    id="svg1"
@@ -201,7 +201,7 @@
      
      <image xlink:href="" style="fill:none;stroke-width:0.264583" id="doctor-image" data-name="general-image"
      width="131.31935" height="224.5376" x="89.519112"
-      y="51.048088" inkscape:label="character" />
+      y="51.048088" inkscape:label="doctor-image" />
      
      <g
      id="layer1"><rect
@@ -738,4 +738,14 @@
          d="m 388.09003,249.80896 h 3.34317 l 0.32659,1.90728 -4.05077,-0.0119 z" /><path
          id="path45"
          style="opacity:1;fill:#666666;stroke-width:0"
-         d="m 359.37555,249.5226 h 3.34317 l 0.32659,1.90728 -4.05077,-0.0119 z" /></g></g></svg>
+         d="m 359.37555,249.5226 h 3.34317 l 0.32659,1.90728 -4.05077,-0.0119 z" /></g>
+
+    <foreignObject data-name="text" x="350" y="680" width="815" height="80">
+      <div id="text" class="cls-15" style="font-size:18px;font-family:Tahoma, Geneva, sans-serif;color:#2e2e2eff">
+        <dcc-styler xstyle="out" distribution="generic" targeted="action">
+          {knot}
+        </dcc-styler>
+      </div>
+    </foreignObject>
+
+</g></svg>
