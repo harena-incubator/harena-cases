@@ -1,0 +1,277 @@
+:: StoryTitle
+Paciente bullying novo
+
+
+:: StoryData
+{
+  "ifid": "B502E253-3054-4789-AADF-23DE87204BE6",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Abertura",
+  "zoom": 1
+}
+
+
+:: \ Fala com o fernando {"position":"975,650","size":"100,100"}
+@imagem_fundo_consultorio
+
+@Medico_falando: Fernando, queria ouvir um pouco de você, o que aconteceu?
+
+Fernando se ajeita na cadeira, mexendo as mãos e evitando contato visual. Ele olha rapidamente para o pai, como se buscasse permissão para falar.
+
+@Fernando_explicando: Ah… foi no intervalo da escola. Eu tropecei, bati o nariz… e começou a sangrar.
+
+Você percebe que a resposta é curta demais, sem detalhes. Algo na entonação dele indica que não é toda a história.
+
+[[Interrogar Fernando diretamente|Interrogar Fernando]]
+[[Fazer perguntas abertas]]
+
+
+:: Abertura {"position":"550,450","size":"100,100"}
+@imagem_fundo_consultorio
+
+@Enfermeira_regular: Fernando, 14 anos, chega à UBS acompanhado do pai. O nariz dele está sangrando desde mais cedo, quando sofreu um acidente na escola durante o intervalo.
+A equipe escolar ligou para informar o ocorrido e solicitou que o pai fosse buscá-lo. Preocupado, ele foi até a escola, pegou o filho e veio diretamente à unidade de saúde em busca de atendimento médico.
+
+
+[[Fernando, pode entrar aqui comigo um momento?]]
+[[Fernando e seu acompanhante, venham comigo, por gentileza.]]
+
+
+:: Continuar conversa tensa {"position":"1350,675","size":"100,100"}
+@imagem_fundo_consultorio
+
+Você mantém um tom tranquilo e faz pequenas perguntas. Aos poucos, Fernando vai contando mais detalhes: que alguns colegas fazem piadas, que ele evita determinados lugares na escola e que já houve empurrões antes.
+
+O pai escuta, ainda processando.
+@Pai_falando: Fernando, você devia ter me contado antes…
+
+Fernando apenas abaixa a cabeça, murmurando:
+@Fernando_explicando: Não queria dar problema…
+
+Apesar de ter conseguido informações importantes, você percebe que ele ainda guarda algo. Sabe que, se estivessem sozinhos, talvez ele confiasse o restante.
+
+[[Tentar separar os dois para descobrir mais informações]]
+[[Seguir atendimento com as informações que tem]]
+
+
+:: Continuar o atendimento {"position":"900,825","size":"100,100"}
+Você nota que o menino não é convidado a falar e, por respeito à decisão do pai, acaba não o questionando diretamente.
+
+Com base nas informações do pai, você conclui que se trata apenas de um ferimento físico.
+[[Continuar|Tratar]]
+
+
+:: Conversar com ambos {"position":"925,450","size":"100,100"}
+@imagem_fundo_consultorio
+
+Percebendo que insistir pode gerar atrito, você muda a estratégia e decide conversar com os dois juntos.
+
+Ao chegarem à sala, você começa a falar com…
+
+[[Fernando| Fala com o fernando]]
+[[Pai do Fernando|Senhor, pode me contar o que aconteceu com o Fernando hoje?]]
+
+
+:: Fazer perguntas abertas {"position":"1225,525","size":"100,100"}
+@imagem_fundo_consultorio
+
+Você decide manter a calma e dar a Fernando uma oportunidade de se abrir.
+
+@Medico_falando: Entendi. E antes disso, estava fazendo o quê? Brincando? Conversando com alguém?
+
+Fernando hesita e respira fundo.
+@Fernando_explicando: Tava… perto da quadra. Uns meninos chegaram, começaram a empurrar… aí eu caí.
+
+O pai se mexe na cadeira, surpreso.
+@Pai_falando: Empurrar? Como assim? Você nunca falou nada disso pra mim!
+
+Fernando encolhe os ombros, visivelmente desconfortável. Você percebe que, se deixar, a conversa pode virar um confronto entre os dois. É hora de intervir.
+
+@Medico_falando: Olha, essas coisas podem ser difíceis de falar, principalmente quando a gente não quer preocupar quem a gente gosta. O importante é que você está seguro agora, e podemos pensar juntos em como lidar com isso.
+
+[[Continuar|Continuar conversa tensa]]
+
+
+:: Fernando e seu acompanhante, venham comigo, por gentileza. {"position":"650,600","size":"100,100"}
+@imagem_fundo_consultorio
+
+Os dois se sentam lado a lado. Fernando parece um pouco retraído, e o pai mantém a postura atenta. 
+
+[[Começar falando com Fernando para ouvir a versão dele primeiro.| Fala com o fernando]]
+
+[[Senhor, pode me contar o que aconteceu com o Fernando hoje?]]
+
+
+:: Fernando se abre {"position":"1475,325","size":"100,100"}
+@Medico_triste: Fernando, sinto muito que você esteja passando por isso. Quero te ajudar. Vamos fazer duas coisas: primeiro, vou registrar no sistema do SUS o caso de violência, para monitorar essas situações na região. Nada do que conversamos precisa ser contado ao seu pai se você não quiser, mas ele pode te proteger, e eu estarei lá para te apoiar. Sobre sua orientação sexual, não precisa contar se não quiser, podemos relatar o bullying sem mencionar isso.
+
+[[Continuar|Tratar apenas?]]
+
+
+:: Fernando, pode entrar aqui comigo um momento? {"position":"675,350","size":"100,100"}
+@imagem_fundo_consultorio
+
+Voce decide chamar apenas o menino para a sala
+
+@Pai_falando: Como assim só ele? Eu quero estar junto, não vou deixar meu filho sozinho com o senhor.
+@Medico_falando: Entendo sua preocupação. Às vezes, conversar a sós ajuda o paciente a se sentir mais à vontade para falar sobre o que aconteceu.
+@Pai_falando: Não, doutor. Ele é menor de idade, e eu quero acompanhar.
+
+O clima fica um pouco tenso. O médico percebe que, se insistir agora, a conversa pode se tornar ainda mais difícil.
+
+Escolha a seguir sua próxima ação:
+
+[[Mudar a estratégia e pensar em outra forma de falar com Fernando a sós.|Mudar estratégia]]
+
+[[Conversar com ambos]]
+
+
+:: Fim ruim 1 {"position":"2650,125","size":"100,100"}
+O paciente não se sentiu à vontade para compartilhar detalhes importantes sobre sua vida. Dessa forma, você não conseguiu investigar o caso de maneira completa e não obteve as informações necessárias para realizar encaminhamentos além do tratamento físico. Como resultado, aspectos essenciais do bem-estar emocional do paciente permaneceram sem cuidado.
+
+Fim de jogo.
+
+
+:: Fim ruim 2 {"position":"2675,850","size":"100,100"}
+Você conseguiu criar um vínculo real com Fernando, abrindo espaço para que ele fale sobre o que estava acontecendo.
+
+No entanto, você não encaminha Fernando para acompanhamento psicológico. Embora tenha cuidado da lesão física, o suporte emocional necessário não é providenciado, deixando parte das necessidades do paciente em falta, e não realizando um atendimento pleno.
+
+Fim de jogo.
+
+
+:: Final bom {"position":"2650,350","size":"100,100"}
+Você consegue criar um vínculo real com Fernando, abrindo espaço para que ele fale sobre o que estava acontecendo.
+
+A conversa permite compreender a complexidade do caso com profundidade.
+
+Ao final, Fernando e seu pai deixam o consultório, agradecendo pela atenção e cuidado. Com a abordagem multiprofissional que você adotou, ele receberá um tratamento completo — físico e emocional — aumentando as chances de uma recuperação plena.
+
+Fim de jogo.
+
+
+:: Final médio {"position":"2650,550","size":"100,100"}
+O caso foi tratado fisicamente, com alívio da dor e cuidados necessários para a lesão. Além disso, houve encaminhamento para acompanhamento psicológico, oferecendo suporte emocional ao paciente. No entanto, Fernando poderia ter compartilhado mais informações pessoais, o que impediu uma compreensão completa do caso. 
+
+Como resultado, parte das necessidades do paciente permaneceu sem abordagem, limitando a eficácia do atendimento, com um desempenho mediano.
+
+Fim de jogo.
+
+
+:: Interrogar Fernando {"position":"1700,25","size":"100,100"}
+@imagem_fundo_sala_de_exames
+
+@Medico_falando: Fernando, me diz a verdade: tem algo acontecendo na escola que você não está querendo contar? Não precisa ter medo, é importante para eu poder te ajudar.
+
+Fernando olha para baixo, com os olhos arregalados, engolindo seco.
+Fernando responde que não, que foi só um acidente mesmo, que apenas tropeçou e bateu o nariz.
+
+@Medico_falando: Você não acha que está escondendo alguma coisa? Essas lesões não aparecem do nada.
+
+Fernando balança a cabeça, a voz ficando mais baixa e rápida.
+Fernando insiste que não, que não aconteceu nada, que está bem, de verdade.
+
+@Medico_falando: Se você não falar, não tem como eu saber como te ajudar direito.
+
+Fernando cruza os braços, firme na negativa.
+Fernando pede para o médico parar, reforçando que não aconteceu nada.
+
+O clima fica pesado, e você percebe que pressionar mais só vai fechar a comunicação.
+
+[[Continuar|Fim ruim 1]]
+
+
+:: Mudar estratégia {"position":"875,300","size":"100,100"}
+@imagem_fundo_consultorio
+
+@Médico_falando:  Tudo bem, faz sentido. De qualquer forma, precisamos pesar ele e verificar a altura. Como nesse consultório não há balança, vou com o Fernando ver o peso e a altura na sala ao lado. Enquanto isso, você não quer ir até a recepção marcar o retorno? [na intenção de conseguir conversar sozinho com o paciente
+
+[[Continuar|Pai concorda]]
+
+
+:: Pai concorda {"position":"1100,275","size":"100,100"}
+O pai do paciente concorda. Você vai para o consultório ao lado pesar e medir Fernando. No momento, estão apenas vocês dois na sala.
+
+[[Interrogar Fernando diretamente|Interrogar Fernando]]
+[[Puxar assunto de forma sutil]]
+
+
+:: Puxar assunto de forma sutil {"position":"1300,250","size":"100,100"}
+@imagem_fundo_sala_de_exames
+
+@Medico_falando: Fernando, você comentou que essa é a terceira ou quarta vez que seu nariz sangra na escola. Seu pai disse que seu desempenho caiu e que você anda mais quieto em casa. Você acha que tudo isso pode estar ligado?
+
+@Fernando_explicando2: Não, não acho.
+
+@Medico_falando: Na educação física, jogaram uma bola no seu rosto. Acha que foi de propósito?
+
+@Fernando_explicando: Acho que sim… Foi o Guilherme e uns colegas. Da outra vez também foi por causa deles.
+
+@Medico_triste: Entendo… E você sabe por que estão te perseguindo?
+
+@Fernando_explicando: Eu sou.....
+
+@Fernando_explicando2: gay.
+
+@Fernando_explicando: Minha família não sabe, mas me assumi na escola faz uns dois anos. Ai eles começaram a me bater. 
+
+@Fernando_explicando2: Mas, por favor, não conta pra ninguém, doutor.
+
+[[Continuar|Fernando se abre]]
+
+
+:: Seguir atendimento com as informações que tem {"position":"1500,525","size":"100,100"}
+Você decide agir com o que conseguiu descobrir.
+
+Prescreve um medicamento para aliviar a dor e reduzir o inchaço, solicita um raio-X da face para descartar fraturas e agenda um retorno com o ortopedista pediátrico para avaliar a lesão física.
+
+Além disso, marca uma nova consulta com você daqui a um mês para acompanhar a questão psicossocial e encaminha Fernando para atendimento com a psicóloga da unidade.
+
+Ao se despedirem, Fernando e o pai agradecem a atenção. O pai parece mais consciente da situação, e o menino, mais aliviado. Ainda assim, você sai da consulta com a sensação de que parte da história continua guardada — e que essa parte pode ser essencial para ajudá-lo por completo.
+
+[[Resultado|Final médio]]
+
+
+:: Senhor, pode me contar o que aconteceu com o Fernando hoje? {"position":"800,725","size":"100,100"}
+@imagem_fundo_consultorio
+
+@Pai_falando: A diretora da escola dele ligou dizendo que o nariz dele começou a sangrar depois de uma brincadeira no intervalo. Foi só isso. Não tem nada de mais, criança é assim, tá brincando, se machuca, mas logo levanta e volta a brincar de novo. Não lembra como era na nossa época? É cada história que a gente tem para contar para esses meninos…
+
+Enquanto o pai fala, Fernando permanece quieto, olhando para baixo.
+
+[[Falar com fernando| Fala com o fernando]]
+[[Continuar o atendimento apenas com o pai|Continuar o atendimento]]
+
+
+:: Tentar separar os dois para descobrir mais informações {"position":"1625,700","size":"100,100"}
+Você pensa em um jeito de separar Fernando do pai, sem comprometer a confiança que ambos têm em você.
+
+@Medico_falando: Bom, agora que já conversamos um pouco sobre o ocorrido, podemos ver qual a melhor forma de tratar o ferimento do Fernando. Precisamos pesar e medir a altura dele para inserir na curva de crescimento. Como nesse consultório não há balança, vou com o Fernando até a sala ao lado para verificar. Enquanto isso, você não quer ir até a recepção marcar o retorno? Assim já vamos adiantando, porque a unidade está um pouco cheia hoje.
+
+[[Continuar|Pai concorda]]
+
+
+:: Tratar {"position":"2125,650","size":"100,100"}
+Assim, você decide apenas tratar o paciente, fornecendo receita para dor e inchaço, solicitando um raio-X da face e marcando retorno com o ortopedista pediátrico para avaliação da lesão.
+
+[[Resultado do atendimento|Fim ruim 2]]
+
+
+:: Tratar apenas? {"position":"1775,350","size":"100,100"}
+Depois da conversa com Fernando, ele se sente confortável para contar ao pai, com sua ajuda, sobre a violência que vem sofrendo na escola. O paciente decide não revelar nada sobre sua orientação sexual, mas você agora tem conhecimento desse conflito que ele enfrenta. Na posição de médico, qual seria a sua conduta?
+
+[[Focar apenas no atendimento físico imediato |Tratar]]
+[[Cuidar do ferimento e, ao mesmo tempo, investigar se há outros fatores emocionais envolvidos|Tratar e encaminhar]]
+
+
+:: Tratar e encaminhar {"position":"2100,150","size":"100,100"}
+Você decide cuidar não apenas do ferimento, mas também do bem-estar emocional de Fernando.
+
+Receita um medicamento para aliviar a dor e reduzir o inchaço, e solicita um raio-X da face para descartar fraturas.
+
+Marca um retorno com o ortopedista pediátrico para avaliar a lesão com mais detalhes.
+
+Além disso, agenda uma nova consulta com você daqui a um mês para acompanhar a situação e encaminha Fernando à psicóloga da unidade, para que ele possa receber apoio emocional e conversar sobre o que aconteceu.
+
+[[Resultado do atendimento|Final bom]]
