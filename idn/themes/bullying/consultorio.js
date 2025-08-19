@@ -1,3 +1,4 @@
+(function () { const localTheme = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
@@ -783,3 +784,7 @@
     </foreignObject>
 
 </g></svg>
+
+`
+MessageBus.i.publish("control/theme/consultorio/load/ready", localTheme)
+})()
