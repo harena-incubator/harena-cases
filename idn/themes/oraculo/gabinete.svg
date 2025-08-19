@@ -5157,24 +5157,43 @@
     <rect style="fill:#ffccaa;stroke-width:0.264583" id="txt" width="501.64999" height="48.68335" x="0.52916628"
       y="251.08958" inkscape:label="txt"/>
 
-    <foreignObject data-name="role-1-text" x="0.52916628" y="251.08958" width="490" height="20">
-      <div id="role-1-text" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+    <foreignObject data-name="entity-text" x="0.52916628" y="251.08958" width="490" height="20">
+      <div id="entity-text" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
       </div>
     </foreignObject>
 
     <rect style="fill:#ff9955;stroke-width:0.264583" id="name" width="501.12085" height="21.695845" x="1.0583335"
       y="229.39375" inkscape:label="name" />
 
-    <foreignObject data-name="role-1" x="1.0583335" y="229.39375" width="490" height="20">
-      <div id="role-1" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+    <foreignObject data-name="entity" x="1.0583335" y="229.39375" width="490" height="20">
+      <div id="entity" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
       </div>
     </foreignObject>
 
-    <image xlink:href="" style="fill:none;stroke-width:0.264583" id="general-image" data-name="general-image" width="106.892" height="181.50417" x="195.79166"
+    <image href="" style="fill:none;stroke-width:0.264583" id="general-image" data-name="general-image" width="106.892" height="181.50417" x="195.79166"
       y="47.36042" inkscape:label="character" />
 
     <rect style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0" id="paper" width="67.733032"
       height="15.345811" x="210.07921" y="191.02853" />
+
+    <path
+      sodipodi:type="star"
+      style="fill:#800000;stroke:#000000;stroke-width:0"
+      id="proximo"
+      inkscape:flatsided="true"
+      sodipodi:sides="3"
+      sodipodi:cx="452.10541"
+      sodipodi:cy="258.94662"
+      sodipodi:r1="23.502205"
+      sodipodi:r2="11.751102"
+      sodipodi:arg1="2.0943951"
+      sodipodi:arg2="3.1415927"
+      inkscape:rounded="0"
+      inkscape:randomized="0"
+      d="m 440.35431,279.30013 0,-40.70701 35.2533,20.3535 z"
+      inkscape:transform-center-x="-5.5817707"
+      transform="translate(21.052642,15.263135)"
+      inkscape:label="proximo" />
 
     <foreignObject data-name="text" x="350" y="680" width="815" height="80">
       <div id="text" class="cls-15" style="font-size:18px;font-family:Tahoma, Geneva, sans-serif;color:#2e2e2eff">
