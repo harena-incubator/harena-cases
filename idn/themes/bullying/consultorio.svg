@@ -1257,15 +1257,15 @@
        width="110.48943" height="189.01811" x="355.07816" y="51.79335"
        inkscape:label="pai-image" />
       
-      <rect
-         style="fill:#27a6c9;fill-opacity:1;stroke-width:0.393999"
-         id="rect-entity"
-         width="500.00134"
-         height="14.950666"
-         x="0"
-         y="240.81145"
-         rx="0.13242085"
-         ry="0.14142814" />
+    <rect
+        style="fill:#27a6c9;fill-opacity:1;stroke-width:0.393999"
+        id="rect-entity"
+        width="500.00134"
+        height="14.950666"
+        x="0"
+        y="240.81145"
+        rx="0.13242085"
+        ry="0.14142814" />
 
       <rect
          style="fill:#007798;fill-opacity:1;stroke-width:0.394503"
@@ -1287,9 +1287,15 @@
         </div>
       </foreignObject>
 
-      <image href="" style="fill:none;stroke-width:0.264583" id="seta-image" data-name="general-image"
-       width="40" height="40" x="459.47083" y="259.63043"
-       inkscape:label="seta-image" />      
+    <image href="" style="fill:none;stroke-width:0.264583" id="seta_dialogo-image" data-name="general-image"
+         width="40" height="40" x="459.47083" y="259.63043"
+         inkscape:label="seta_dialogo-image" />  
+
+    <g id="seta_cenario-wrapper" visibility="hidden">
+      <image href="" style="fill:none;stroke-width:0.264583" id="seta_cenario-image" data-name="general-image"
+          width="40" height="40" x="459.47083" y="259.63043"
+          inkscape:label="seta_cenario-image" />
+    </g>
 
     <foreignObject data-name="text" x="350" y="680" width="815" height="80">
       <div id="text" class="cls-15" style="font-size:18px;font-family:Tahoma, Geneva, sans-serif;color:#2e2e2eff">
