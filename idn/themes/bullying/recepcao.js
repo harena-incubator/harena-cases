@@ -1,3 +1,4 @@
+(function () { const localTheme = `
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    width="95%"
@@ -575,3 +576,7 @@
        hide_knots="false" />
   </defs>
 </svg>
+
+`
+MessageBus.i.publish("control/theme/recepcao/load/ready", localTheme)
+})()

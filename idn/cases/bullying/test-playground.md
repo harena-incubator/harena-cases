@@ -29,9 +29,18 @@
   > Vamos para a sala de exames.
   * sequence: 5
 
-@Seta_cenario_
-  ![Seta Cenario](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/cenario/seta-clara.svg)
+@Opcoes_
   * sequence: 6
 
+@Pergunta_
+  > O que você decide fazer agora?
+
+@Opcao1_
+  > Ir para a sala de exames.
+
+@Opcao2_
+  > Ir embora.
+
 @Seta_dialogo-image_ (-) next_talk
-@Seta_cenario-image_ -> Consultorio
+@Opcao1-text_ -> Sala_Exames
+@Opcao2-text_ -> Recepcao
