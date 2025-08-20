@@ -1247,15 +1247,15 @@
          sodipodi:nodetypes="ccccc" /></g>
 
     <image href="" style="fill:none;stroke-width:0.264583" id="medico-image" data-name="general-image"
-       width="105.70869" height="169.26189" x="67.466286" y="71.549583"
+       width="105.70869" height="169.26189" x="67.466286" y="85"
        inkscape:label="medico-image" />
       
     <image href="" style="fill:none;stroke-width:0.264583" id="fernando-image" data-name="general-image"
-       width="105.18855" height="136.15685" x="226.92964" y="104.65462"
+       width="105.18855" height="136.15685" x="226.92964" y="115"
        inkscape:label="fernando-image" />
 
     <image href="" style="fill:none;stroke-width:0.264583" id="pai-image" data-name="general-image"
-       width="110.48943" height="189.01811" x="355.07816" y="51.79335"
+       width="110.48943" height="189.01811" x="355.07816" y="60"
        inkscape:label="pai-image" />
       
     <rect
@@ -1279,12 +1279,12 @@
          rx="0.13242085" />
          
       <foreignObject data-name="entity" x="0" y="240.81146" width="500.00134" height="14.950666">
-        <div id="entity" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+        <div id="entity" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
         </div>
       </foreignObject>
           
       <foreignObject data-name="entity-text" x="0" y="255.63852" width="500.00134" height="48.386494">
-        <div id="entity-text" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+        <div id="entity-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
         </div>
       </foreignObject>
 
@@ -1296,6 +1296,58 @@
       <image href="" style="fill:none;stroke-width:0.264583" id="seta_cenario-image" data-name="general-image"
           width="40" height="40" x="459.47083" y="259.63043"
           inkscape:label="seta_cenario-image" />
+    </g>
+
+    <g
+         id="opcoes-wrapper"
+         visibility="hidden"
+         transform="matrix(1.0026784,0,0,1.0680202,2.555336,-200.51743)"
+         inkscape:label="caixaoption"
+         inkscape:export-filename="caixaoption.svg"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96">
+
+      <rect
+           style="fill:#27a6c9;fill-opacity:1;stroke-width:0.264583"
+           id="pergunta"
+           width="498.38071"
+           height="62.675152"
+           x="-3.0204892"
+           y="410.78558"
+           inkscape:export-filename="rect37.svg"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
+
+      <foreignObject data-name="pergunta-text" x="1.8" y="410.78558" width="498.38071" height="62.675152">
+        <div id="pergunta-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+        </div>
+      </foreignObject>
+
+      <rect
+           style="fill:#007798;fill-opacity:1;stroke-width:0.265;stroke-dasharray:none"
+           id="opcao1"
+           width="489.319"
+           height="18"
+           x="1.8"
+           y="427" />
+
+      <foreignObject data-name="opcao1-text" x="1.8" y="427" width="489.319" height="18">
+        <div id="opcao1-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+        </div>
+      </foreignObject>
+           
+      <rect
+           style="fill:#007798;fill-opacity:1;stroke-width:0.254088"
+           id="opcao2"
+           width="488.96124"
+           height="18"
+           x="1.8"
+           y="448.77765" />
+
+      <foreignObject data-name="opcao2-text" x="1.8" y="448.77765" width="488.96124" height="18">
+        <div id="opcao2-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+        </div>
+      </foreignObject>
     </g>
 
     <foreignObject data-name="text" x="350" y="680" width="815" height="80">
