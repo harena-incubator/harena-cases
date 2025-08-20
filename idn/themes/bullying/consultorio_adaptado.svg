@@ -2,15 +2,37 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="500mm"
-   height="300mm"
+   width="95%"
+   height="95%"
    viewBox="0 0 500 300"
    version="1.1"
    id="svg1"
    xml:space="preserve"
+   sodipodi:docname="consultorio.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.71525694"
+     inkscape:cx="944.41586"
+     inkscape:cy="566.92913"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="70"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" /><defs
      id="defs1"><linearGradient
        id="swatch82"><stop
          style="stop-color:#e5e5dd;stop-opacity:1;"
@@ -167,7 +189,9 @@
        width="1.0170388"
        height="1.0281514"><feGaussianBlur
          stdDeviation="1.5905217"
-         id="feGaussianBlur80" /></filter></defs><g
+         id="feGaussianBlur80" /></filter></defs>
+     
+     <g
      id="layer1"><rect
        style="opacity:1;fill:#3b8380;fill-opacity:1;stroke:none;stroke-width:1.00909;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
        id="rect21"
@@ -702,4 +726,60 @@
          d="m 388.09003,249.80896 h 3.34317 l 0.32659,1.90728 -4.05077,-0.0119 z" /><path
          id="path45"
          style="opacity:1;fill:#666666;stroke-width:0"
-         d="m 359.37555,249.5226 h 3.34317 l 0.32659,1.90728 -4.05077,-0.0119 z" /></g></g></svg>
+         d="m 359.37555,249.5226 h 3.34317 l 0.32659,1.90728 -4.05077,-0.0119 z" /></g>
+
+     <image href="" style="fill:none;stroke-width:0.264583" id="medico-image" data-name="general-image"
+     width="131.31935" height="224.5376" x="89.519112"
+      y="51.048088" inkscape:label="medico-image" />
+     
+<rect
+   style="fill:#008080;stroke:#000000;stroke-width:0"
+   width="480.46216"
+   height="23.726526"
+   x="1.9772105"
+   y="253.57726" />
+
+<rect
+   style="fill:#f4eed7;stroke:#000000;stroke-width:0"
+   width="481.45078"
+   height="22.737921"
+   x="1.9772105"
+   y="277.7981" />
+
+<foreignObject data-name="entity" x="1.9772105" y="253.57726" width="480.46216" height="23.726526">
+  <div id="entity" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+  </div>
+</foreignObject>
+   
+<foreignObject data-name="entity-text" x="1.9772105" y="277.7981" width="481.45078" height="22.737921">
+  <div id="entity-text" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+  </div>
+</foreignObject>
+   
+<path
+   sodipodi:type="star"
+   style="fill:#6c6753;stroke:#000000;stroke-width:0"
+   id="proximo"
+   inkscape:flatsided="true"
+   sodipodi:sides="3"
+   sodipodi:cx="448.33249"
+   sodipodi:cy="282.74112"
+   sodipodi:r1="12.889573"
+   sodipodi:r2="8.6644077"
+   sodipodi:arg1="-0.038358436"
+   sodipodi:arg2="1.0088392"
+   inkscape:rounded="0"
+   inkscape:randomized="0"
+   d="m 461.21258,282.24682 -18.89206,11.89594 -0.85616,-22.30898 z"
+   inkscape:transform-center-x="-4.1153334"
+   transform="matrix(0.94993952,0,0,0.88921439,39.400512,36.541205)" />
+
+    <foreignObject data-name="text" x="350" y="680" width="815" height="80">
+      <div id="text" class="cls-15" style="font-size:18px;font-family:Tahoma, Geneva, sans-serif;color:#2e2e2eff">
+        <dcc-styler xstyle="out" distribution="generic" targeted="action">
+          {knot}
+        </dcc-styler>
+      </div>
+    </foreignObject>
+
+</g></svg>

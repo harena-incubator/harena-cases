@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="95%"
-   height="95%"
+   width="500mm"
+   height="300mm"
    viewBox="0 0 500 300"
    version="1.1"
    id="svg1"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xml:space="preserve"
-   sodipodi:docname="Consultório médico (1).svg"
+   sodipodi:docname="consultorio.svg"
    inkscape:export-filename="Consultório médico (2).svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -28,12 +28,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.49551885"
-     inkscape:cx="920.24753"
+     inkscape:cx="921.25658"
      inkscape:cy="640.74253"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     inkscape:window-x="1990"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showguides="false"><inkscape:page
@@ -1243,60 +1243,70 @@
          id="path45"
          style="opacity:1;fill:#666666;stroke-width:0"
          d="m 359.37555,249.5226 h 3.34317 l 0.32659,1.90728 -4.05077,-0.0119 z"
-         sodipodi:nodetypes="ccccc" /></g>
-
-    <image href="" style="fill:none;stroke-width:0.264583" id="medico-image" data-name="general-image"
-       width="105.70869" height="169.26189" x="67.466286" y="71.549583"
-       inkscape:label="medico-image" />
-      
-    <image href="" style="fill:none;stroke-width:0.264583" id="fernando-image" data-name="general-image"
-       width="105.18855" height="136.15685" x="226.92964" y="104.65462"
-       inkscape:label="fernando-image" />
-
-    <image href="" style="fill:none;stroke-width:0.264583" id="pai-image" data-name="general-image"
-       width="110.48943" height="189.01811" x="355.07816" y="51.79335"
-       inkscape:label="pai-image" />
-      
-      <rect
-         style="fill:#27a6c9;fill-opacity:1;stroke-width:0.393999"
-         id="rect-entity"
-         width="500.00134"
-         height="14.950666"
-         x="0"
-         y="240.81145"
-         rx="0.13242085"
-         ry="0.14142814" />
-
-      <rect
+         sodipodi:nodetypes="ccccc" /></g><rect
+       style="fill:none;stroke-width:0.361023"
+       id="rect5"
+       width="105.70869"
+       height="169.26189"
+       x="67.466286"
+       y="71.549583"
+       rx="0.13242085"
+       ry="0.13242085"
+       inkscape:label=" medico-image" /><rect
+       style="fill:none;stroke-width:0.352818"
+       id="rect18"
+       width="105.18855"
+       height="136.15685"
+       x="226.92964"
+       y="104.65462"
+       rx="0.13242085"
+       ry="0.13242085"
+       inkscape:label="fernando-image" /><rect
+       style="fill:none;stroke-width:0.366559"
+       id="rect19"
+       width="110.48943"
+       height="189.01811"
+       x="355.07816"
+       y="51.79335"
+       rx="0.13242085"
+       ry="0.13242085"
+       inkscape:label="pai-image" /><g
+       id="g23"
+       inkscape:label="chat"
+       transform="matrix(1,0,0,0.93631192,0,15.336819)"><rect
          style="fill:#007798;fill-opacity:1;stroke-width:0.394503"
-         id="rect-entity-text"
+         id="rect20"
          width="500.00134"
          height="48.386494"
          x="0"
          y="255.63852"
          ry="0.10825545"
-         rx="0.13242085" />
-         
-      <foreignObject data-name="entity" x="0" y="240.81146" width="500.00134" height="14.950666">
-        <div id="entity" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
-        </div>
-      </foreignObject>
-          
-      <foreignObject data-name="entity-text" x="0" y="255.63852" width="500.00134" height="48.386494">
-        <div id="entity-text" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
-        </div>
-      </foreignObject>
-
-      <image href="" style="fill:none;stroke-width:0.264583" id="seta-image" data-name="general-image"
-       width="40" height="40" x="459.47083" y="259.63043"
-       inkscape:label="seta-image" />      
-
-    <foreignObject data-name="text" x="350" y="680" width="815" height="80">
-      <div id="text" class="cls-15" style="font-size:18px;font-family:Tahoma, Geneva, sans-serif;color:#2e2e2eff">
-        <dcc-styler xstyle="out" distribution="generic" targeted="action">
-          {knot}
-        </dcc-styler>
-      </div>
-    </foreignObject>           
-           
-</g></svg>
+         rx="0.13242085" /><rect
+         style="fill:#27a6c9;fill-opacity:1;stroke-width:0.393999"
+         id="rect23"
+         width="500.00134"
+         height="14.950666"
+         x="0"
+         y="240.81145"
+         rx="0.13242085"
+         ry="0.14142814" /><g
+         id="g51"
+         inkscape:label="seta"
+         transform="matrix(2.0682798,0,0,1.8485721,-46.818132,89.712057)"><ellipse
+           style="opacity:0.99;fill:#ffffff;fill-opacity:0.51817;stroke-width:4.39054"
+           id="path1-8"
+           cx="462.15222"
+           cy="150.96278"
+           rx="19.645313"
+           ry="19.182291"
+           transform="matrix(0.48349358,0,0,0.57775413,30.45859,15.849104)" /><path
+           id="rect16-8"
+           d="m 246.71459,98.887451 h 8.07145 c 0.47182,10e-7 0.85431,0.382489 0.85431,0.854311 v 6.441438 c 0,0.47183 -0.38248,0.85432 -0.85431,0.85432 h -8.07145 c -0.47183,0 -0.85431,-0.38249 -0.85431,-0.85432 v -6.441438 c 0,-0.471822 0.38249,-0.85431 0.85431,-0.854311 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#00586f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+           sodipodi:nodetypes="ssscsscss" /><path
+           id="rect43"
+           style="opacity:0.99;fill:#015970;fill-opacity:1;stroke-width:4.70001"
+           d="m 254.80305,84.970007 c 7e-5,4.97e-4 -1.8e-4,8.53e-4 0,0.0016 3.6e-4,-5.4e-5 9.9e-4,-4.15e-4 10e-4,-5.17e-4 -3.3e-4,-3.2e-4 -8.6e-4,-8.53e-4 -10e-4,-0.001 z m 0.003,0.01137 -4.71961,8.338509 c 0,0.435531 0.35306,0.788586 0.78859,0.788583 h 8.31577 c 0.43553,3e-6 1.01815,-0.418471 0.78858,-0.788583 l -5.17074,-8.336442 c -4.6e-4,-1.79e-4 -0.002,-0.0013 -0.003,-0.0021 z"
+           inkscape:path-effect="#path-effect51"
+           inkscape:original-d="m 254.80305,84.970007 c 7e-5,4.97e-4 -1.8e-4,8.53e-4 0,0.0016 3.6e-4,-5.4e-5 9.9e-4,-4.15e-4 10e-4,-5.17e-4 -3.3e-4,-3.2e-4 -8.6e-4,-8.53e-4 -10e-4,-0.001 z m 0.003,0.01137 -4.71961,8.338509 c 0,0.435531 0.35306,0.788586 0.78859,0.788583 h 8.31577 c 0.43553,3e-6 1.01815,-0.418471 0.78858,-0.788583 l -5.17074,-8.336442 c -4.6e-4,-1.79e-4 -0.002,-0.0013 -0.003,-0.0021 z"
+           transform="matrix(-0.00832435,1.1327947,-0.93149135,-0.01012332,343.94273,-184.98118)" /></g></g></g></svg>
