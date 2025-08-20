@@ -1,6 +1,3 @@
-@Seta_dialogo_
-  ![Seta Dialogo](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/cenario/seta.svg)
-
 @Fernando_
   ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
@@ -41,6 +38,6 @@
 @Opcao2_
   > Ir embora.
 
-@Seta_dialogo-image_ (-) next_talk
+@Seta_dialogo_ (-) next_talk
 @Opcao1-text_ -> Sala_Exames
 @Opcao2-text_ -> Recepcao
