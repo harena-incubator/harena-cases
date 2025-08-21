@@ -73,6 +73,8 @@
        </div>
       </foreignObject>
 
+      
+
     <path
        sodipodi:type="star"
        style="fill:#000000;stroke:#000000;stroke-width:1;stroke-opacity:0"
@@ -92,29 +94,34 @@
        inkscape:transform-center-y="-0.02343267"
        transform="matrix(0.27128018,0,0,0.29994162,459.25647,277.60143)" 
        inkscape:label="proximo"  />
-      
+
+    
+    <g id="prox-wrapper" visibility="hidden">
       <path
-       sodipodi:type="star"
-       style="fill:#000000;stroke:#000000;stroke-width:1;stroke-opacity:0"
-       id="prox"
-       visibility="hidden"
-       inkscape:flatsided="true"
-       sodipodi:sides="3"
-       sodipodi:cx="33.721405"
-       sodipodi:cy="5.7066994"
-       sodipodi:r1="51.608608"
-       sodipodi:r2="25.804304"
-       sodipodi:arg1="2.0974236"
-       sodipodi:arg2="3.1446211"
-       inkscape:rounded="0"
-       inkscape:randomized="0"
-       d="M 7.7818627,50.322712 8.0525758,-39.06561 85.329777,5.8629957 Z"
-       inkscape:transform-center-x="-3.4817266"
-       inkscape:transform-center-y="-0.02343267"
-       transform="matrix(0.27128018,0,0,0.29994162,459.25647,277.60143)" 
-       inkscape:label="prox"  />
+        sodipodi:type="star"
+        style="fill:#000000;stroke:#000000;stroke-width:1;stroke-opacity:0"
+        id="prox-next"
+        inkscape:flatsided="true"
+        sodipodi:sides="3"
+        sodipodi:cx="33.721405"
+        sodipodi:cy="5.7066994"
+        sodipodi:r1="51.608608"
+        sodipodi:r2="25.804304"
+        sodipodi:arg1="2.0974236"
+        sodipodi:arg2="3.1446211"
+        inkscape:rounded="0"
+        inkscape:randomized="0"
+        d="M 7.7818627,50.322712 8.0525758,-39.06561 85.329777,5.8629957 Z"
+        inkscape:transform-center-x="-3.4817266"
+        inkscape:transform-center-y="-0.02343267"
+        transform="matrix(0.27128018,0,0,0.29994162,459.25647,277.60143)" 
+        inkscape:label="prox-next"  />
+      </g>
 
       <image href="" style="fill:none;stroke-width:0.264583" id="deusa-image" data-name="deusa-image" width="106.892" height="181.50417" x="195.79166"
+       y="60" inkscape:label="character" />
+      
+      <image href="" style="fill:none;stroke-width:0.264583" id="bardo-image" data-name="bardo-image" width="106.892" height="181.50417" x="195.79166"
        y="60" inkscape:label="character" />
 
     <ellipse
