@@ -4123,7 +4123,7 @@
            
       <rect
            style="fill:#ffccaa;fill-opacity:1;stroke-width:0.254088"
-           id="opcao2"
+           id="opcao2-wrapper"
            visibility="hidden"
            width="488.96124"
            height="18"
