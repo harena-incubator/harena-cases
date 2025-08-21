@@ -177,6 +177,7 @@
       <rect
            style="fill:#ffffff;fill-opacity:1;stroke-width:0.254088"
            id="opcao2"
+           visibility="hidden"
            width="488.96124"
            height="18"
            x="1.8"

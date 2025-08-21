@@ -3831,7 +3831,8 @@
          style="opacity:1;fill:#8f4e20;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
          d="m 87.275651,82.334944 0.759548,-0.0095 -0.05675,2.228278 -0.678197,0.01603 z"
          id="path1167"
-         sodipodi:nodetypes="ccccc" /></g><g
+         sodipodi:nodetypes="ccccc" /></g>
+         <g
        id="door"
        transform="matrix(3.61315,0,0,3.5836125,-138.16354,-649.70699)"
        sodipodi:insensitive="true"><g
@@ -4062,83 +4063,58 @@
       <g
          id="opcoes-wrapper"
          visibility="hidden"
+         transform="matrix(1.0026784,0,0,1.0680202,2.555336,-200.51743)"
          inkscape:label="caixaoption"
          inkscape:export-filename="caixaoption.svg"
          inkscape:export-xdpi="96"
          inkscape:export-ydpi="96">
 
-        <rect
-       style="fill:#ff9955;stroke:#000000;stroke-width:1.10985;stroke-opacity:0"
-       id="pergunta"
-       width="502.06931"
-       height="101.49017"
-       x="-0.23881938"
-       y="198.99243" />
+      <rect
+           style="fill:#ff9955;fill-opacity:1;stroke-width:0.264583"
+           id="pergunta"
+           width="498.38071"
+           height="70.675152"
+           x="-3.0204892"
+           y="400.78558"
+           inkscape:export-filename="rect37.svg"
+           inkscape:export-xdpi="96"
+           inkscape:export-ydpi="96" />
 
-       <foreignObject data-name="pergunta-text" width="502.06931" height="101.49017" x="-0.23881938" y="198.99243">
+      <foreignObject data-name="pergunta-text" x="1.8" y="400.78558" width="498.38071" height="70.675152">
         <div id="pergunta-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
         </div>
       </foreignObject>
-       
-       
-       <rect
-       style="fill:#d45500;stroke:#000000;stroke-width:1;stroke-opacity:0"
-       id="opcao2"
-       width="487.89166"
-       height="15.874992"
-       x="7.1145892"
-       y="239.15414"
-       ry="4.7625003" />
-       
-      <foreignObject data-name="opcao2-text" width="487.89166" height="15.874992" x="7.1145892" y="239.15414" ry="4.7625003">
-        <div id="opcao2-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
-        </div>
-      </foreignObject>
 
-       <rect
-       style="fill:#d45500;stroke:#000000;stroke-width:1;stroke-opacity:0"
-       id="opcao1"
-       width="487.89166"
-       height="15.874992"
-       x="7.6145892"
-       y="220.60416"
-       ry="4.7625003" />
+      <rect
+           style="fill:#ffccaa;fill-opacity:1;stroke-width:0.265;stroke-dasharray:none"
+           id="opcao1"
+           width="489.319"
+           height="18"
+           x="1.8"
+           y="427"
+           ry="4.7625003" />
 
-      <foreignObject data-name="opcao1-text" width="487.89166" height="15.874992" x="7.6145892" y="220.60416" ry="4.7625003" />
+      <foreignObject data-name="opcao1-text" x="3" y="427" width="489.319" height="18">
         <div id="opcao1-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
         </div>
       </foreignObject>
+           
+      <rect
+           style="fill:#ffccaa;fill-opacity:1;stroke-width:0.254088"
+           id="opcao2"
+           visibility="hidden"
+           width="488.96124"
+           height="18"
+           x="1.8"
+           y="448.77765" 
+           ry="4.7625003"/>
 
-       <rect
-       style="fill:#d45500;stroke:#000000;stroke-width:1;stroke-opacity:0"
-       id="opcao3"
-       width="487.89166"
-       height="15.874992"
-       x="6.5562549"
-       y="258.70422"
-       ry="4.7625003" />
-       
-       <foreignObject data-name="opcao3-text" width="487.89166" height="15.874992" x="6.5562549" y="258.70422" ry="4.7625003" />
-        <div id="opcao3-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+      <foreignObject data-name="opcao2-text" x="3" y="448.77765" width="488.96124" height="18">
+        <div id="opcao2-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
         </div>
       </foreignObject>
+    </g>
 
-       <rect
-       style="fill:#d45500;stroke:#000000;stroke-width:1;stroke-opacity:0"
-       id="opcao4"
-       width="487.89166"
-       height="15.874992"
-       x="7.0854144"
-       y="277.75418"
-       ry="4.7625003" />
-       
-      <foreignObject data-name="opcao4-text" width="487.89166" height="15.874992" x="7.0854144" y="277.75418" ry="4.7625003" />
-        <div id="opcao4-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
-        </div>
-      </foreignObject>
-
-
-       </g>
     <foreignObject data-name="text" x="350" y="680" width="815" height="80">
       <div id="text" class="cls-15" style="font-size:18px;font-family:Tahoma, Geneva, sans-serif;color:#2e2e2eff">
         <dcc-styler xstyle="out" distribution="generic" targeted="action">
