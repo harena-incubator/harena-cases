@@ -1,8 +1,5 @@
 # Recepcao (recepcao) #
 
-@Seta_dialogo_
-  ![Seta Dialogo](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/cenario/seta.svg)
-
 @Pai_
   ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
 
@@ -29,14 +26,11 @@
 @Opcao2_
   > Convidar só o Fernando.
 
-@Seta_dialogo-image_ (-) next_talk
+@Seta_dialogo_ (-) next_talk
 @Opcao1-text_ -> Consultorio_Ambos
 @Opcao2-text_ -> Consultorio_Sozinho
 
 # Consultorio_Ambos (consultorio) #
-
-@Seta_dialogo_
-  ![Seta Dialogo](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/cenario/seta.svg)
 
 @Fernando_
   ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
@@ -79,16 +73,13 @@
   > Ir para a sala de exames.
 
 @Opcao2_
-  > Ir embora.
+  > Voltar para a recepção.
 
-@Seta_dialogo-image_ (-) next_talk
+@Seta_dialogo_ (-) next_talk
 @Opcao1-text_ -> Sala_Exames
 @Opcao2-text_ -> Recepcao
 
 # Consultorio_Sozinho (consultorio) #
-
-@Seta_dialogo_
-  ![Seta Dialogo](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/cenario/seta.svg)
 
 @Fernando_
   ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
@@ -128,20 +119,36 @@
   > Ir para a sala de exames.
 
 @Opcao2_
-  > Ir embora.
+  > Voltar para a recepção.
 
-@Seta_dialogo-image_ (-) next_talk
+@Seta_dialogo_ (-) next_talk
 @Opcao1-text_ -> Sala_Exames
 @Opcao2-text_ -> Recepcao
 
 
-# Sala_Exames_caminho1 (exames) #
+# Sala_Exames (exames) #
 
-Sala de exames.
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
-# Sala_Exames_caminho2 (exames) #
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  > Fernando, tudo bem com você?
+  * sequence: 1
 
-Você está na recepção.
+@Fernando_
+  ![Fernando Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_falando.png)
+  > Tudo bem doutor.
+  * sequence: 2
+
+@Opcoes_
+  * sequence: 3
+
+@Opcao1_
+  > Voltar para a recepção
+
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> Recepcao
 
 ___ Template ___
 
