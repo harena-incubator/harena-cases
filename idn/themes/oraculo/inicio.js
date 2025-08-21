@@ -97,6 +97,7 @@
        sodipodi:type="star"
        style="fill:#000000;stroke:#000000;stroke-width:1;stroke-opacity:0"
        id="prox"
+       visibility="hidden"
        inkscape:flatsided="true"
        sodipodi:sides="3"
        sodipodi:cx="33.721405"
@@ -119,6 +120,7 @@
     <ellipse
        style="fill:none;stroke:#000000;stroke-width:1;stroke-opacity:0"
        id="next-image"
+       visibility="hidden"
        cx="469.01807"
        cy="278.79816"
        rx="19.714001"
