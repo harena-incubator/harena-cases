@@ -509,8 +509,8 @@
         </div>
       </foreignObject>
           
-      <foreignObject data-name="entity-text" x="0" y="255.63852" width="500.00134" height="48.386494">
-        <div id="entity-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
+      <foreignObject data-name="entity-text" x="0" y="255.63852" width="450" height="48.386494">
+        <div id="entity-text" style="font-size:10px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
         </div>
       </foreignObject>
 
