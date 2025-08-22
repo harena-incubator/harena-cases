@@ -589,22 +589,11 @@
   > Mas, por favor, não conta pra ninguém, doutor.
   * sequence: 10
 
-
-@Opcoes_
-   * sequence: 11
-
-@Pergunta_
-   > Próximos passos
-
-@Opcao1_
-   >  Continuar
-
-@Opcao2_
-   > Continuar
+@Seta_navega_aparece_
+  * sequence: 10
 
 @Seta_dialogo_ (-) next_talk
-@Opcao1-text_ -> Fernando_abre
-@Opcao2-text_ -> Fernando_abre
+@Seta_navega_ -> Sala_Exames
 
 # Fernando_abre (exames) #
 
