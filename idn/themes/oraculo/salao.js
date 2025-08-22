@@ -1,4 +1,5 @@
 (function () { const localTheme = `
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
@@ -4480,15 +4481,16 @@
         </div>
       </foreignObject>
 
-      <rect
+      <g id="opcao2-wrapper" visibility="hidden">
+        <rect
            style="fill:#ffccaa;fill-opacity:1;stroke-width:0.254088"
-           id="opcao2-wrapper"
-           visibility="hidden"
+           id="opcao2"
            width="488.96124"
            height="18"
            x="1.8"
            y="400.77765" 
            ry="4.7625003"/>
+      </g>
       
       <foreignObject data-name="opcao2-text" x="3" y="400.77765" width="488.96124" height="18">
         <div id="opcao2-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
@@ -4496,31 +4498,32 @@
       </foreignObject>
 
 
-
-      <rect
+      <g id="opcao3-wrapper" visibility="hidden">
+        <rect
            style="fill:#ffccaa;fill-opacity:1;stroke-width:0.265;stroke-dasharray:none"
-           id="opcao3-wrapper"
-           visibility="hidden"
+           id="opcao3"
            width="489.319"
            height="18"
            x="1.8"
            y="422"
            ry="4.7625003" />
+      </g>
 
       <foreignObject data-name="opcao3-text" x="3" y="422" width="489.319" height="18">
         <div id="opcao3-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
         </div>
       </foreignObject>
-           
-      <rect
+
+      <g id="opcao4-wrapper" visibility="hidden">
+        <rect
            style="fill:#ffccaa;fill-opacity:1;stroke-width:0.254088"
-           id="opcao4-wrapper"
-           visibility="hidden"
+           id="opcao4"
            width="488.96124"
            height="18"
            x="1.8"
            y="442.77765" 
            ry="4.7625003"/>
+      </g>
 
       <foreignObject data-name="opcao4-text" x="3" y="442.77765" width="488.96124" height="18">
         <div id="opcao4-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
@@ -4539,7 +4542,6 @@
     </foreignObject>
 
      </svg>
-
 `
 MessageBus.i.publish("control/theme/salao/load/ready", localTheme)
 })()
