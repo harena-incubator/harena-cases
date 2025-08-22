@@ -21,10 +21,12 @@
   * sequence: 3
 
 @Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando.png)
   >  Ele sofreu um acidente na escola durante o intervalo.
   * sequence: 4
 
 @Enfermeira_
+  ![Enfermeira](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/enfermeira_virada.png)
   > A equipe escolar ligou para informar o ocorrido e solicitou que o pai fosse buscá-lo.
   * sequence: 5
 
@@ -162,12 +164,12 @@
   ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
 
 @Medico_
-  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal.png)
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
   > Fernando, queria ouvir um pouco de você, o que aconteceu?
   * sequence: 1
 
 @Narrador_
-  > Fernando se ajeita na cadeira, mexendo as mãos e evitando contato visual. Ele olha rapidamente para o pai, como se buscasse permissão para falar.
+  > Você nota que Fernando esta desconfortável e buscando validação do pai para falar.
   * sequence: 2
 
 @Fernando_
@@ -378,12 +380,12 @@
   ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
 
 @Medico_
-  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal.png)
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
   > Fernando, me diz a verdade: tem algo acontecendo na escola que você não está querendo contar? Não precisa ter medo, é importante para eu poder te ajudar.
   * sequence: 1
 
 @Narrador_
-  > Fernando olha para baixo, com os olhos arregalados, engolindo seco. Fernando responde que não, que foi só um acidente mesmo, que apenas tropeçou e bateu o nariz.
+  > Fernando engole seco, parecendo cada vez mais tenso. Ele responde que não, que foi só um acidente mesmo, que apenas tropeçou e bateu o nariz.
   * sequence: 2
 
 @Medico_
@@ -400,28 +402,33 @@
   * sequence: 5
 
 @Narrador_
-  > Fernando cruza os braços, firme na negativa, pedindo para o médico parar, reforçando que não aconteceu nada.
+  > Fernando se mantém firme na negativa, pedindo para o médico parar, reforçando que não aconteceu nada.
   * sequence: 6
+
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_triste.png)
+  > Você não acha que está escondendo alguma coisa? Essas lesões não aparecem do nada.
+  * sequence: 7
 
 @Narrador_
   > O clima fica pesado, e você percebe que pressionar mais só vai fechar a comunicação.
-  * sequence: 7
-
-@Resultado
-  > O paciente não se sentiu à vontade para compartilhar detalhes importantes sobre sua vida.
   * sequence: 8
 
 @Resultado
-  > Dessa forma, você não conseguiu investigar o caso de maneira completa e não obteve as informações necessárias para realizar encaminhamentos além do tratamento físico.
+  > O paciente não se sentiu à vontade para compartilhar detalhes importantes sobre sua vida.
   * sequence: 9
 
 @Resultado
-  > Como resultado, aspectos essenciais do bem-estar emocional do paciente permaneceram sem cuidado.
+  > Dessa forma, você não conseguiu investigar o caso de maneira completa e não obteve as informações necessárias para realizar encaminhamentos além do tratamento físico.
   * sequence: 10
+
+@Resultado
+  > Como resultado, aspectos essenciais do bem-estar emocional do paciente permaneceram sem cuidado.
+  * sequence: 11
 
 @Fim_
   > :(
-  * sequence: 11
+  * sequence: 12
 
 @Seta_dialogo_ (-) next_talk
 
@@ -593,7 +600,7 @@
   * sequence: 10
 
 @Seta_dialogo_ (-) next_talk
-@Seta_navega_ -> Sala_Exames
+@Seta_navega_ -> Fernando_abre
 
 # Fernando_abre (exames) #
 
