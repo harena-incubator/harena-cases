@@ -173,16 +173,17 @@
         <div id="opcao1-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
         </div>
       </foreignObject>
-           
+
+      <g id="opcao2-wrapper" visibility="hidden">
       <rect
            style="fill:#ffffff;fill-opacity:1;stroke-width:0.254088"
-           id="opcao2-wrapper"
-           visibility="hidden"
+           id="opcao2"
            width="488.96124"
            height="18"
            x="1.8"
            y="448.77765" 
            ry="4.7625003"/>
+      </g>
 
       <foreignObject data-name="opcao2-text" x="3" y="448.77765" width="488.96124" height="18">
         <div id="opcao2-text" style="font-size:12px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
