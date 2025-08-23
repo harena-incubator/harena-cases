@@ -5249,7 +5249,7 @@
        y="251.08958"
        inkscape:label="txt" />
        
-      <foreignObject data-name="entity-text" width="501.64999" height="48.68335" x="1.0583333" y="252.41249">
+      <foreignObject data-name="entity-text" width="450" height="48.68335" x="1.0583333" y="252.41249">
         <div id="entity-text" style="font-size:14px;font-family:Tahoma, Geneva, sans-serif;color:black;width:100%;height:100%;">
         </div>
       </foreignObject>
