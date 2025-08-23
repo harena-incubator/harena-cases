@@ -16,21 +16,28 @@
   * sequence: 2
 
 @Medico_
-  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
   > O que aconteceu?
   * sequence: 3
 
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_triste.png)
+  * sequence: 4
 @Pai_
-  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando.png)
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando_2.png)
   >  Ele sofreu um acidente na escola durante o intervalo.
   * sequence: 4
 
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
+  * sequence: 5
 @Enfermeira_
   ![Enfermeira](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/enfermeira_virada.png)
   > A equipe escolar ligou para informar o ocorrido e solicitou que o pai fosse buscá-lo.
   * sequence: 5
 
 @Enfermeira_
+ ![Enfermeira](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/enfermeira_regular_virada.png)
   >  Preocupado, ele foi até a escola, pegou o filho e veio diretamente à unidade de saúde em busca de atendimento médico.
   * sequence: 6
 
@@ -41,7 +48,7 @@
   > Como você vai convidá-los para entrar?
 
 @Opcao1_
-  > Fernando e seu acompanhante, venham comigo, por gentileza.
+  > Fernando e seu acompanhante, venham até o escritório comigo, por gentileza.
 
 @Opcao2_
   > Fernando, pode entrar aqui comigo um momento?
@@ -56,10 +63,10 @@
   ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
 @Pai_
-  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
 
 @Medico_
-  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal.png)
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
 
 @Opcoes_
   * sequence: 1
@@ -77,15 +84,15 @@
 @Opcao1-text_ -> fala_fernando
 @Opcao2-text_ -> senhor_conte
 
-# senhor_conte (consultorio)#
+# senhor_conte (consultorio) #
 @Fernando_
   ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
 @Medico_
-  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal.png)
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
 
 @Pai_
-  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando_2.png)
   >  A diretora da escola dele ligou dizendo que o nariz dele começou a sangrar depois de uma brincadeira no intervalo.
   * sequence: 1
 
@@ -94,9 +101,13 @@
   * sequence: 2
 
 @Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando.png)
   > Não lembra como era na nossa época? É cada história que a gente tem para contar para esses meninos…
   * sequence: 3
 
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
+  * sequence: 4
 @Narrador_
   >Enquanto o pai fala, Fernando permanece quieto, olhando para baixo.
   * sequence: 4
@@ -127,7 +138,7 @@
   ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
 
 @Medico_
-  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal.png)
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
 
 @Narrador_
   > Você nota que o menino não é convidado a falar e, por respeito à decisão do pai, acaba não o questionando diretamente.
@@ -138,20 +149,17 @@
   * sequence: 2
 
 @Narrador_
-  > Assim, você decide apenas tratar o paciente, fornecendo receita para dor e inchaço, solicitando um raio-X da face e marcando retorno com o ortopedista pediátrico para avaliação da lesão.
+  > Assim, você decide apenas tratar o paciente, apenas fornecendo receita para dor e inchaço e solicitando um raio-X da face.
   * sequence: 3
 
-@Resultados_
-  > Você conseguiu criar um vínculo real com Fernando, abrindo espaço para que ele fale sobre o que estava acontecendo.
+
+@Resumo_
+  > No entanto, você não encaminha Fernando para acompanhamento psicológico, devido a falta de diálogo entre o Médico e o paciente. Então, embora tenha cuidado da lesão física, o suporte emocional necessário não é providenciado, deixando parte das necessidades do paciente em falta, e não realizando um atendimento pleno.
   * sequence: 4
 
 @Resultados_
-  > No entanto, você não encaminha Fernando para acompanhamento psicológico. Embora tenha cuidado da lesão física, o suporte emocional necessário não é providenciado, deixando parte das necessidades do paciente em falta, e não realizando um atendimento pleno.
+  >  Fim de jogo (Final ruim).
   * sequence: 5
-
-@Resultados_
-  > Fim de jogo.
-  * sequence: 6
 @Seta_dialogo_ (-) next_talk
 
 
@@ -161,13 +169,16 @@
   ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
 @Pai_
-  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
 
 @Medico_
   ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
   > Fernando, queria ouvir um pouco de você, o que aconteceu?
   * sequence: 1
 
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 2
 @Narrador_
   > Você nota que Fernando esta desconfortável e buscando validação do pai para falar.
   * sequence: 2
@@ -176,6 +187,10 @@
   ![Fernando Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_falando.png)
   > Ah… foi no intervalo da escola. Eu tropecei, bati o nariz… e começou a sangrar.
   * sequence: 3
+
+@Fernando_
+  ![Fernando Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+  * sequence: 4
 
 @Narrador_
   > Você percebe que a resposta é curta demais, sem detalhes. Algo na entonação dele indica que não é toda a história.
@@ -377,57 +392,67 @@
   ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
 @Pai_
-  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
 
 @Medico_
   ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
   > Fernando, me diz a verdade: tem algo acontecendo na escola que você não está querendo contar? Não precisa ter medo, é importante para eu poder te ajudar.
   * sequence: 1
 
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 2
 @Narrador_
   > Fernando engole seco, parecendo cada vez mais tenso. Ele responde que não, que foi só um acidente mesmo, que apenas tropeçou e bateu o nariz.
   * sequence: 2
 
 @Medico_
-  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando_2.png)
   > Você não acha que está escondendo alguma coisa? Essas lesões não aparecem do nada.
   * sequence: 3
-
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 4
 @Narrador_
   > Fernando balança a cabeça, a voz ficando mais baixa e rápida. Fernando insiste que não, que não aconteceu nada, que está bem, de verdade.
   * sequence: 4
 
 @Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando_2.png)
   > Se você não falar, não tem como eu saber como te ajudar direito.
   * sequence: 5
-
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 6
 @Narrador_
   > Fernando se mantém firme na negativa, pedindo para o médico parar, reforçando que não aconteceu nada.
   * sequence: 6
 
 @Medico_
-  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_triste.png)
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
   > Você não acha que está escondendo alguma coisa? Essas lesões não aparecem do nada.
   * sequence: 7
-
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 8
 @Narrador_
   > O clima fica pesado, e você percebe que pressionar mais só vai fechar a comunicação.
   * sequence: 8
 
-@Resultado
+@Resumo
   > O paciente não se sentiu à vontade para compartilhar detalhes importantes sobre sua vida.
   * sequence: 9
 
-@Resultado
+@Resumo
   > Dessa forma, você não conseguiu investigar o caso de maneira completa e não obteve as informações necessárias para realizar encaminhamentos além do tratamento físico.
   * sequence: 10
 
-@Resultado
+@Resumo
   > Como resultado, aspectos essenciais do bem-estar emocional do paciente permaneceram sem cuidado.
   * sequence: 11
 
-@Fim_
-  > :(
+@Resultado
+  > Final ruim.
   * sequence: 12
 
 @Seta_dialogo_ (-) next_talk
