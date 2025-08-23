@@ -643,7 +643,7 @@
 @Opcao2-text_ -> general2
 @Opcao3-text_ -> info
 
-# info (inicio) #
+# info (inicio,end) #
 
 @Deusa_
   ![Deusa Brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa-brava.png)
@@ -776,7 +776,7 @@
 @Opcao2-text_ -> tesoureiro2
 @Opcao3-text_ -> fim
 
-# fim (inicio) #
+# fim (inicio,end) #
 @Deusa_
   ![Deusa Brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa-brava.png)
    > Você aqui de novo?
@@ -929,7 +929,7 @@
 @Opcao2-text_ -> tesoureiro2
 @Opcao3-text_ -> fim2
 
-# fim2 (inicio) #
+# fim2 (inicio,end) #
 
 @Deusa_
   ![Deusa Brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa-brava.png)
@@ -1102,7 +1102,7 @@
 @Proximo_ (-) next_talk
 @Opcao1-text_ -> fim3
 
-# fim3 (inicio) #
+# fim3 (inicio,end) #
 
 @Deusa_
   ![Deusa Brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa-brava.png)
