@@ -129,7 +129,7 @@
 @Opcao1-text_ -> fala_fernando
 @Opcao2-text_ -> continuar
 
-# continuar (consultorio) #
+# continuar (consultorio,end) #
 
 @Fernando_
   ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
@@ -371,7 +371,7 @@
 @Opcao2-text_ -> seguir
 
 
-# seguir (consultorio) #
+# seguir (consultorio,end) #
 
 @Fernando_
   ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
@@ -427,7 +427,7 @@
   ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/vazio.png)
   * sequence: 7
 @Resultado_
-  > Fim de jogo (Resultado médio)
+  > Fim de jogo (Final médio)
   * sequence: 7
 
 @Seta_dialogo_ (-) next_talk
@@ -844,7 +844,7 @@
 @Opcao1-text_ -> Tratar
 @Opcao2-text_ -> Tratar_encaminhar
 
-# Tratar_encaminhar (consultorio) #
+# Tratar_encaminhar (consultorio,end) #
 
 @Fernando_
   ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
@@ -899,7 +899,7 @@
   * sequence: 7
 
 @Resultado_
-  > Fim de jogo :)
+  > Fim de jogo (Final bom)
   * sequence: 7
 
 @Seta_dialogo_ (-) next_talk
