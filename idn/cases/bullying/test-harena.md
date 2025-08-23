@@ -1,1149 +1,921 @@
-# Inicio (inicio) #
+# Recepcao (recepcao) #
 
-@Deusa_
-  ![Deusa](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa.png)
-  > Infelizmente você foi atropelado por um caminhão e morreu...
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Narrador_
+  > Fernando, 14 anos, chega à UBS acompanhado do pai.
   * sequence: 1
 
-@Opcoes_
+@Enfermeira_
+  ![Enfermeira](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/enfermeira_regular.png)
+  > Fernando, o seu nariz está sangrando!
   * sequence: 2
 
-@opcao2-next_ 
-  * sequence: 2
-
-@Pergunta_
-  > Você fala:
-
-@Opcao1_
-  > Chega de conversa! Vamos para o isekai.
-
-@Opcao2_
-  > O que esta acontecendo?
-
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> isekai
-@Opcao2-text_ -> acontecendo
-
-# isekai (inicio) #
-
-@Deusa_
-  ![Deusa brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa-brava.png)
-  > Apressadinho hein! Deveria fazer você reencarnar como uma galinha...
-  * sequence: 1
-
-@Deusa_
-  > Ninguém iria saber se eu não seguir o script... 
-  * sequence: 2
-
-@Deusa_
-  > Nah! Você vai reencarnar como um rei de uma realidade futuristica.
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  > O que aconteceu?
   * sequence: 3
 
-@Deusa_
-  > Onde você deve tomar as decisões mais sabias para o seu povo.
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_triste.png)
+  * sequence: 4
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando_2.png)
+  >  Ele sofreu um acidente na escola durante o intervalo.
   * sequence: 4
 
-@Deusa_
-  > Mas se tomar as decisões erradas...
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
+  * sequence: 5
+@Enfermeira_
+  ![Enfermeira](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/enfermeira_virada.png)
+  > A equipe escolar ligou para informar o ocorrido e solicitou que o pai fosse buscá-lo.
   * sequence: 5
 
-@Prox_
+@Enfermeira_
+ ![Enfermeira](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/enfermeira_regular_virada.png)
+  >  Preocupado, ele foi até a escola, pegou o filho e veio diretamente à unidade de saúde em busca de atendimento médico.
   * sequence: 6
 
-@Deusa_
-  > Bora reencarnar!
-  * sequence: 6
-
-@Prox-next_-> reencarnar
-@Proximo_ (-) next_talk
-
-# acontecendo (inicio) #
-
-@Deusa_
-  ![Deusa Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa.png)
-  > Você tá mortinho! Nunca viu anime, não?
-  * sequence: 1
-
-@Deusa_
-  > Mas como eu gostei de você, eu vou te reencarnar como um rei. 
-  * sequence: 2
-
-@Deusa_
-  > Onde você deve tomar as melhores decisões para o seu povo.
-  * sequence: 3
-
-@Prox_
-  * sequence: 4
-
-@Deusa_
-  > Bora reencarnar!
-  * sequence: 4
-
-@Prox-next_-> reencarnar
-@Proximo_ (-) next_talk
-
-# reencarnar (quarto) #
-
-@Servo_
-  ![Servo Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/servo.png)
-  > Alteza, seus súditos te esperam no salão real...
-
-@Proximo_ -> quarto0
-
-# quarto0 (quarto2) #
-
-@Porta_ -> corredor
-@Janela_ -> musica
-
-# musica (inicio) #
-@Bardo_
-  ![Bardo Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/bardo.png)
-  > Nasci sem nome, sem brilho, sem chama,
-  * sequence: 1
-
-@Bardo_
-> A sombra me chama, a luz me despreza,
-  * sequence: 2
-
-@Bardo_
-> A névoa é maldita! Não toque!
-  * sequence: 3
-
-@Bardo_
-> Mas ouço os ventos que os sábios não ouvem.
-  * sequence: 4
-
 @Opcoes_
-  * sequence: 5
-
-@Pergunta_
-  > Você fala:
-
-@Opcao1_
-  > Porque essa música é tão triste...
-
-@Proximo_ (-) next_talk
-@Opcao1-text_-> triste
-
-
-# triste (quarto) #
-@Servo_
-  ![Servo Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/servo.png)
-  > É apenas um bardo cantado lá fora, meu senhor, não se preocupe.
-  * sequence: 1
-
-@Opcoes_
-  * sequence: 2
-
-@Pergunta_
-  > Você fala:
-
-@Opcao1_
-  > Mas porque sua voz é tão triste?
-
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> voz
-
-# voz (quarto) #
-@Servo_
-  ![Servo medo](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/servo-medo.png)
- > Alteza, muitos de seus súditos são perseguidos por nascerem com magia das sombras...
-  * sequence: 1
-
-@Prox_
-  * sequence: 2
-
-@Servo_
- > O diretor de Arcadia espera vossa majestade no salão real.
-  * sequence: 2
-
-@Prox-next_-> quarto0
-@Proximo_ (-) next_talk
-
-# corredor (corredor) #
-@Porta1_ -> quarto0
-@Porta2_ -> gabinete
-@Porta3_ -> salao
-
-# gabinete (gabinete) #
-@General_
-  ![General Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/general.png)
-  > Majestade trago nóticias importantes da fronteira do sul!
-  * sequence: 1
-
-@General_
-  ![General Bravo](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/general-bravo.png)
-  > Ao anoitecer, estandartes do Reino do Sul foram vistos avançando em formação na direção da fronteira.
-  * sequence: 2
-
-@General_
-  > O Reino do Sul está testando nossas defesas!
-  * sequence: 2
-
-@General_
-  ![General Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/general.png)
-  > O Reino do Sul está avançando na direção da nossa fronteira.
-  * sequence: 3
-
-@General_
-  ![General Bravo](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/general-bravo.png)
-  >  Precisamos fortalecer as fortalezas da fronteira, com tropas e suprimentos.
-  * sequence: 4
-
-@Opcoes_
-  * sequence: 5
-
-@Pergunta_
-  > Você decide:
-
-@Opcao1_
-  > Fortalecer as fronteiras e ir para o salão.
-
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> salao
-
-# salao (salao) #
-@Diretor_
-  ![Diretor Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/diretor.png)
-  > Majestade, meu nome é Ryze e sou diretor da escola de magia Arcadia.
-  * sequence: 1
-
-@Diretor_
-  ![Diretor falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/diretor-falando.png)
-  > Venho lhe pedir autorização para a criação de um Oráculo.
-  * sequence: 2
-
-@Diretor_
-  ![Diretor Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/diretor.png)
-  > Ele irá selecionar os melhores alunos que terão o privilégio de estudar em Arcadia.
-  * sequence: 3
-
-@Diretor_
-  >  O oráculo aprende ouvindo o que esta a sua volta, absorvendo informações...
-  * sequence: 4
-
-@Diretor_
-  ![Diretor falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/diretor-falando.png)
-  > Os Arquimagos de Silício irão criar essa mente artificial.
-  * sequence: 5
-
-@Diretor_
-  >  Conjurando bibliotecas com pergaminhos antigos, livros sagrados, canções, profecias, cartas de amor e tratados de guerra. 
-  * sequence: 6
-
-@Diretor_
-  >  Cada palavra será gravada em cristais de dados, e esses cristais serão fundidos na essência do Oráculo.
   * sequence: 7
 
-@Conselheira_
-  ![Conselheira Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/conselheira.png)
-  > Como o oráculo funciona?
+@Pergunta_
+  > Como você vai convidá-los para entrar?
+
+@Opcao1_
+  > Fernando e seu acompanhante, venham até o escritório comigo, por gentileza.
+
+@Opcao2_
+  > Fernando, pode entrar aqui comigo um momento?
+
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> Consultorio_Ambos_decide
+@Opcao2-text_ -> Consultorio_Sozinho 
+
+# Consultorio_Ambos_decide (consultorio) #
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+
+@Opcoes_
+  * sequence: 1
+
+@Pergunta_
+  > Com quem falar primeiro?
+
+@Opcao1_
+  > Começar falando com Fernando para ouvir a versão dele primeiro.
+
+@Opcao2_
+  > Senhor, pode me contar o que aconteceu com o Fernando hoje?
+
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> fala_fernando
+@Opcao2-text_ -> senhor_conte
+
+# senhor_conte (consultorio) #
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando_2.png)
+  >  A diretora da escola dele ligou dizendo que o nariz dele começou a sangrar depois de uma brincadeira no intervalo.
+  * sequence: 1
+
+@Pai_
+  >Foi só isso. Não tem nada de mais, criança é assim, tá brincando, se machuca, mas logo levanta e volta a brincar de novo. 
+  * sequence: 2
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando.png)
+  > Não lembra como era na nossa época? É cada história que a gente tem para contar para esses meninos…
+  * sequence: 3
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
+  * sequence: 4
+@Narrador_
+  >Enquanto o pai fala, Fernando permanece quieto, olhando para baixo.
+  * sequence: 4
+
+
+@Opcoes_
+  * sequence: 5
+
+@Pergunta_
+  > O que fazer?
+
+@Opcao1_
+  > Falar com fernando
+
+@Opcao2_
+  > Continuar o atendimento apenas com o pai
+
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> fala_fernando
+@Opcao2-text_ -> continuar
+
+# continuar (consultorio) #
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+
+@Narrador_
+  > Você nota que o menino não é convidado a falar e, por respeito à decisão do pai, acaba não o questionando diretamente.
+  * sequence: 1
+
+@Narrador_
+  > Com base nas informações do pai, você conclui que se trata apenas de um ferimento físico.
+  * sequence: 2
+
+@Narrador_
+  > Assim, você decide apenas tratar o paciente, apenas fornecendo receita para dor e inchaço e solicitando um raio-X da face.
+  * sequence: 3
+
+
+@Resumo_
+  > No entanto, você não encaminha Fernando para acompanhamento psicológico, devido a falta de diálogo entre o Médico e o paciente. Então, embora tenha cuidado da lesão física, o suporte emocional necessário não é providenciado, deixando parte das necessidades do paciente em falta, e não realizando um atendimento pleno.
+  * sequence: 4
+
+@Resultados_
+  >  Fim de jogo (Final ruim).
+  * sequence: 5
+@Seta_dialogo_ (-) next_talk
+
+
+# fala_fernando (consultorio) #
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  > Fernando, queria ouvir um pouco de você, o que aconteceu?
+  * sequence: 1
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 2
+@Narrador_
+  > Você nota que Fernando esta desconfortável e buscando validação do pai para falar.
+  * sequence: 2
+
+@Fernando_
+  ![Fernando Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_falando.png)
+  > Ah… foi no intervalo da escola. Eu tropecei, bati o nariz… e começou a sangrar.
+  * sequence: 3
+
+@Fernando_
+  ![Fernando Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+  * sequence: 4
+
+@Narrador_
+  > Você percebe que a resposta é curta demais, sem detalhes. Algo na entonação dele indica que não é toda a história.
+  * sequence: 4
+
+@Opcoes_
+  * sequence: 5
+
+@Pergunta_
+  > O que fazer?
+
+@Opcao1_
+  > Interrogar Fernando diretamente
+
+@Opcao2_
+  > Fazer perguntas abertas
+
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> Interrogar_Fernando
+@Opcao2-text_ -> perguntas_abertas
+
+# perguntas abertas (consultorio) #
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+
+@Narrador_
+  > Você decide manter a calma e dar a Fernando uma oportunidade de se abrir.
+  * sequence: 1
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando_2.png)
+  > Entendi. E antes disso, estava fazendo o quê? Brincando? Conversando com alguém?
+  * sequence: 2
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 3
+@Narrador_
+  > Fernando hesita e respira fundo.
+  * sequence: 3
+
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_falando.png)
+  > Tava… perto da quadra. Uns meninos chegaram, começaram a empurrar… aí eu caí.
+  * sequence: 4
+
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+  * sequence: 5
+@Narrador_
+  > O pai fica surpreso.
+  * sequence: 5
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando_2.png)
+  > Empurrar? Como assim? Você nunca falou nada disso pra mim!
+  * sequence: 6
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
+  * sequence: 7
+
+@Narrador_
+  > Fernando fica visivelmente desconfortável. Você percebe que, se deixar, a conversa pode virar um confronto entre os dois. É hora de intervir.
+  * sequence: 7
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando_2.png)
+  > Olha, essas coisas podem ser difíceis de falar, principalmente quando a gente não quer preocupar quem a gente gosta. O importante é que você está seguro agora, e podemos pensar juntos em como lidar com isso.
   * sequence: 8
 
-@Diretor_
-  ![Diretor ](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/diretor.png)
-  > Ele aprende com padrões.
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
   * sequence: 9
 
-@Diretor_
-  >  Ao absorver um conto de heróis, ele nota que “espada” vem depois de “guerreiro” e que espada e guerreiro tem uma conexão. 
+@Narrador_
+  > Você mantém um tom tranquilo e faz pequenas perguntas. Aos poucos, Fernando vai contando mais detalhes: que alguns colegas fazem piadas, que ele evita determinados lugares na escola e que já houve empurrões antes.
+  * sequence: 9
+
+@Narrador_
+  > O pai escuta, ainda processando.
   * sequence: 10
 
-@Diretor_
- ![Diretor falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/diretor-falando.png)
-  >  E a cada novo texto, o Oráculo ajusta seus nós de pensamento.
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando_2.png)
+  >  Fernando, você devia ter me contado antes…
   * sequence: 11
 
-@Diretor_
-  >  Com o tempo, o Oráculo será capaz de prever palavras e construir respostas a partir de milhões de vozes.
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
   * sequence: 12
 
-@Conselheira_
-  ![Conselheira Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/conselheira-falando.png)
-  > E porque você precisa de uma ferramenta tão poderosa?
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_falando2.png)
+  > Não queria dar problema…
+  * sequence: 12
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
   * sequence: 13
 
-@Diretor_
- ![Diretor bravo](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/diretor-bravo.png)
-  >  Nossas provas são extremamente longas e elaboradas, e isso tem gerado enorme custo financeiro e até mesmo algumas mortes...
+@Narrador_
+  > Apesar de ter conseguido informações importantes, você percebe que ele ainda guarda algo. Sabe que, se estivessem sozinhos, talvez ele confiasse o restante.
+  * sequence: 13
+
+@Opcoes_
   * sequence: 14
 
-@Opcoes_
-  * sequence: 15
-
-@opcao2-next_ 
-  * sequence: 15
-
-@opcao3-next_ 
-  * sequence: 15
-
 @Pergunta_
-  > A assembleia real deseja falar. Quem você quer ouvir:
+  > O que fazer?
 
 @Opcao1_
-  > Conselheira
+  > Tentar separar os dois para descobrir mais informações
 
 @Opcao2_
-  > General
+  > Seguir atendimento com as informações que tem
 
-@Opcao3_
-  > Tesoureiro
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> tentar_separar
+@Opcao2-text_ -> seguir
 
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> conse
-@Opcao2-text_ -> general
-@Opcao3-text_ -> tesoureiro
+#tentar_separar (consultorio) #
 
-# tesoureiro (salao) #
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
-@Tesoureiro_
-  ![Tesoureiro Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/tesoureiro.png)
-  > Vossa majestade tem 1000 moedas de ouro no cofre real.
-   * sequence: 1
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
 
-@Tesoureiro_
-  ![Tesoureiro nervoso](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/tesoureiro-nervoso.png)
-  > A criação do oráculo exige um investimento inicial de pelo menos 400 moedas de ouro!
-   * sequence: 2
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
 
-@Opcoes_
-  * sequence: 3
-
-@opcao2-next_ 
-  * sequence: 3
-
-@opcao3-next_ 
-  * sequence: 3
-
-@Pergunta_
-  > Você quer:
-
-@Opcao1_
-  > Investir no oráculo.
-
-@Opcao2_
-  > Falar com general.
-
-@Opcao3_
-  > Falar com conselheira.
-
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> criar
-@Opcao2-text_ -> general
-@Opcao3-text_ -> conse
-
-# general (salao) #
-@General_
-  ![General bravo](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/general-bravo.png)
-  > O reino do sul vem se fortificando cada vez mais através da magia! 
+@Narrador_
+  > Você pensa em um jeito de falar com Fernando sem seu pai, sem comprometer a confiança que ambos têm em você.
   * sequence: 1
 
-@General_
-  > Sugiro que façamos o mesmo! 
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando_2.png)
+  > Bom, agora que já conversamos um pouco sobre o ocorrido, precisamos pesar e medir a altura de Fernando
   * sequence: 2
 
-@General_
-  ![General Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/general.png)
-  > Investir no oráculo irá trazer novos magos muito mais poderosos! 
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  > Como nesse consultório não há balança, vamos na sala ao lado para verificar.
   * sequence: 3
 
-@General_
-  > Devemos sempre estar preparados!
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando_2.png)
+  > Enquanto isso, você não quer ir até a recepção marcar o retorno? Assim já vamos adiantando, porque a unidade está um pouco cheia hoje.
   * sequence: 4
+
 
 @Opcoes_
   * sequence: 5
 
-@opcao2-next_ 
-  * sequence: 5
-
-@opcao3-next_ 
-  * sequence: 5
-
 @Pergunta_
-  > Você quer:
+  > Decida
 
 @Opcao1_
-  > Investir no oráculo.
+  > Ir para a sala ao lado
 
 @Opcao2_
-  > Falar com tesoureiro.
+  > Desistir
 
-@Opcao3_
-  > Falar com conselheira.
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> pai_concorda
+@Opcao2-text_ -> seguir
 
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> criar
-@Opcao2-text_ -> tesoureiro
-@Opcao3-text_ -> conse
 
-# conse (salao) #
-@Conselheira_
-  ![Conselheira Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/conselheira.png)
-  > Talvez vossa majestade devesse se preocupar com outros problemas...
+# seguir (consultorio) #
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+
+@Narrador_
+  > Você decide agir com o que conseguiu descobrir, prescrevendo um medicamento para aliviar a dor e reduzir o inchaço.
   * sequence: 1
 
-@Conselheira_
-  ![Conselheira Nervosa](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/conselheira-falando.png)
-  > Majestade, o Oráculo apesar de eficiente, pode conter preconceitos enraizados.
+
+@Narrador_
+  > Além disso, marca uma nova consulta daqui a um mês e encaminha Fernando para o psicólogo da unidade.
   * sequence: 2
 
-@Conselheira_
-  > Temo que a discriminação contra magos das sombras seja apenas perpetuada!
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_feliz.png)
   * sequence: 3
 
-@Diretor_
- ![Diretor bravo](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/diretor-bravo.png)
-  >  Mas majestade nós precisamos de ajuda na seleção dos alunos!
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando.png)
+  * sequence: 3
+
+@Narrador_
+  > Ao saírem, Fernando e o pai agradecem a atenção e parecem mais aliviados. Ainda assim, você sente que uma parte essencial da história continua oculta, sendo crucial para ajudá-lo de verdade.
+  * sequence: 3
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/vazio.png)
+  * sequence: 4
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/vazio.png)
   * sequence: 4
 
-@Conselheira_
-  ![Conselheira Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/conselheira.png)
-  > Eu tenho uma ideia!
+@Resumo_
+  > O caso foi tratado fisicamente, com cuidados necessários para a lesão. Houve encaminhamento para apoio psicológico, oferecendo suporte emocional ao paciente.
+  * sequence: 4
+
+@Resumo_
+  >  No entanto, Fernando poderia ter compartilhado mais informações pessoais, o que impediu uma compreensão completa do caso. 
   * sequence: 5
 
-@Conselheira_
-  > Uma pré-seleção mágica padronizada e segura, com avaliadores treinados de diversas ordens.
+@Resumo_
+  > Então, parte das necessidades do paciente não foram atendidas.
   * sequence: 6
 
-@Conselheira_
-  > Uma pré-seleção mágica padronizada e segura, com avaliadores treinados de diversas ordens.
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/vazio.png)
+  * sequence: 7
+@Resultado_
+  > Fim de jogo (Resultado médio)
   * sequence: 7
 
-@Diretor_
-  >  Isso seria impossível!
+@Seta_dialogo_ (-) next_talk
+
+# Interrogar_Fernando (consultorio) #
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  > Fernando, me diz a verdade: tem algo acontecendo na escola que você não está querendo contar? Não precisa ter medo, é importante para eu poder te ajudar.
+  * sequence: 1
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 2
+@Narrador_
+  > Fernando engole seco, parecendo cada vez mais tenso. Ele responde que não, que foi só um acidente mesmo, que apenas tropeçou e bateu o nariz.
+  * sequence: 2
+
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando_2.png)
+  > Você não acha que está escondendo alguma coisa? Essas lesões não aparecem do nada.
+  * sequence: 3
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 4
+@Narrador_
+  > Fernando balança a cabeça, a voz ficando mais baixa e rápida. Fernando insiste que não, que não aconteceu nada, que está bem, de verdade.
+  * sequence: 4
+
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando_2.png)
+  > Se você não falar, não tem como eu saber como te ajudar direito.
+  * sequence: 5
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 6
+@Narrador_
+  > Fernando se mantém firme na negativa, pedindo para o médico parar, reforçando que não aconteceu nada.
+  * sequence: 6
+
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  > Você não acha que está escondendo alguma coisa? Essas lesões não aparecem do nada.
+  * sequence: 7
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 8
+@Narrador_
+  > O clima fica pesado, e você percebe que pressionar mais só vai fechar a comunicação.
   * sequence: 8
 
-@Diretor_
- ![Diretor falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/diretor-falando.png)
-  >  A magia não pode ser avaliada por uma prova padronizada!
+@Resumo
+  > O paciente não se sentiu à vontade para compartilhar detalhes importantes sobre sua vida.
   * sequence: 9
 
-@Diretor_
-  > Cada magia é diferente, podendo não revelar o verdadeiro potencial de cada aluno! 
+@Resumo
+  > Dessa forma, você não conseguiu investigar o caso de maneira completa e não obteve as informações necessárias para realizar encaminhamentos além do tratamento físico.
   * sequence: 10
 
-@Diretor_
- ![Diretor](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/diretor.png)
-  >  O Oráculo é a única forma de sustentar Arcadia no futuro!
+@Resumo
+  > Como resultado, aspectos essenciais do bem-estar emocional do paciente permaneceram sem cuidado.
   * sequence: 11
 
+@Resultado
+  > Final ruim.
+  * sequence: 12
+
+@Seta_dialogo_ (-) next_talk
+
+# tratar (consultorio)#
+  > Assim, você decide apenas tratar o paciente, fornecendo receita para dor e inchaço, solicitando um raio-X da face e marcando retorno com o ortopedista pediátrico para avaliação da lesão.
+
+# Consultorio_Sozinho (consultorio)#
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+
+@Narrador_
+   > Você decide chamar apenas o menino para o consultório..
+   * sequence: 1
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando_2.png)
+   > Como assim só ele? Eu quero estar junto não vou deixar meu filho sozinho com o senhor.
+   * sequence: 2
+
+@Pai_
+  ![Pai normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
+  * sequence: 3
+
+@Medico_
+ ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+   > Entendo sua preocupação. Às vezes, conversar a sós ajuda o paciente a se sentir mais à vontade para falar sobre o que aconteceu.
+   * sequence: 3
+
+@Medico_
+ ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+   * sequence: 4
+
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_falando_2.png)
+   > Não, doutor. Ele é menor de idade, e eu quero acompanhar.
+   * sequence: 4
+
+@Pai_
+  ![Pai normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
+  * sequence: 5
+
+@Narrador_
+   > O clima fica um pouco tenso. O médico percebe que, se insistir agora, a conversa pode se tornar ainda mais difícil.
+   * sequence: 5
+
 @Opcoes_
-  * sequence: 12
-
-@opcao2-next_ 
-  * sequence: 12
-
-@opcao3-next_ 
-  * sequence: 12
+   * sequence: 6
 
 @Pergunta_
-  > Você quer:
+   > Escolha a seguir sua próxima ação:
 
 @Opcao1_
-  > Investir no oráculo.
+   > Conversar com ambos
 
 @Opcao2_
-  > Falar com general.
+   > Mudar a estratégia e pensar em outra forma de falar com Fernando a sós.
 
-@Opcao3_
-  > Falar com tesoureiro.
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> Consultorio_Ambos_decide
+@Opcao2-text_ -> mudar_estrategia
 
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> criar
-@Opcao2-text_ -> general
-@Opcao3-text_ -> tesoureiro
+# mudar_estrategia (consultorio)#
 
-# criar (quarto) #
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
-@Servo_
-  ![Servo](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/servo.png)
-  > Majestade, seus súditos estão reunidos no portão do castelo...
-  * sequence: 1
+@Pai_
+  ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
 
-@Servo_
- ![Servo Medo](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/servo-medo.png)
-  > Com a notícia da criação do Oráculo, muitos tem ficado receosos com esse novo artefato...
-  * sequence: 2
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
 
-@Servo_
-  > Muitos estão dizendo que o oráculo não será justo em suas decisões...
+@Medico_
+   > Tudo bem, faz sentido. De qualquer forma, precisamos pesar ele e verificar a altura
+   * sequence: 1
+
+@Medico_
+   > Como nesse consultório não há balança, vou com o Fernando na sala ao lado. Enquanto isso, você não quer ir até a recepção marcar o retorno?
+   * sequence: 2
+
+@Medico_
+ ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
   * sequence: 3
 
 @Opcoes_
-  * sequence: 4
-
-@Pergunta_
-  > Parece que você não tem outra opção...
-
-@Opcao1_
-  > Convocar Assembleia Real para falar do Oráculo.
-
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> convocar
-
-# convocar (salao) #
-
-@General_ 
- ![Diretor](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/general.png)
-
-@Bobo_ 
- ![Diretor](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/bobo.png)
-
-@tesoureiro_ 
- ![Diretor](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/tesoureiro.png)
-
-@Conselheira_ 
- ![Diretor](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/conselheira.png)
-
-@Opcoes_
-  * sequence: 1
-
-@opcao2-next_ 
-  * sequence: 1
-
-@opcao3-next_ 
-  * sequence: 1
-
-@opcao4-next_ 
-  * sequence: 1
-
-@Pergunta_
-  > Você quer:
-
-@Opcao1_
-  > Falar com conselheira.
-
-@Opcao2_
-  > Falar com general.
-
-@Opcao3_
-  > Falar com tesoureiro.
-
-@Opcao4_
-  > Falar com bobo.
-
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> conselheira2
-@Opcao2-text_ -> general2
-@Opcao3-text_ -> tesoureiro2
-@Opcao4-text_ -> bobo
-
-# tesoureiro2 (salao) #
-
-@Tesoureiro_
-  ![Tesoureiro Nervoso](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/tesoureiro-nervoso.png)
-  > Majestade, é meu dever lembrar que os cofres reais não são inesgotáveis.
-   * sequence: 1
-
-@Tesoureiro_
-  ![Tesoureiro Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/tesoureiro.png)
-  > Acredito que devemos convidar os arquimagos, criadores do Oráculo...
-   * sequence: 2
-
-@Tesoureiro_
-  > Para que eles expliquem mais sobre o processo.
-   * sequence: 3
-
-@Opcoes_
-  * sequence: 4
-
-@opcao2-next_ 
-  * sequence: 4
-
-@opcao3-next_ 
-  * sequence: 4
-
-@Pergunta_
-  > Você quer:
-
-@Opcao1_
-  > Falar com conselheira.
-
-@Opcao2_
-  > Falar com general.
-
-@Opcao3_
-  > Falar com arquimago.
-
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> conselheira2
-@Opcao2-text_ -> general2
-@Opcao3-text_ -> arquimago
-
-# arquimago (salao) #
-
-@Arquimago_
-  ![Arquimago](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/arquimago.png)
-  > Saudações, Majestade! Sou Singed, Arquimago e desevolvedor do Oráculo.
-   * sequence: 1
-
-@Arquimago_
-  ![Arquimago Falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/arquimago-falando.png)
-  > O Oráculo pode refletir as imperfeições de quem o ensinou...
-   * sequence: 2
-
-@Arquimago_
-  ![Arquimago Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/arquimago.png)
-  > Se as informações usadas para treiná-lo contêm injustiças...
-   * sequence: 3
-
-@Arquimago_
-  ![Arquimago Falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/arquimago-falando.png)
-  > O Oráculo replicará essas distorções!
-   * sequence: 4
-
-@Arquimago_
-  ![Arquimago Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/arquimago.png)
-  > Mas para que isso não aconteça...
-   * sequence: 5
-
-@Arquimago_
-  ![Arquimago Falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/arquimago-falando.png)
-  >  Os ensinamentos fornecidos ao Oráculo devem vir de fontes diversas.
-   * sequence: 6
-
-@Arquimago_
-  ![Arquimago Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/arquimago.png)
-  > O equilíbrio nas memórias é o primeiro passo para justiça.
-   * sequence: 7
-
-@Arquimago_
-  ![Arquimago Falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/arquimago-falando.png)
-  > Posso sugerir algumas opções para que o oráculo seja mais justo...
-   * sequence: 8
-
-@Arquimago_
-  > Por exemplo, buscar mais fontes de informação.
-   * sequence: 9
-
-@Opcoes_
-  * sequence: 10
-
-@opcao2-next_
-  * sequence: 10
-
-@opcao3-next_
-  * sequence: 10
-
-@Pergunta_
-  > Você quer:
-
-@Opcao1_
-  > Falar com conselheira.
-
-@Opcao2_
-  > Falar com general.
-
-@Opcao3_
-  > Buscar mais informação.
-
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> conselheira2
-@Opcao2-text_ -> general2
-@Opcao3-text_ -> info
-
-# info (inicio) #
-
-@Deusa_
-  ![Deusa Brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa-brava.png)
-   > Você aqui de novo?
-   * sequence: 1
-
-@Deusa_
-  ![Deusa](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa.png)
-   > Vamos ver o que aconteceu...
-   * sequence: 2
-
-@Deusa_
-   > Os Arquimagos colheram saberes distantes para alimentar o Oráculo.
-   * sequence: 3
-
-@Deusa_
-  > Quando os dados retornaram, o Oráculo começou a tomar decisões justas.
-   * sequence: 4
-
-@Deusa_
-  > Até aqui tudo certo...
-   * sequence: 5
-
-@Deusa_
-  > Mas você esqueceu daqueles que perderam seus empregos por causa do Oráculo.
-   * sequence: 6
-
-@Deusa_
-  > E foi assassinado...
-   * sequence: 7
-
-@Deusa_
-  > Você foi bem até aqui!
-   * sequence: 8
-
-@Deusa_
-  > Mas o que você poderia ter feito de diferente?
-   * sequence: 9
-
-@Proximo_ (-) next_talk
-
-# general2 (salao) #
-@General_
-  ![General Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/general.png)
-  > Majestade, por que não convocar uma audiência com os professores de Arcadia.
-  * sequence: 1
-
-@General_
-  > Eles estão sendo diretamente afetados pela criação do Oráculo.
-  * sequence: 2
-
-@General_
-  > Acredito que seus medos estejam se espalhando para o povo.
   * sequence: 3
 
-@Opcoes_
-  * sequence: 4
-
-@opcao2-next_ 
-  * sequence: 4
-
-@opcao3-next_
-  * sequence: 4
-
 @Pergunta_
-  > Você quer:
+  > Qual seu próximo passo?
 
 @Opcao1_
-  > Falar com conselheira.
+  > Continuar no consultório ao lado
 
 @Opcao2_
-  > Falar com tesoureiro.
+  > Desistir e falar com ambos
 
-@Opcao3_
-  > Falar com os professores.
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> pai_concorda
+@Opcao2-text_ -> seguir
 
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> conselheira2
-@Opcao2-text_ -> tesoureiro2
-@Opcao3-text_ -> professor
+# pai_concorda (exames)#
 
-# professor (salao) #
-@Professor_
-  ![Professor](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/professor.png)
-   > Majestade, sou Zilean, mestre das artes arcanas em Arcádia.
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Narrador_
+   > O pai do paciente concorda. Você vai para o consultório ao lado pesar e medir Fernando. No momento, estão apenas vocês dois na sala.
    * sequence: 1
-
-@Professor_
-  ![Professor Falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/professor-falando.png)
-   > Não quero desafiar a criação do Oráculo.
-   * sequence: 2
-
-@Professor_
-   > Mas para expressar uma inquietação que compartilho com muitos colegas.
-   * sequence: 3
-
-@Professor_
-  ![Professor](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/professor.png)
-   > A magia é mais do que fórmulas e padrões, nem sempre pode ser previstas.
-   * sequence: 4
-
-@Professor_
-   ![Professor Falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/professor-falando.png)
-   > Proponho, que as decisões tomadas pelo Oráculo sejam examinadas por um conselho de humanos.
-   * sequence: 5
 
 @Opcoes_
-  * sequence: 6
-
-@opcao2-next_
-  * sequence: 6
-
-@opcao3-next_
-  * sequence: 6
-
-@Pergunta_
-  > Você quer:
-
-@Opcao1_
-  > Falar com conselheira.
-
-@Opcao2_
-  > Falar com tesoureiro.
-
-@Opcao3_
-  > Aceitar proposta do professor.
-
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> conselheira2
-@Opcao2-text_ -> tesoureiro2
-@Opcao3-text_ -> fim
-
-# fim (inicio) #
-@Deusa_
-  ![Deusa Brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa-brava.png)
-   > Você aqui de novo?
-   * sequence: 1
-
-@Deusa_
-  ![Deusa](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa.png)
-   > Vamos ver o que aconteceu...
    * sequence: 2
 
-@Deusa_
-   > Os humanos reavaliavam a decisão do Oráculo...
-   * sequence: 3
+@Pergunta_
+   > O que você faz em seguida?
 
-@Deusa_
-  > Até aqui tudo certo...
-   * sequence: 4
+@Opcao1_
+   >  Interrogar Fernando diretamente
 
-@Deusa_
-  > Mas você se esqueceu dos magos das sombras marginalizados...
-   * sequence: 5
+@Opcao2_
+   > Tentar puxar assunto
 
-@Deusa_
-  > E foi assassinado...
-   * sequence: 6
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> Interrogar_Paciente
+@Opcao2-text_ -> puxar_assunto
 
-@Deusa_
-  > Você foi bem!
-   * sequence: 7
+# Interrogar_Paciente (exames) #
 
-@Deusa_
-  > Mas o que você poderia ter feito de diferente?
-   * sequence: 8
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
-@Proximo_ (-) next_talk
-
-# conselheira2 (salao) #
-
-@Conselheira_
-  ![Conselheira Normal](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/conselheira.png)
-  > Vossa alteza, sugiro uma reflexão sobre os Arquimagos do Círculo.
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  > Fernando, me diz a verdade: tem algo acontecendo na escola que você não está querendo contar? Não precisa ter medo, é importante para eu poder te ajudar.
   * sequence: 1
 
-@Conselheira_
-  ![Conselheira Nervosa](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/conselheira-falando.png)
-  >  Se apenas eles moldarem o Oráculo, ele herdará seus preconceitos...
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 2
+@Narrador_
+  > Fernando engole seco, parecendo cada vez mais tenso. Ele responde que não, que foi só um acidente mesmo, que apenas tropeçou e bateu o nariz.
   * sequence: 2
 
-@Conselheira_
-  >  E sua crença de que magos das sombras são cruéis.
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando_2.png)
+  > Você não acha que está escondendo alguma coisa? Essas lesões não aparecem do nada.
   * sequence: 3
-
-@Conselheira_
-  ![Conselheira](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/conselheira.png)
-  >  Sugiro convidar magos das sombras para que eles tragam suas preocupações!
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 4
+@Narrador_
+  > Fernando balança a cabeça, a voz ficando mais baixa e rápida. Fernando insiste que não, que não aconteceu nada, que está bem, de verdade.
   * sequence: 4
 
-@Opcoes_
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando_2.png)
+  > Se você não falar, não tem como eu saber como te ajudar direito.
   * sequence: 5
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 6
+@Narrador_
+  > Fernando se mantém firme na negativa, pedindo para o médico parar, reforçando que não aconteceu nada.
+  * sequence: 6
 
-@opcao2-next_
-  * sequence: 5
+@Medico_
+  ![Medico Falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  > Você não acha que está escondendo alguma coisa? Essas lesões não aparecem do nada.
+  * sequence: 7
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+  * sequence: 8
+@Narrador_
+  > O clima fica pesado, e você percebe que pressionar mais só vai fechar a comunicação.
+  * sequence: 8
 
-@opcao3-next_
-  * sequence: 5
+@Resumo
+  > O paciente não se sentiu à vontade para compartilhar detalhes importantes sobre sua vida.
+  * sequence: 9
 
-@Pergunta_
-  > Você quer:
-
-@Opcao1_
-  > Falar com general.
-
-@Opcao2_
-  > Falar com tesoureiro.
-
-@Opcao3_
-  > Falar com maga das sombras.
-
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> general2
-@Opcao2-text_ -> tesoureiro2
-@Opcao3-text_ -> maga
-
-# maga (salao) #
-
-@Maga_
-  ![Maga](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/maga.png)
-   > Majestade, me chamo Morgana, a maga mais poderosa das sombras.
-   * sequence: 1
-
-@Maga_
-   > Por eras, os magos das sombras fomos temidos e acusados de crimes que não cometemos.
-   * sequence: 2
-
-@Maga_
-   >  Mas as sombras não são más…
-   * sequence: 3
-
-@Maga_
-  ![Maga Feliz](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/maga-feliz.png)
-   >  São apenas partes do mundo!
-   * sequence: 4
-
-@Maga_
-  ![Maga Brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/maga-brava.png)
-   >  Arcadia tem barrado magos das sombras...
-   * sequence: 5
-
-@Maga_
-   > Não por falta de talento, mas por temor.
-   * sequence: 6
-
-@Maga_
-   > O Oráculo, vai apenas refletir esse preconceito.
-   * sequence: 7
-
-@Maga_
- ![Maga](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/maga.png)
-   > Por isso peço que magos das sombras possam participar da sua criação!
-   * sequence: 8
-
-@Maga_
- ![Maga Feliz](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/maga-feliz.png)
-   > Assim impedindo que qualquer injutiça se propague.
-   * sequence: 9
-
-@Opcoes_
+@Resumo
+  > Dessa forma, você não conseguiu investigar o caso de maneira completa e não obteve as informações necessárias para realizar encaminhamentos além do tratamento físico.
   * sequence: 10
 
-@opcao2-next_
+@Resumo
+  > Como resultado, aspectos essenciais do bem-estar emocional do paciente permaneceram sem cuidado.
+  * sequence: 11
+
+@Resultado
+  > Final ruim.
+  * sequence: 12
+
+@Seta_dialogo_ (-) next_talk
+
+# puxar_assunto (exames) #
+
+@Fernando_
+  ![Fernando Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+
+
+@Medico_
+  > Fernando, você comentou que essa é a terceira ou quarta vez que seu nariz sangra na escola.
+  * sequence: 1
+
+@Medico_
+   > Seu pai disse que seu desempenho caiu e que você anda mais quieto em casa. Você acha que tudo isso pode estar ligado?
+   * sequence: 2
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+   * sequence: 3
+
+@Fernando_
+  ![Fernando falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_falando.png)
+  > Não, não acho.
+  * sequence: 3
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+  * sequence: 4
+
+@Medico_
+ ![medico falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+  > Na educação física, jogaram uma bola no seu rosto. Acha que foi de propósito?
+  * sequence: 4
+
+@Fernando_
+  ![Fernando falando](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_falando.png)
+  > Acho que sim… Foi o Guilherme e uns colegas. Da outra vez também foi por causa deles.
+  * sequence: 5
+
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
+  * sequence: 6
+
+@Medico_
+   > Entendo… E você sabe por que estão te perseguindo?
+   * sequence: 6
+
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
+   * sequence: 7
+
+@Fernando_
+ ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_falando.png)
+  > Eu sou.....
+  * sequence: 7
+
+@Fernando_
+  > Gay
+  * sequence: 8
+
+@Fernando_
+  > Minha família não sabe, mas me assumi na escola faz uns dois anos. Ai eles começaram a me bater.
+  * sequence: 9
+
+@Fernando_
+  > Mas, por favor, não conta pra ninguém, doutor.
   * sequence: 10
 
-@opcao3-next_
+@Seta_navega_aparece_
   * sequence: 10
 
-@Pergunta_
-  > Você quer:
+@Seta_dialogo_ (-) next_talk
+@Seta_navega_ -> Fernando_abre
 
-@Opcao1_
-  > Falar com general.
+# Fernando_abre (exames) #
 
-@Opcao2_
-  > Falar com tesoureiro.
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
-@Opcao3_
-  > Aceitar proposta da maga.
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal.png)
 
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> general2
-@Opcao2-text_ -> tesoureiro2
-@Opcao3-text_ -> fim2
+@Medico_
+  > Fernando, sinto muito pelo que você está passando e quero te ajudar..
+  * sequence: 1
 
-# fim2 (inicio) #
-
-@Deusa_
-  ![Deusa Brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa-brava.png)
-   > Você aqui de novo?
-   * sequence: 1
-
-@Deusa_
-  ![Deusa](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa.png)
-   > Vamos ver o que aconteceu...
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_falando.png)
+   > Nada do que conversamos precisa ser contado ao seu pai se você não quiser, mas ele pode te proteger, e eu estarei lá para te apoiar. 
    * sequence: 2
 
-@Deusa_
-   > Os magos das sombras finalmente estão se integrando no meio acadêmico...
-   * sequence: 3
+@Medico_
+  > Sobre sua orientação sexual, não precisa contar se não quiser, podemos relatar o bullying sem mencionar isso.
+  * sequence: 3
 
-@Deusa_
-  > Até aqui tudo certo...
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
    * sequence: 4
 
-@Deusa_
-  > Mas você esqueceu daqueles que perderam seus empregos por causa do Oráculo.
-   * sequence: 5
+@Seta_navega_aparece_
+  * sequence: 4
 
-@Deusa_
-  > E foi assassinado...
-   * sequence: 6
+@Seta_dialogo_ (-) next_talk
+@Seta_navega_ -> tratar_apenas
 
-@Deusa_
-  > Você fez boas escolhas!
-   * sequence: 7
+# tratar_apenas (consultorio) #
 
-@Deusa_
-  > Mas o que você poderia ter feito de diferente?
-   * sequence: 8
+@Medico_
+ ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
 
-@Proximo_ (-) next_talk
+@Fernando_
+  ![Fernando normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
-# bobo (salao) #
-@Bobo_
-  ![Bobo](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/bobo-inteiro.png)
-   > Majestade, eu tenho uma ideia genial!
-   * sequence: 1
+@Pai_
+ ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
 
-@Bobo_
-   > Por que não fazemos um grande festival!
-   * sequence: 2
+@Narrador_
+ > Depois da conversa com Fernando, ele se sente confortável para contar ao pai, com sua ajuda, sobre a violência que vem sofrendo na escola.
+ * sequence: 1
 
-@Bobo_
-   > Poderiamos convidar vários magos inclusive os das sombras, e também nobres e plebeus de diversas regiões!
-   * sequence: 3
-
-@Bobo_
-   > Com muita bebida, comida, música e claro PALHAÇOS!
-   * sequence: 4
-
-@Bobo_
-   > Essa festa será apenas um pretesto para conhcer seus súditos e entender a sua preocupações!
-   * sequence: 5
+@Narrador_
+ > O paciente decide não revelar nada sobre sua orientação sexual, mas você agora tem conhecimento desse conflito que ele enfrenta.
+ * sequence: 2
 
 @Opcoes_
-  * sequence: 6
-
-@opcao2-next_ 
-  * sequence: 6
-
-@opcao3-next_ 
-  * sequence: 6
-
-@opcao4-next_ 
-  * sequence: 6
+ * sequence: 3
 
 @Pergunta_
-  > Você quer:
+ > Na posição de médico, qual seria a sua conduta?
 
 @Opcao1_
-  > Prender o bobo e falar com general.
+ > Focar apenas no atendimento físico imediato
 
 @Opcao2_
-  > Prender o bobo e falar com tesoureiro.
+ > Cuidar do ferimento e, ao mesmo tempo, investigar se há outros fatores emocionais envolvidos
 
-@Opcao3_
-  > Prender o bobo e falar com a conselheira.
+@Seta_dialogo_ (-) next_talk
+@Opcao1-text_ -> Tratar
+@Opcao2-text_ -> Tratar_encaminhar
 
-@Opcao4_
-  > Dar a festa.
+# Tratar_encaminhar (consultorio) #
 
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> general2
-@Opcao2-text_ -> tesoureiro2
-@Opcao3-text_ -> conselheira2
-@Opcao4-text_ -> festa
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_triste.png)
 
-#festa (salao) #
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/medico_normal_2.png)
 
-@Professor_
-   ![Professor Falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/professor-falando.png)
-   > Majestade, sou o Professor Zilean, mestre das artes arcanas em Arcadia.
-   * sequence: 1
+@Pai_
+ ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_serio.png)
 
-@Professor_
-   ![Professor](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/professor.png)
-   > Em todos essas decadas aperfeiçoei meu dom!
-   * sequence: 2
+@Narrador_
+  > Você decide cuidar não apenas do ferimento, mas também do bem-estar emocional de Fernando.
+  * sequence: 1
 
-@Professor_
-   ![Professor](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/professor-nervoso.png)
-   > E agora dizem que um oráculo pode me subistituir?
-   * sequence: 3
+@Narrador_
+  > Receita um medicamento para aliviar a dor e reduzir o inchaço. 
+  * sequence: 2
 
-@Professor_
-   ![Professor](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/professor-nervoso.png)
-   > Você está sendo muito injusto com aqueles que detem o conhecimento!
-   * sequence: 4
+@Narrador_
+  > Além disso, agenda um retorno e encaminha Fernando à psicóloga da unidade, para que ele possa receber apoio emocional e conversar sobre o que aconteceu.
+  * sequence: 3
+  
+@Resultado_
+  > Você estabeleceu um vínculo de confiança com Fernando, o que permitiu compreender a fundo o caso dele.
+  * sequence: 4
 
-@Professor_
-   ![Professor Falando](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/professor-falando.png)
-   > Eu proponho que as decisões tomadas pelo Oráculo sejam examinadas por um conselho de humanos.
-   * sequence: 5
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/fernando_feliz.png)
+  * sequence: 5
+@Pai_
+ ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/pai_normal.png)
+  * sequence: 5
 
-@Maga_
-  ![Maga](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/maga.png)
-   > Majestade, me chamo Morgana, a maga mais poderosa das sombras.
-   * sequence: 6
+@Resultado_
+  > Ao final, Fernando e seu pai saíram gratos pela atenção e cuidado. 
+  * sequence: 5
 
-@Maga_
-   > Por eras, os magos das sombras fomos temidos e acusados de crimes que não cometemos.
-   * sequence: 7
+@Fernando_
+  ![Medico Triste](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/vazio.png)
+  * sequence: 6
 
-@Maga_
-   >  Mas as sombras não são más…
-   * sequence: 8
+@Pai_
+ ![Pai Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/vazio.png)
+  * sequence: 6
 
-@Maga_
-  ![Maga Feliz](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/maga-feliz.png)
-   >  São apenas partes do mundo!
-   * sequence: 9
+@Resultado_
+  > Graças a sua abordagem multiprofissional, ele receberá um tratamento completo, físico e emocional, aumentando as chances de uma recuperação plena.
+  * sequence: 6
 
-@Maga_
-  ![Maga Brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/maga-brava.png)
-   >  Arcadia tem barrado magos das sombras...
-   * sequence: 10
+@Medico_
+  ![Medico Normal](https://harena-incubator.github.io/harena-cases/idn/themes/bullying/imagem/personagem/vazio.png)
+  * sequence: 7
 
-@Maga_
-   > Não por falta de talento, mas por temor.
-   * sequence: 11
+@Resultado_
+  > Fim de jogo :)
+  * sequence: 7
 
-@Maga_
-   > O Oráculo, vai apenas refletir esse preconceito.
-   * sequence: 12
+@Seta_dialogo_ (-) next_talk
 
-@Maga_ 
- ![Maga](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/maga.png)
-   > Por isso peço que magos das sombras possam participar desse conselho!
-   * sequence: 13
 
-@Maga_
- ![Maga Feliz](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/maga-feliz.png)
-   > Assim impedindo que qualquer injutiça se propague.
-   * sequence: 14
 
-@Opcoes_
-  * sequence: 15
 
-@Pergunta_
-  > Você quer:
 
-@Opcao1_
-  > Criar um conselho.
 
-@Proximo_ (-) next_talk
-@Opcao1-text_ -> fim3
 
-# fim3 (inicio) #
 
-@Deusa_
-  ![Deusa Brava](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa-brava.png)
-   > Você aqui de novo?
-   * sequence: 1
-
-@Deusa_
-  ![Deusa](https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/images/deusa.png)
-   > Vamos ver o que aconteceu...
-   * sequence: 2
-
-@Deusa_
-   > Você criou um conselho que revise a decisão do Oráculo com diferentes tipos de magos.
-   * sequence: 3
-
-@Deusa_
-  > Sua escolha foi perfeita!
-   * sequence: 4
-
-@Deusa_
-  > Mas você esqueceu de uma regra básica...
-   * sequence: 5
-
-@Deusa_
-  > Não confie em PALHAÇOS!
-   * sequence: 6
-
-@Deusa_
-  > E foi assassinado...
-   * sequence: 7
-
-@Deusa_
-  > Não fique triste! Todo mundo morre um dia!
-   * sequence: 8
-
-@Proximo_ (-) next_talk
 
 ___ Template ___
 
 * template: plain/case/empty
-* theme: https://harena-incubator.github.io/harena-cases/idn/themes/oraculo/
+* theme: https://harena-incubator.github.io/harena-cases/idn/themes/bullying/
 
 ___ Flow ___
 
