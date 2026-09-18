@@ -679,14 +679,10 @@
   > You did well so far!
    * sequence: 8
 
-@Prox_
-  * sequence: 9
-
 @Deusa_
   > But what could you have done differently?
    * sequence: 9
 
-@Prox-next_->forum
 @Proximo_ (-) next_talk
 
 # general2 (salao) #
@@ -815,7 +811,6 @@
   > But what could you have done differently?
    * sequence: 8
 
-@Prox-next_->forum
 @Proximo_ (-) next_talk
 
 # conselheira2 (salao) #
@@ -970,7 +965,6 @@
   > But what could you have done differently?
    * sequence: 8
 
-@Prox-next_->forum
 @Proximo_ (-) next_talk
 
 # bobo (salao) #
@@ -1145,49 +1139,6 @@
    * sequence: 8
 
 @Proximo_ (-) next_talk
-@Prox-next_-> forum
-
-# forum  #
-Why did you decide to follow this advice?
-
-? rp
-  * type: text
-  * rows: 20
-  * mandatory
-* Next-> View
-
-# View #
-A classmate chose to follow the court jester's advice, who suggested organizing a party as a pretext to get to know the subjects and better understand their needs.
-
-She justified her choice by saying:
-"At first I thought it was funny that a court jester was speaking at the council, but then I thought it was a good idea to use a party as a pretext to get to know the subjects and understand their real needs."
-
-Do you agree or disagree with your classmate? Justify your answer.
-
-? rp2
-  * type: text
-  * rows: 20
-  * mandatory
-
-* Next-> Review
-
-# Review #
-Now that you have seen another classmate's opinion, if you could, would you change your choice?
-
-? rp3
-  * type: text
-  * rows: 20
-  * mandatory
-
-* Next-> ff
-
-# ff #
-Knowing that choosing a soluction proposal affected the ending of your game, would you have chosen a different option? If so, which one and why?
-
-? rmaga4
-  * type: text
-  * rows: 20
-  * mandatory
 
 ___ Template ___
 
